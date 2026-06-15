@@ -10,7 +10,8 @@ export function AgeGate() {
     <div className="age-gate" role="dialog" aria-modal="true">
       <div className="age-card">
         <Logo />
-        <h1 className="display">Warm drinks.{`\n`}Grown up rules.</h1>
+        <h1>Warm drinks.{`\n`}Grown up rules.</h1>
+        <p className="age-sub">Are you of legal drinking age?</p>
         <div className="age-actions">
           <button className="cta" onClick={() => { sessionStorage.setItem('hag-age-ok', 'true'); setVisible(false); }}>I am of legal drinking age</button>
           <button className="cta" onClick={() => { window.location.href = 'https://www.drinkaware.co.uk'; }}>Not yet</button>
