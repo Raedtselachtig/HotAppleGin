@@ -1,13 +1,11 @@
 'use client';
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
 export function ClientEffects() {
-  const dot = useRef<HTMLDivElement>(null);
-  const ring = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (!reduce) {
@@ -21,12 +19,6 @@ export function ClientEffects() {
       gsap.utils.toArray<HTMLElement>('.parallax-image').forEach((el) => gsap.fromTo(el, { yPercent: 7 }, { yPercent: -7, ease: 'none', scrollTrigger: { trigger: el, scrub: true } }));
       gsap.utils.toArray<HTMLElement>('.story-line').forEach((el) => gsap.from(el, { opacity: 0, y: 24, duration: .7, ease: 'power2.out', scrollTrigger: { trigger: el, start: 'top 88%' } }));
     }
-    const move = (event: MouseEvent) => {
-      gsap.to(dot.current, { x: event.clientX, y: event.clientY, duration: .05 });
-      gsap.to(ring.current, { x: event.clientX, y: event.clientY, duration: .15 });
-    };
-    window.addEventListener('mousemove', move);
-    return () => window.removeEventListener('mousemove', move);
   }, []);
-  return <><div ref={dot} className="cursor-dot" /><div ref={ring} className="cursor-ring" /></>;
+  return null;
 }

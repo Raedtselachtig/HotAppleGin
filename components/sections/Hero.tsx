@@ -1,6 +1,10 @@
-import { Particles } from '@/components/animations/Particles';
-import { ImageSlot } from '@/components/ui/ImageSlot';
+import Image from 'next/image';
+import { availableImages } from '@/lib/content';
 
 export function Hero({ eyebrow, title, subtitle, imageName }: { eyebrow?: string; title: string; subtitle?: string; imageName: string }) {
-  return <section className="hero"><div className="hero-bg ken-burns"><ImageSlot alt={imageName} name={imageName} ratio="16/9" priority /></div><Particles /><div className="container hero-content">{eyebrow && <p className="eyebrow">{eyebrow}</p>}<h1 className="display headline word-stagger">{title}</h1>{subtitle && <p className="hero-subtitle">{subtitle}</p>}</div></section>;
+  const hasImage = availableImages.has(imageName);
+  return <section className="hero">
+    <div className="hero-bg ken-burns">{hasImage && <Image src={`/images/${imageName}`} alt={title} fill priority sizes="100vw" style={{ objectFit: 'cover' }} />}</div>
+    <div className="container hero-content">{eyebrow && <p className="eyebrow">{eyebrow}</p>}<h1 className="display headline word-stagger">{title}</h1>{subtitle && <p className="hero-subtitle">{subtitle}</p>}</div>
+  </section>;
 }

@@ -29,7 +29,8 @@ img { max-width: 100%; display: block; }
 .header { position: fixed; inset: 0 0 auto; z-index: 40; transition: background .3s ease, border-color .3s ease; border-bottom: 1px solid transparent; }
 .header.scrolled { background: rgba(10,10,10,.95); border-color: #af8b3f22; }
 .header-inner { height: 82px; display: flex; align-items: center; justify-content: space-between; }
-.logo { width: min(160px, 38vw); height: auto; object-fit: contain; }
+.logo { height: 60px; width: auto; object-fit: contain; }
+.age-card .logo { height: auto; width: min(260px, 62vw); }
 .nav { display: flex; gap: 22px; align-items: center; }
 .nav a { position: relative; font-size: .72rem; letter-spacing: .15em; text-transform: uppercase; color: var(--color-body); }
 .nav a:after { content: ''; position: absolute; left: 0; right: 0; bottom: -8px; height: 1px; background: var(--color-gold); transform: scaleX(0); transform-origin: left; transition: transform .25s ease; }

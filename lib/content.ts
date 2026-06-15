@@ -1,6 +1,18 @@
 export const routes = ['en', 'nl', 'de', 'fr'] as const;
 export const defaultLang = 'en';
 
+// Foto's die daadwerkelijk in /public/images staan. ImageSlot toont de echte foto
+// als de naam hierin voorkomt, anders de HAG-placeholder. Vul aan zodra er beelden
+// worden toegevoegd (de briefing bepaalt welke foto bij welke slot hoort).
+export const availableImages = new Set<string>([
+  'IMG_4704.jpg', 'IMG_4627.jpg', 'IMG_4047.jpg', 'IMG_4501.jpg',
+  'IMG_4681.jpg', 'IMG_4686.jpg', 'IMG_4687.jpg', 'IMG_4688.jpg',
+  'IMG_1791.jpg', 'IMG_4661.jpg', 'IMG_1784.jpg', 'IMG_4656.jpg',
+  'IMG_4655.jpg', 'IMG_2600.jpg', 'IMG_2609.jpg', 'IMG_4635.jpg',
+  'IMG_3978.jpg', 'IMG_0975.png', 'apres-ski.jpg', 'fireplace.png',
+  'winter-garden-party.png'
+]);
+
 export const imageSlots: Record<string, string | undefined> = {
   homeHero: undefined,
   homeCollection: undefined,
@@ -23,14 +35,14 @@ export const imageSlots: Record<string, string | undefined> = {
 
 export const products = [
   ['HOT APPLE GIN – THE ORIGINAL', 'Our signature bottle. Designed to be heated slowly and poured generously.\nThe kind of drink that quietly turns one round into two.', 'IMG_4681.jpg'],
-  ['HOT APPLE GIN 0.0', 'All the warmth. None of the alcohol.\nStill warm. Still layered. Still worth slowing down for.', 'HOT_APPLE_GIN_0_0'],
-  ['ORIGINAL GIFT SET', 'The full Hot Apple Gin experience, ready to gift.\nFor people worth opening the good glassware for.', 'ORIGINAL_GIFT_SET'],
-  ['0.0 GIFT SET', 'The full ritual. Just without the alcohol.\nA gift set for warm moments that never really depended on alcohol anyway.', '0_0_GIFT_SET']
+  ['HOT APPLE GIN 0.0', 'All the warmth. None of the alcohol.\nStill warm. Still layered. Still worth slowing down for.', 'IMG_4686.jpg'],
+  ['ORIGINAL GIFT SET', 'The full Hot Apple Gin experience, ready to gift.\nFor people worth opening the good glassware for.', 'IMG_4688.jpg'],
+  ['0.0 GIFT SET', 'The full ritual. Just without the alcohol.\nA gift set for warm moments that never really depended on alcohol anyway.', 'IMG_4687.jpg']
 ];
 
 export const serveSteps = [
   ['STEP 1 – POUR', 'This is where it all starts.', "Pour Hot Apple Gin into a pan and warm gently until the first steam begins\nto rise. No boiling — we're making a cocktail, not soup.", 'IMG_1791.jpg'],
-  ['STEP 2 – HEAT', 'Good things take warmth.', 'Let the flavours open up slowly while the room starts smelling like you\ndefinitely made the right decision tonight.', 'STEP_2_HEAT'],
+  ['STEP 2 – HEAT', 'Good things take warmth.', 'Let the flavours open up slowly while the room starts smelling like you\ndefinitely made the right decision tonight.', 'IMG_4655.jpg'],
   ['STEP 3 – GARNISH', 'Elegance lives in the details.', "A slice of apple. A whisper of cinnamon. Because details matter —\nthis isn't just a drink.", 'IMG_4661.jpg'],
   ['STEP 4 – SERVE', 'Now the good part.', 'Serve warm in a stemmed glass and let the aroma do the rest. Bonus points\nif someone says "This smells great!" before their first sip.', 'IMG_1784.jpg'],
   ['STEP 5 – SLOW DOWN', 'Some drinks are made to be held onto.', 'Warm hands, slow conversations and another round that suddenly felt\nentirely appropriate.', 'IMG_4656.jpg']
