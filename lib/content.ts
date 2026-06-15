@@ -10,7 +10,10 @@ export const availableImages = new Set<string>([
   'IMG_1791.jpg', 'IMG_4661.jpg', 'IMG_1784.jpg', 'IMG_4656.jpg',
   'IMG_4655.jpg', 'IMG_2600.jpg', 'IMG_2609.jpg', 'IMG_4635.jpg',
   'IMG_3978.jpg', 'IMG_0975.png', 'apres-ski.jpg', 'fireplace.png',
-  'winter-garden-party.png'
+  'winter-garden-party.png',
+  'wwbi-cafe-winter-terrace.jpg', 'wwbi-cafe-terrace.jpg',
+  'wwbi-hotel-winter-terrace.jpg', 'wwbi-hotel-lobby-bar.jpg',
+  'wwbi-slopeside-restaurant.jpg'
 ]);
 
 export const imageSlots: Record<string, string | undefined> = {
