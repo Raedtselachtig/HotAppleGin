@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { availableImages, availableVideos } from '@/lib/content';
+import { HeroVideo } from './HeroVideo';
 
 export function Hero({ eyebrow, title, subtitle, imageName, videoName, welcome, ctaHref, ctaLabel, align = 'center' }: {
  eyebrow?: string; title: string; subtitle?: string; imageName: string; videoName?: string;
@@ -12,7 +13,7 @@ export function Hero({ eyebrow, title, subtitle, imageName, videoName, welcome, 
  return <section className={`hero hero--${align}`}>
   <div className="hero-bg ken-burns">
    {hasVideo
-    ? <video src={`/videos/${videoName}`} poster={hasImage ? `/images/${imageName}` : undefined} autoPlay muted loop playsInline preload="metadata" />
+    ? <HeroVideo src={`/videos/${videoName}`} poster={hasImage ? `/images/${imageName}` : undefined} />
     : hasImage && <Image src={`/images/${imageName}`} alt={title.replace(/\n/g, ' ')} fill priority sizes="100vw" style={{ objectFit: 'cover' }} />}
   </div>
   <div className="hero-glow" aria-hidden="true" />
