@@ -105,6 +105,21 @@ img { max-width: 100%; display: block; }
 @media (max-width: 900px) { .mosaic { column-count: 2; } }
 @media (max-width: 560px) { .mosaic { column-count: 1; } }
 
+/* Partnerships modules */
+.pill-grid { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+.pill { border: 1px solid var(--line); padding: 13px 22px; color: var(--color-body); font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-top: 26px; }
+.mini-card { border: 1px solid var(--line); background: var(--color-surface); padding: 28px 26px; }
+.mini-card h3 { font-family: var(--font-cheltenham), var(--font-cormorant), serif; color: var(--color-gold); text-transform: uppercase; letter-spacing: .06em; font-size: 1.05rem; font-weight: 700; margin: 0 0 10px; }
+.mini-card p { color: var(--color-muted); font-size: .92rem; line-height: 1.6; margin: 0; }
+
+/* Our Story — founding chat + readable story column */
+.story-body { max-width: 760px; }
+.story-body .copy { max-width: 720px; }
+.chat { display: grid; gap: 10px; justify-items: end; max-width: 540px; margin: 30px 0; }
+.chat-bubble { background: #15110b; border: 1px solid var(--line); border-radius: 16px 16px 4px 16px; padding: 14px 18px; max-width: 82%; }
+.chat-bubble p { margin: 0; color: var(--color-body); font-size: 1.05rem; line-height: 1.4; }
+
 /* Events (contact) */
 .event-list { display: grid; gap: 0; margin-top: 32px; max-width: 720px; }
 .event-row { padding: 22px 0; border-top: 1px solid var(--line); }
