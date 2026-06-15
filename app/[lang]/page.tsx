@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { Hero } from '@/components/sections/Hero';
 import { Band } from '@/components/sections/Band';
@@ -40,9 +39,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     <Link className="cta animate-headline" href={`/${lang}/where-we-blend-in`}>See where we blend in</Link>
    </div>
   </section>
-  <section className="band">
-   <div className="band-bg ken-burns"><Image src="/images/partners-hotel-lobby.jpg" alt="A modern classic in the making" fill sizes="100vw" style={{ objectFit: 'cover' }} /></div>
-   <div className="band-inner">
+  <Band title="PARTNERSHIPS" copy="Built for premium menus and standout shelves." link={`/${lang}/partnerships`} label="Available for select partners" image="partners-hotel-lobby.jpg" />
+  <section className="section quiet-band">
+   <div className="container">
     <h2 className="display section-title animate-headline">A MODERN CLASSIC IN THE MAKING</h2>
     <RickrollLine text="Somebody had to say it." />
    </div>
