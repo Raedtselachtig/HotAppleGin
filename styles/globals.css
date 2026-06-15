@@ -21,9 +21,9 @@ img { max-width: 100%; display: block; }
 
 /* Typography — restrained, editorial, premium */
 .eyebrow { color: var(--color-gold); font-size: .7rem; letter-spacing: .28em; text-transform: uppercase; margin: 0 0 20px; font-weight: 400; }
-.display { font-family: var(--font-cormorant), Georgia, serif; font-weight: 300; letter-spacing: .04em; line-height: 1.08; }
-.headline { font-size: clamp(1.7rem, 2.6vw, 2.4rem); letter-spacing: .18em; font-weight: 300; margin: 0; text-transform: uppercase; }
-.section-title { font-size: clamp(1.45rem, 2.1vw, 2.05rem); letter-spacing: .1em; margin: 0 0 22px; font-weight: 300; text-transform: uppercase; }
+.display { font-family: var(--font-cheltenham), var(--font-cormorant), Georgia, serif; font-weight: 400; letter-spacing: .04em; line-height: 1.1; }
+.headline { font-size: clamp(2rem, 3vw, 3rem); letter-spacing: .09em; font-weight: 400; margin: 0; text-transform: uppercase; }
+.section-title { font-size: clamp(1.6rem, 2.3vw, 2.4rem); letter-spacing: .05em; margin: 0 0 22px; font-weight: 400; text-transform: uppercase; }
 .copy { color: var(--color-body); font-size: clamp(.92rem, 1vw, 1rem); line-height: 1.95; max-width: 560px; white-space: pre-line; font-weight: 300; }
 .muted { color: var(--color-muted); }
 .cta { display: inline-flex; align-items: center; border: 1px solid rgba(175,139,63,.55); color: var(--color-gold); padding: 13px 24px; letter-spacing: .2em; text-transform: uppercase; font-size: .68rem; background: transparent; transition: background .3s ease, color .3s ease, border-color .3s ease; }
