@@ -12,7 +12,7 @@ export default function Serve() {
     <div className="serve-list">
      {serveSteps.map(([title, subtitle, body, image], index) => (
       <article className={`serve-step ${index % 2 ? 'serve-step--rev' : ''}`} key={title}>
-       <div className="serve-figure"><span className="serve-num">{String(index + 1).padStart(2, '0')}</span><ImageSlot name={image} alt={title} ratio="4/5" /></div>
+       <div className="serve-figure animate-headline"><span className="serve-num">{String(index + 1).padStart(2, '0')}</span><ImageSlot name={image} alt={title} ratio="4/5" /></div>
        <div className="serve-text">
         <h2 className="step-label animate-headline">{title}</h2>
         <p className="copy animate-headline"><em>{subtitle}</em>{body}</p>
