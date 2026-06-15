@@ -58,7 +58,7 @@ img { max-width: 100%; display: block; }
 .hero-bg:after { content: ''; position: absolute; inset: 0; background: rgba(7,7,7,.46); }
 .hero:after { content: ''; position: absolute; inset: 0; z-index: -2; background: radial-gradient(120% 90% at 50% 40%, transparent 28%, rgba(7,7,7,.6) 70%, var(--color-black)); }
 .hero-content { padding-top: 64px; text-align: center; max-width: 980px; padding-inline: 24px; }
-.hero .headline span { display: block; }
+.hero .headline span { display: block; white-space: nowrap; }
 .hero-subtitle { color: var(--color-body); font-size: clamp(.8rem, 1.1vw, .95rem); letter-spacing: .3em; text-transform: uppercase; margin-top: 30px; }
 .hero-glow { position: absolute; inset: 0; z-index: -2; pointer-events: none; background: radial-gradient(42% 52% at 72% 54%, rgba(239,149,13,.22), transparent 70%); animation: warmBreathe 9s ease-in-out infinite; }
 @keyframes warmBreathe { 0%, 100% { opacity: .5; } 50% { opacity: .92; } }
@@ -120,6 +120,19 @@ img { max-width: 100%; display: block; }
 .chat-bubble { background: #15110b; border: 1px solid var(--line); border-radius: 16px 16px 4px 16px; padding: 14px 18px; max-width: 82%; }
 .chat-bubble p { margin: 0; color: var(--color-body); font-size: 1.05rem; line-height: 1.4; }
 
+/* Our Story — centered lead + wide cinematic images */
+.story-intro .container { max-width: 860px; text-align: center; }
+.story-lead { text-align: center; max-width: 720px; margin: 0 auto 18px; font-size: clamp(1.05rem, 1.3vw, 1.25rem); }
+.story-wide { width: min(1320px, calc(100% - 32px)); margin: 0 auto; }
+
+/* Recipe — three tiles */
+.recipe-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 44px; align-items: start; }
+.recipe-tile { border: 1px solid var(--line); background: var(--color-surface); padding: 34px 30px; }
+.recipe-tile-h { font-family: var(--font-cheltenham), var(--font-cormorant), serif; color: var(--color-gold); text-transform: uppercase; letter-spacing: .04em; font-size: 1.2rem; font-weight: 700; line-height: 1.15; margin: 0 0 18px; }
+.recipe-tile .copy { font-size: .95rem; max-width: none; }
+.recipe-tile .cta { margin-top: 22px; }
+@media (max-width: 900px) { .recipe-grid { grid-template-columns: 1fr; } }
+
 /* Events (contact) */
 .event-list { display: grid; gap: 0; margin-top: 32px; max-width: 720px; }
 .event-row { padding: 22px 0; border-top: 1px solid var(--line); }
@@ -139,7 +152,8 @@ img { max-width: 100%; display: block; }
 /* Cards / accordion / faq */
 .card { background: var(--color-surface); border: 1px solid var(--line); padding: clamp(28px, 4vw, 48px); }
 .accordion { border-top: 1px solid var(--line); }
-.accordion details { border-bottom: 1px solid var(--line); padding: 22px 0; }
+.accordion details { border-bottom: 1px solid var(--line); padding: 13px 0; }
+.accordion summary { padding: 4px 0; }
 .accordion summary { cursor: pointer; color: var(--color-body); font-family: var(--font-cormorant), Georgia, serif; font-size: 1.35rem; letter-spacing: .03em; font-weight: 300; }
 .accordion p { color: var(--color-muted); line-height: 1.8; font-size: .98rem; }
 .faq-layout { display: grid; grid-template-columns: 260px 1fr; gap: 56px; align-items: start; }
