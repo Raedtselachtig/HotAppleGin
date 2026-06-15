@@ -37,7 +37,7 @@ export default function Contact() {
     <ContactForm fields={['Name', 'Email', 'Message']} button="Warm regards" />
    </div>
   </section>
-  <section className="section" style={{ paddingTop: 0 }}>
+  <section className="section" id="events" style={{ paddingTop: 0, scrollMarginTop: 120 }}>
    <div className="container">
     <h2 className="display section-title animate-headline">Find us where it matters most</h2>
     <p className="copy">Come find us this season:</p>
