@@ -14,7 +14,7 @@ export default async function Recipe({ params }: { params: Promise<{ lang: strin
  return <main><section className="section" style={{ paddingTop: 170 }}><div className="container">
   <h1 className="display section-title animate-headline">RECIPE</h1>
   <div className="recipe-grid">
-   {tiles.map((t, i) => <details className="recipe-tile" key={i}>
+   {tiles.map((t, i) => <details className="recipe-tile" name="recipe" key={i}>
     <summary className="recipe-tile-h">{t.head}</summary>
     <div className="recipe-tile-body">
      {t.paras.map((p, j) => <p className="copy" key={j}>{p}</p>)}

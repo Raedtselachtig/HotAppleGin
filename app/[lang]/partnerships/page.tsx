@@ -27,7 +27,7 @@ export default function Partnerships() {
   <section className="section" style={{ paddingTop: 0 }}>
    <div className="container">
     <p className="eyebrow animate-headline">We work with</p>
-    <div className="pill-grid">{workWith.map(([w, d]) => <details className="pill" key={w}><summary>{w}</summary><p>{d}</p></details>)}</div>
+    <div className="pill-grid">{workWith.map(([w, d]) => <details className="pill" name="ww" key={w}><summary>{w}</summary><div className="pill-body"><p>{d}</p></div></details>)}</div>
    </div>
   </section>
   <section className="section" style={{ paddingTop: 0 }}>

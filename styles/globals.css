@@ -48,8 +48,15 @@ img { max-width: 100%; display: block; }
 .close-menu { position: absolute; right: 22px; top: 28px; background: none; border: 1px solid rgba(175,139,63,.4); color: var(--color-gold); padding: 10px 14px; font-size: .68rem; letter-spacing: .15em; text-transform: uppercase; }
 
 /* Footer */
-.footer { border-top: 1px solid var(--line); padding: 60px 0; text-align: center; color: var(--color-muted); font-size: .82rem; letter-spacing: .04em; }
-.footer nav { margin: 24px auto; display: flex; justify-content: center; flex-wrap: wrap; gap: 18px; color: var(--color-body); font-size: .68rem; letter-spacing: .18em; text-transform: uppercase; }
+.footer { border-top: 1px solid var(--line); padding: clamp(56px, 8vw, 84px) 0; text-align: center; color: var(--color-muted); }
+.footer-inner { display: grid; justify-items: center; gap: 18px; }
+.footer-logo .logo { height: 58px; }
+.footer-tag { margin: 0; color: var(--color-gold); font-size: .72rem; letter-spacing: .28em; text-transform: uppercase; }
+.footer-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 26px; margin: 6px 0; }
+.footer-nav a { color: #cdc4b4; font-size: .7rem; letter-spacing: .16em; text-transform: uppercase; transition: color .25s ease; }
+.footer-nav a:hover { color: var(--color-gold); }
+.footer-meta { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 8px 18px; margin-top: 8px; font-size: .72rem; letter-spacing: .06em; color: var(--color-muted); }
+.footer-meta a:hover { color: var(--color-gold); }
 
 /* Hero — full-bleed, dimmed, two-line title */
 .hero { position: relative; min-height: 100vh; display: grid; place-items: center; isolation: isolate; overflow: hidden; }

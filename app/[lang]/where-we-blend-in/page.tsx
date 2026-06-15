@@ -7,13 +7,12 @@ export const metadata = { title: 'Where We Blend In' };
 const tiles: [string, string, string][] = [
  ['wwbi-terrace-two.jpg', 'Café terrace', 'One drink, then the afternoon disappears.'],
  ['wwbi-apres-inside.jpg', 'Après-ski bar', 'The slope was just the warm-up.'],
- ['wwbi-garden-group-tap.jpg', 'On tap, in the garden', 'Five litres. Optimistic, briefly.'],
+ ['wwbi-garden-group-tap.jpg', 'On tap, slope-side', 'Five litres. Optimistic, briefly.'],
  ['wwbi-waiter-tray.jpg', 'Table service', 'Two on the way over.'],
  ['wwbi-firepit-group.jpg', 'Around the fire', 'The fire sets the pace.'],
  ['wwbi-apres-outside.jpg', 'On the mountain', 'Cold air, warm round.'],
  ['wwbi-market-crowd.jpg', 'Christmas market', 'Where the first glass went to a stranger.'],
- ['wwbi-slopeside-friends.jpg', 'Slope-side', 'Lunch that quietly became dinner.'],
- ['wwbi-hotel-terrace-two.jpg', 'Hotel terrace', 'A view, and a reason to stay out.']
+ ['wwbi-slopeside-friends.jpg', 'Slope-side', 'Lunch that quietly became dinner.']
 ];
 
 export default function WhereWeBlendIn() {
