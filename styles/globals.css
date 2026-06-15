@@ -96,12 +96,13 @@ img { max-width: 100%; display: block; }
 .placeholder { background: linear-gradient(135deg, #121212 0%, #180f06 100%); aspect-ratio: var(--ratio, 4/5); display: flex; align-items: center; justify-content: center; border: 1px solid var(--line); min-height: 240px; color: var(--color-muted); font-size: .7rem; letter-spacing: .2em; text-transform: uppercase; text-align: center; padding: 18px; }
 
 /* The Serve — alternating sides */
-.serve-list { margin-top: 48px; }
-.serve-step { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 6vw, 80px); align-items: center; margin-bottom: clamp(56px, 9vw, 110px); }
-.serve-step--rev .serve-figure { order: 2; }
-.serve-num { display: block; font-family: var(--font-cheltenham), var(--font-cormorant), serif; font-weight: 700; color: rgba(175,139,63,.38); font-size: clamp(2.4rem, 5vw, 4rem); line-height: 1; margin-bottom: 14px; letter-spacing: .04em; }
-.serve-step .step-label { color: var(--color-gold); font-family: var(--font-cheltenham), serif; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; font-size: clamp(1.7rem, 3vw, 2.6rem); margin: 0 0 14px; }
-.serve-step .copy em { color: var(--color-body); font-family: var(--font-cormorant), serif; font-style: italic; font-size: 1.25rem; display: block; margin-bottom: 14px; }
+.serve-list { max-width: 720px; margin: 60px auto 0; }
+.serve-step { text-align: center; margin-bottom: clamp(60px, 10vw, 124px); }
+.serve-num { display: block; font-family: var(--font-cheltenham), var(--font-cormorant), serif; font-weight: 700; color: rgba(175,139,63,.4); font-size: clamp(2.6rem, 5vw, 4.2rem); line-height: 1; margin-bottom: 6px; letter-spacing: .04em; }
+.serve-step .step-label { color: var(--color-gold); font-family: var(--font-cheltenham), var(--font-cormorant), serif; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: clamp(1.5rem, 2.6vw, 2.2rem); margin: 0 0 8px; }
+.serve-sub { font-family: var(--font-cormorant), Georgia, serif; font-style: italic; color: var(--color-body); font-size: 1.25rem; margin: 0 0 24px; }
+.serve-figure { width: min(420px, 100%); margin: 0 auto 26px; }
+.serve-body { margin: 0 auto; max-width: 600px; }
 
 /* Legal pages */
 .legal .copy { max-width: 760px; margin-bottom: 18px; }

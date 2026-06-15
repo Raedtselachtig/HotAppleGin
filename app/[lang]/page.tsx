@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { Hero } from '@/components/sections/Hero';
 import { Band } from '@/components/sections/Band';
-import { ImageSlot } from '@/components/ui/ImageSlot';
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
  const { lang } = await params;
@@ -26,10 +25,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   <section className="section">
    <div className="container" style={{ textAlign: 'center' }}>
     <h2 className="display section-title animate-headline">WHERE WE BLEND IN</h2>
-    <p className="copy animate-headline" style={{ margin: '0 auto' }}>{'From quiet nights to crowded tables.\nDifferent settings, same warmth.'}</p>
-    <div className="home-strip">
-     {['wwbi-terrace-two.jpg', 'wwbi-firepit-group.jpg', 'wwbi-apres-inside.jpg'].map((img) => <ImageSlot key={img} name={img} alt="Where Hot Apple Gin blends in" ratio="1/1" />)}
-    </div>
+    <p className="copy animate-headline" style={{ margin: '0 auto 34px' }}>{'From quiet nights to crowded tables.\nDifferent settings, same warmth.'}</p>
     <Link className="cta animate-headline" href={`/${lang}/where-we-blend-in`}>See where we blend in</Link>
    </div>
   </section>
