@@ -1,0 +1,4 @@
+import { ImageSlot } from '@/components/ui/ImageSlot';
+export const metadata = { title: 'Where We Blend In' };
+const items = ['WHERE_WE_BLEND_IN_1','WHERE_WE_BLEND_IN_2','WHERE_WE_BLEND_IN_3','WHERE_WE_BLEND_IN_4','WHERE_WE_BLEND_IN_5','WHERE_WE_BLEND_IN_6'];
+export default function WhereWeBlendIn() { return <main><section className="section" style={{ paddingTop: 150 }}><div className="container"><h1 className="display section-title animate-headline">WHERE WE BLEND IN</h1><div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 22 }}>{items.map((item) => <figure key={item} style={{ margin: 0 }}><ImageSlot name={item} alt={item} ratio="3/4" /><figcaption className="eyebrow" style={{ marginTop: 14 }}>[COPY_NEEDED]</figcaption></figure>)}</div></div></section></main>; }

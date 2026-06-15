@@ -1,0 +1,5 @@
+import { faqCategories } from '@/lib/faq';
+export const metadata = { title: 'FAQ' };
+export default function FAQ() {
+  return <main><section className="section" style={{ paddingTop: 150 }}><div className="container"><h1 className="display section-title animate-headline">FAQ</h1><select className="select faq-select">{faqCategories.map((cat) => <option key={cat.title}>{cat.title}</option>)}</select><div className="faq-layout"><nav className="faq-nav">{faqCategories.map((cat) => <a key={cat.title} href={`#${cat.title.replace(/[^a-z0-9]+/gi, '-').toLowerCase()}`}>{cat.title}</a>)}</nav><div>{faqCategories.map((cat) => <section id={cat.title.replace(/[^a-z0-9]+/gi, '-').toLowerCase()} key={cat.title} style={{ marginBottom: 56 }}><h2 className="display section-title animate-headline">{cat.title}</h2><div className="accordion">{cat.items.map((item) => <details key={item.question}><summary>{item.question}</summary><p>{item.answer}</p></details>)}</div></section>)}</div></div></div></section></main>;
+}

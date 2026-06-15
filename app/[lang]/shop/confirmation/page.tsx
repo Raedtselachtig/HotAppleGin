@@ -1,0 +1,1 @@
+export default function ShopStep() { return <main><section className="section" style={{ paddingTop: 150 }}><div className="container"><h1 className="display section-title animate-headline">[COPY_NEEDED]</h1></div></section></main>; }
