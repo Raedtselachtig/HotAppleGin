@@ -16,6 +16,12 @@ const why: [string, string][] = [
  ['Memorable experience', 'Built around warmth and shared moments']
 ];
 
+const steps: [string, string][] = [
+ ['01 · Get in touch', 'Tell us who you are, your venue, store, or distribution, and what you have in mind.'],
+ ['02 · A real conversation', 'No brochures. We talk through fit, volumes and the serve, and answer your questions.'],
+ ['03 · Set up to launch', 'Product, serving guidance and brand assets, so it lands as well in your space as in ours.']
+];
+
 export default function Partnerships() {
  return <main>
   <section className="section" style={{ paddingTop: 170, paddingBottom: 40 }}>
@@ -26,8 +32,15 @@ export default function Partnerships() {
   </section>
   <section className="section" style={{ paddingTop: 0, paddingBottom: 40 }}>
    <div className="container">
-    <p className="eyebrow animate-headline">We work with</p>
+    <p className="eyebrow animate-headline">Who we work with</p>
+    <p className="copy animate-headline" style={{ marginBottom: 8 }}>Four routes in. Pick the one that fits, then reach out below.</p>
     <div className="pill-grid">{workWith.map(([w, d]) => <details className="pill" name="ww" key={w}><summary>{w}</summary><div className="pill-body"><p>{d}</p></div></details>)}</div>
+   </div>
+  </section>
+  <section className="section" style={{ paddingTop: 0, paddingBottom: 40 }}>
+   <div className="container">
+    <p className="eyebrow animate-headline">How it works</p>
+    <div className="card-grid">{steps.map(([t, d]) => <div className="mini-card" key={t}><h3>{t}</h3><p>{d}</p></div>)}</div>
    </div>
   </section>
   <section className="section" style={{ paddingTop: 0, paddingBottom: 40 }}>
@@ -36,13 +49,13 @@ export default function Partnerships() {
     <div className="card-grid">{why.map(([t, d]) => <div className="mini-card" key={t}><h3>{t}</h3><p>{d}</p></div>)}</div>
    </div>
   </section>
-  <section className="section" style={{ paddingTop: 0, paddingBottom: 40 }}>
+  <section className="section" id="enquire" style={{ paddingTop: 0, paddingBottom: 40 }}>
    <div className="container grid-two">
     <div>
-     <h2 className="display section-title animate-headline">{"Let's build something warm together"}</h2>
-     <p className="copy">From winter terraces and hotel lounges to retail displays and seasonal activations, Hot Apple Gin adapts seamlessly while keeping a refined presence. We support our partners with product, serving guidance and brand assets.</p>
+     <h2 className="display section-title animate-headline">Become a partner</h2>
+     <p className="copy">Hospitality, retail, distribution or seasonal events, tell us where Hot Apple Gin fits and we&rsquo;ll be in touch. One form, one conversation. We support our partners with product, serving guidance and brand assets.</p>
     </div>
-    <ContactForm fields={['Name', 'Email', 'Message']} button="Send" />
+    <ContactForm fields={['Name', 'Company', 'Email', 'Message']} button="Send enquiry" />
    </div>
   </section>
  </main>;

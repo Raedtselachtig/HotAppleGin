@@ -10,7 +10,7 @@ export function Hero({ eyebrow, title, subtitle, imageName, videoName, welcome, 
  const hasVideo = !!videoName && availableVideos.has(videoName);
  const lines = title.split('\n');
  return <section className={`hero hero--${align}`}>
-  <div className={`hero-bg${hasVideo ? '' : ' ken-burns'}`}>
+  <div className="hero-bg ken-burns">
    {hasVideo
     ? <video src={`/videos/${videoName}`} poster={hasImage ? `/images/${imageName}` : undefined} autoPlay muted loop playsInline preload="metadata" />
     : hasImage && <Image src={`/images/${imageName}`} alt={title.replace(/\n/g, ' ')} fill priority sizes="100vw" style={{ objectFit: 'cover' }} />}
