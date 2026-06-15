@@ -4,7 +4,22 @@ import { Band } from '@/components/sections/Band';
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   return <main>
-    <Hero title={'NEW STORY\nSAME WARMTH'} subtitle="A Winter Cocktail — Served Warm" imageName="IMG_4704.jpg" />
+    <Hero
+      eyebrow="Haarlem · Served Warm"
+      title={'NEW STORY\nSAME WARMTH'}
+      welcome="Coats off. The good glass is already out."
+      ctaHref={`/${lang}/collection`}
+      ctaLabel="Step inside"
+      imageName="hero-lounge.jpg"
+      align="left"
+    />
+    <section className="section manifesto">
+      <div className="container manifesto-inner">
+        <div className="manifesto-rule animate-headline" />
+        <p className="display manifesto-quote animate-headline">{'Hot Apple Gin was never meant to become a brand. It was meant to keep the room warm a little longer.'}</p>
+        <p className="copy animate-headline">{'Built on moments, not occasions. Warm drink, warm room, no rush — and a round that quietly turns into two.'}</p>
+      </div>
+    </section>
     <Band title="THE COLLECTION" copy="Bottles for slow nights and people who rarely leave after one glass." link={`/${lang}/collection`} label="Meet the Collection" image="IMG_4627.jpg" />
     <Band title="OUR STORY" copy={'Built on moments, not occasions.\nA drink that brings people together.'} link={`/${lang}/our-story`} label="Where it began" image="IMG_4635.jpg" />
     <Band title="SERVED WARM" copy="Some things simply work better warm. Slowly heated. Carefully poured." link={`/${lang}/serve`} label="Discover the Serve" image="IMG_4047.jpg" />

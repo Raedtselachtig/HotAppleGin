@@ -13,7 +13,7 @@ export const availableImages = new Set<string>([
   'winter-garden-party.png',
   'wwbi-cafe-winter-terrace.jpg', 'wwbi-cafe-terrace.jpg',
   'wwbi-hotel-winter-terrace.jpg', 'wwbi-hotel-lobby-bar.jpg',
-  'wwbi-slopeside-restaurant.jpg'
+  'wwbi-slopeside-restaurant.jpg', 'hero-lounge.jpg'
 ]);
 
 export const imageSlots: Record<string, string | undefined> = {
