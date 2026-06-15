@@ -297,3 +297,8 @@ img { max-width: 100%; display: block; }
   .logo { height: 60px; }
   .band { min-height: 70vh; }
 }
+
+@media (max-width: 600px) {
+  .hero .headline span { white-space: normal; }
+  .headline { font-size: clamp(2.3rem, 8.5vw, 3.4rem); }
+}
