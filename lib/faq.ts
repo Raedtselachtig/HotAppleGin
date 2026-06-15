@@ -93,7 +93,6 @@ export const faqCategories: FaqCategory[] = [
   { question: 'Why was Hot Apple Gin created?', answer: "Why is the sky blue? Why is the grass green? Some things are just meant to be. A love for making things by hand, a spark of inspiration, and two winters of obsessive refinement, that's how Hot Apple Gin came to exist. We stopped asking why a long time ago." },
   { question: 'Where is Hot Apple Gin produced?', answer: 'In the Netherlands. The gin is developed specifically for this recipe, not sourced, not substituted. Built for it.' },
   { question: 'What inspired the recipe?', answer: "A message. A nudge. A winter experiment that refused to stay an experiment. The full story is on the website, and it's worth two minutes." },
-  { question: "What does 'Slow Down Together' mean?", answer: "Exactly what it says. Hot Apple Gin isn't a drink you rush. You heat it, pour it, sit down with it. The people around the table stay longer than they planned. That was always the intention, and it still is." },
   { question: 'Why do you call it a winter cocktail?', answer: "Because most drinks that claim to work year-round were designed for none of them. Hot Apple Gin was built for cold weather, slow evenings, and the kind of company you don't want to see leave. That's a winter drink." }
  ]},
  { title: 'Sustainability & Packaging', items: [

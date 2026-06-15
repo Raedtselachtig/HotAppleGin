@@ -12,7 +12,7 @@ export default function OurStory() {
  const last = paras[paras.length - 1];
  const body = paras.slice(2, -1);   // skip opening + the quoted messages (shown as chat)
  return <main>
-  <section className="section story-intro" style={{ paddingTop: 200 }}>
+  <section className="section story-intro" style={{ paddingTop: 200, paddingBottom: 'clamp(34px, 4.5vw, 62px)' }}>
    <div className="container">
     <h1 className="display section-title animate-headline">OUR STORY</h1>
     {introParas.map((p) => <p className="copy story-lead animate-headline" key={p}>{p}</p>)}
@@ -28,7 +28,7 @@ export default function OurStory() {
    </div>
   </section>
 
-  <section className="section" style={{ paddingTop: 'clamp(64px, 8vw, 116px)', paddingBottom: 'clamp(28px, 3vw, 44px)' }}>
+  <section className="section" style={{ paddingTop: 'clamp(32px, 4vw, 58px)', paddingBottom: 'clamp(16px, 2vw, 24px)' }}>
    <div className="container story-body">
     <h2 className="display section-title animate-headline" style={{ marginBottom: 30 }}>The Origin of Hot Apple Gin</h2>
     {body.map((p) => <p className="copy story-line" key={p}>{p}</p>)}
