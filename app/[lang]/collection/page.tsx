@@ -24,6 +24,6 @@ export default function Collection() {
     </div>
    </div>
   </section>
-  <section className="section" id="waitlist"><div className="container"><h2 className="display section-title animate-headline">Be the first to know when Hot Apple Gin returns.</h2><WaitlistForm /></div></section>
+  <section className="section" id="waitlist" style={{ paddingTop: 0 }}><div className="container"><h2 className="display section-title animate-headline" style={{ maxWidth: '20ch' }}>Be the first to know when Hot Apple Gin returns.</h2><WaitlistForm /></div></section>
  </main>;
 }

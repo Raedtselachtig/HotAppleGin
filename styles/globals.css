@@ -180,7 +180,7 @@ img { max-width: 100%; display: block; }
 .product-card-img { position: relative; aspect-ratio: 4/5; overflow: hidden; }
 .product-card-img:after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(12,8,4,.3)); }
 .product-card-body { padding: 24px 22px 28px; display: flex; flex-direction: column; flex: 1; }
-.product-name { font-family: var(--font-cheltenham), var(--font-cormorant), serif; color: var(--color-gold); text-transform: uppercase; letter-spacing: .04em; font-size: 1.05rem; font-weight: 700; line-height: 1.2; margin: 0 0 12px; }
+.product-name { font-family: var(--font-cheltenham), var(--font-cormorant), serif; color: var(--color-gold); text-transform: uppercase; letter-spacing: .04em; font-size: 1.05rem; font-weight: 700; line-height: 1.2; margin: 0 0 14px; min-height: 2.5em; }
 .product-copy { font-size: .9rem; max-width: none; margin-bottom: 22px; }
 .product-card .cta { margin-top: auto; align-self: flex-start; }
 @media (max-width: 900px) { .product-grid { grid-template-columns: repeat(2, 1fr); } }
