@@ -16,10 +16,10 @@ export default function Privacy() {
         <p className="copy">We use your data only to reply to you, to let you know when you ask us to (for example when Hot Apple Gin returns), and to handle requests you make. The legal basis is your consent and, where relevant, taking steps at your request.</p>
 
         <h2 className="legal-h">Storage, sharing &amp; retention</h2>
-        <p className="copy">Your data is stored securely with the service providers that host this website and deliver our messages, who process it only on our instructions and within the European Economic Area where possible. We never sell your data, and we keep it only as long as needed for the purpose above &mdash; after which it is deleted, or sooner on your request.</p>
+        <p className="copy">Your data is stored securely with the service providers that host this website and deliver our messages, who process it only on our instructions and within the European Economic Area where possible. We never sell your data. We keep it for up to five years after your last contact with us, after which it is deleted &mdash; or sooner, at your request.</p>
 
         <h2 className="legal-h">Your rights</h2>
-        <p className="copy">Under the GDPR you can ask us to access, correct, erase, restrict, object to or transfer your data. To do so, reach us through our Contact page. You also have the right to lodge a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).</p>
+        <p className="copy">Under the GDPR you can ask us to access, correct, erase, restrict, object to or transfer your data. To do so, email info@hotapplegin.com or use our Contact page. You also have the right to lodge a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).</p>
 
         <h2 className="legal-h">Security &amp; changes</h2>
         <p className="copy">We take reasonable technical and organisational measures to protect your data. We may update this policy; the date above reflects the latest version.</p>

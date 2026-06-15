@@ -7,7 +7,10 @@ export default function Terms() {
         <h1 className="display section-title">Terms &amp; Conditions</h1>
         <p className="muted legal-date">Last updated: June 2026</p>
 
-        <p className="copy">These terms apply to your use of this website, operated by Hot Apple Gin Family Co., Haarlem, the Netherlands. You can reach us through our Contact page.</p>
+        <p className="copy">These terms apply to your use of this website, operated by Hot Apple Gin Family Co., Haarlem, the Netherlands.</p>
+
+        <h2 className="legal-h">Who we are</h2>
+        <p className="copy">{'Hot Apple Gin Family Co. · Haarlem, the Netherlands · Chamber of Commerce (KvK): [KvK-nummer] · VAT: [BTW-nummer] · info@hotapplegin.com'}</p>
 
         <h2 className="legal-h">Age &amp; responsible enjoyment</h2>
         <p className="copy">Hot Apple Gin (the Original) is an alcoholic beverage. This website is intended for people of legal drinking age. Please enjoy responsibly.</p>
