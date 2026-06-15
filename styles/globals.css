@@ -81,6 +81,26 @@ img { max-width: 100%; display: block; }
 .serve-step .step-label { color: var(--color-gold); font-family: var(--font-cheltenham), serif; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; font-size: clamp(1.8rem, 3vw, 2.8rem); margin: 0 0 14px; }
 .serve-step .copy em { color: var(--color-body); font-family: var(--font-cormorant), serif; font-style: italic; font-size: 1.25rem; display: block; margin-bottom: 14px; }
 
+/* Legal pages */
+.legal .copy { max-width: 760px; margin-bottom: 18px; }
+.legal-date { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 36px; }
+.legal-h { font-family: var(--font-cheltenham), var(--font-cormorant), serif; color: var(--color-gold); text-transform: uppercase; letter-spacing: .08em; font-size: 1.15rem; font-weight: 700; margin: 36px 0 10px; }
+
+/* Where We Blend In — mosaic */
+.mosaic { column-count: 3; column-gap: 16px; margin-top: 44px; }
+.mosaic-tile { break-inside: avoid; margin: 0 0 16px; position: relative; }
+.mosaic-cap { position: absolute; left: 0; right: 0; bottom: 0; padding: 16px; font-size: .68rem; letter-spacing: .18em; text-transform: uppercase; color: var(--color-body); background: linear-gradient(transparent, rgba(7,7,7,.82)); z-index: 2; }
+@media (max-width: 900px) { .mosaic { column-count: 2; } }
+@media (max-width: 560px) { .mosaic { column-count: 1; } }
+
+/* Events (contact) */
+.event-list { display: grid; gap: 0; margin-top: 32px; max-width: 720px; }
+.event-row { padding: 22px 0; border-top: 1px solid var(--line); }
+.event-row:last-child { border-bottom: 1px solid var(--line); }
+.event-name { font-family: var(--font-cheltenham), var(--font-cormorant), serif; color: var(--color-gold); text-transform: uppercase; letter-spacing: .06em; font-size: 1.3rem; margin: 0 0 6px; }
+.event-tag { color: var(--color-muted); font-family: var(--font-dm-sans), sans-serif; font-size: .8rem; letter-spacing: .12em; }
+.event-meta { margin: 2px 0; font-size: .95rem; letter-spacing: .02em; }
+
 /* Forms */
 .form { display: grid; gap: 16px; max-width: 600px; }
 .field { display: grid; gap: 8px; color: var(--color-muted); font-size: .7rem; letter-spacing: .18em; text-transform: uppercase; }
