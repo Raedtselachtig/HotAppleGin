@@ -2,10 +2,11 @@ import { ContactForm } from '@/components/ui/Form';
 
 export const metadata = { title: 'Contact' };
 
-const events: [string, string, string, string][] = [
- ['Bar Convent Berlin', 'Trade only', '11-13 October 2026', 'Exhibition Centre Berlin, Berlin'],
- ['Castle Christmas Fair', '', '24-29 November 2026', 'Landgoed Duin en Kruidberg, Santpoort-Zuid'],
- ['Kerstmarkt Haarlem', '', '11-13 December 2026', 'Grote Markt, Haarlem']
+const events: [string, string, string, string, string][] = [
+ ['Bar Convent Berlin', 'Trade only', '11-13 October 2026', 'Exhibition Centre Berlin, Berlin', 'https://www.barconvent.com/berlin/en-gb.html'],
+ ['Castle Christmas Fair', '', '24-29 November 2026', 'Landgoed Duin en Kruidberg, Santpoort-Zuid', 'https://www.castlechristmasfair.nl/'],
+ ['Kerstmarkt Haarlem', '', '11-13 December 2026', 'Grote Markt, Haarlem', 'https://www.visithaarlem.com/kerstmarkt/'],
+ ['Horecava', 'Trade only', '11-14 January 2027', 'RAI Amsterdam', 'https://www.horecava.nl/']
 ];
 
 export default function Contact() {
@@ -24,12 +25,12 @@ export default function Contact() {
     <h2 className="display section-title animate-headline">Find us where it matters most</h2>
     <p className="copy">Come find us this season:</p>
     <div className="event-list">
-     {events.map(([name, tag, date, place]) => (
-      <div className="event-row" key={name}>
+     {events.map(([name, tag, date, place, url]) => (
+      <a className="event-row" href={url} target="_blank" rel="noopener noreferrer" key={name}>
        <p className="event-name">{name}{tag && <span className="event-tag"> · {tag}</span>}</p>
        <p className="event-meta">{date}</p>
        <p className="event-meta muted">{place}</p>
-      </div>
+      </a>
      ))}
     </div>
    </div>

@@ -2,11 +2,11 @@ import { ContactForm } from '@/components/ui/Form';
 
 export const metadata = { title: 'Partnerships' };
 
-const workWith = [
- 'Bars, restaurants & hotels',
- 'Retail & premium liquor stores',
- 'Distributors & importers',
- 'Event partners & seasonal concepts'
+const workWith: [string, string][] = [
+ ['Bars, restaurants & hotels', 'A warm serve that earns its place on a winter menu, and keeps the table seated a little longer.'],
+ ['Retail & premium liquor stores', 'A distinctive bottle that holds its own on the shelf in the months that matter.'],
+ ['Distributors & importers', 'A young winter category with room to grow, behind a brand built to travel.'],
+ ['Event partners & seasonal concepts', 'Made for Christmas markets, festivals and winter activations. Where it all began.']
 ];
 
 const why: [string, string][] = [
@@ -27,7 +27,7 @@ export default function Partnerships() {
   <section className="section" style={{ paddingTop: 0 }}>
    <div className="container">
     <p className="eyebrow animate-headline">We work with</p>
-    <div className="pill-grid">{workWith.map((w) => <div className="pill" key={w}>{w}</div>)}</div>
+    <div className="pill-grid">{workWith.map(([w, d]) => <details className="pill" key={w}><summary>{w}</summary><p>{d}</p></details>)}</div>
    </div>
   </section>
   <section className="section" style={{ paddingTop: 0 }}>
