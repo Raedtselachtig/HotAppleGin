@@ -14,7 +14,9 @@ export function Footer({ lang }: { lang: string }) {
     <span>© 2026 Hot Apple Gin Family Co.</span>
     <Link href={`/${lang}/privacy`}>Privacy</Link>
     <Link href={`/${lang}/terms`}>Terms</Link>
+    <Link href={`/${lang}/cookies`}>Cookies</Link>
    </div>
+   <p className="footer-responsible">Good things, in good measure. Please enjoy responsibly.</p>
   </div>
  </footer>;
 }
