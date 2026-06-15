@@ -18,8 +18,8 @@ export default function FAQ() {
    <div className="container faq-wrap">
     <h1 className="display section-title animate-headline">FAQ</h1>
     <div className="faq-cats">
-     {faqCategories.map((cat, i) => (
-      <details className="faq-cat" key={cat.title} open={i === 0}>
+     {faqCategories.map((cat) => (
+      <details className="faq-cat" key={cat.title}>
        <summary><span className="faq-cat-title">{cat.title}</span><span className="faq-cat-count">{cat.items.length}</span></summary>
        <div className="accordion">
         {cat.items.map((item) => (

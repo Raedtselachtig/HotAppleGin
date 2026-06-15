@@ -50,10 +50,10 @@ export const imageSlots: Record<string, string | undefined> = {
 // [title, copy, image, specs] — specs gebruiken alleen bekende feiten (ABV uit FAQ,
 // 1L uit "heat the full litre", seizoensstatus). Géén prijs/launchdatum verzinnen.
 export const products = [
- ['HOT APPLE GIN - THE ORIGINAL', 'Our signature bottle. Designed to be heated slowly and poured generously.\nThe kind of drink that quietly turns one round into two.', 'IMG_4681.jpg', '4.1% ABV · 1L · Seasonal'],
- ['HOT APPLE GIN 0.0', 'All the warmth. None of the alcohol.\nStill warm. Still layered. Still worth slowing down for.', 'IMG_4686.jpg', 'Alcohol-free · 1L · Seasonal'],
- ['ORIGINAL GIFT SET', 'The full Hot Apple Gin experience, ready to gift.\nFor people worth opening the good glassware for.', 'IMG_4688.jpg', 'Gift set · 4.1% ABV · Seasonal'],
- ['0.0 GIFT SET', 'The full ritual. Just without the alcohol.\nA gift set for warm moments that never really depended on alcohol anyway.', 'IMG_4687.jpg', 'Gift set · Alcohol-free · Seasonal']
+ ['HOT APPLE GIN - THE ORIGINAL', 'Our signature bottle. Designed to be heated slowly and poured generously.\nThe kind of drink that quietly turns one round into two.', 'IMG_4681.jpg', '4.1% ABV · 1L'],
+ ['HOT APPLE GIN 0.0', 'All the warmth. None of the alcohol.\nStill warm. Still layered. Still worth slowing down for.', 'IMG_4686.jpg', 'Alcohol-free · 1L'],
+ ['ORIGINAL GIFT SET', 'The full Hot Apple Gin experience, ready to gift.\nFor people worth opening the good glassware for.', 'IMG_4688.jpg', 'Gift set · 4.1% ABV'],
+ ['0.0 GIFT SET', 'The full ritual. Just without the alcohol.\nA gift set for warm moments that never really depended on alcohol anyway.', 'IMG_4687.jpg', 'Gift set · Alcohol-free']
 ];
 
 export const serveSteps = [

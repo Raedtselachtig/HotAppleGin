@@ -40,7 +40,7 @@ export default function Partnerships() {
   <section className="section" style={{ paddingTop: 0, paddingBottom: 40 }}>
    <div className="container">
     <p className="eyebrow animate-headline">How it works</p>
-    <div className="card-grid">{steps.map(([t, d]) => <div className="mini-card" key={t}><h3>{t}</h3><p>{d}</p></div>)}</div>
+    <div className="card-grid">{steps.map(([t, d]) => <a className="mini-card mini-card--link" href="#enquire" key={t}><h3>{t}</h3><p>{d}</p></a>)}</div>
    </div>
   </section>
   <section className="section" style={{ paddingTop: 0, paddingBottom: 40 }}>
