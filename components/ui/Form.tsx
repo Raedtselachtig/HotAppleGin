@@ -19,7 +19,7 @@ export function WaitlistForm() {
 export function ContactForm({ fields = ['Name', 'Email', 'Message'], button = 'Send' }: { fields?: string[]; button?: string }) {
  const [sent, setSent] = useState(false);
  function submit(event: FormEvent<HTMLFormElement>) { event.preventDefault(); setSent(true); }
- if (sent) return <p className="copy">[COPY_NEEDED]</p>;
+ if (sent) return <p className="copy">Thanks. We&rsquo;ll be in touch.</p>;
  return (
   <form className="form" onSubmit={submit}>
    {fields.map((field) => field === 'Message' || field === 'Bericht' ? (

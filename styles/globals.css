@@ -95,9 +95,11 @@ img { max-width: 100%; display: block; }
 .placeholder { background: linear-gradient(135deg, #121212 0%, #180f06 100%); aspect-ratio: var(--ratio, 4/5); display: flex; align-items: center; justify-content: center; border: 1px solid var(--line); min-height: 240px; color: var(--color-muted); font-size: .7rem; letter-spacing: .2em; text-transform: uppercase; text-align: center; padding: 18px; }
 
 /* The Serve — alternating sides */
-.serve-step { margin-bottom: clamp(64px, 9vw, 120px); }
-.serve-step--rev .image-frame { order: 2; }
-.serve-step .step-label { color: var(--color-gold); font-family: var(--font-cheltenham), serif; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; font-size: clamp(1.8rem, 3vw, 2.8rem); margin: 0 0 14px; }
+.serve-list { margin-top: 48px; }
+.serve-step { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 6vw, 80px); align-items: center; margin-bottom: clamp(56px, 9vw, 110px); }
+.serve-step--rev .serve-figure { order: 2; }
+.serve-num { display: block; font-family: var(--font-cheltenham), var(--font-cormorant), serif; font-weight: 700; color: rgba(175,139,63,.38); font-size: clamp(2.4rem, 5vw, 4rem); line-height: 1; margin-bottom: 14px; letter-spacing: .04em; }
+.serve-step .step-label { color: var(--color-gold); font-family: var(--font-cheltenham), serif; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; font-size: clamp(1.7rem, 3vw, 2.6rem); margin: 0 0 14px; }
 .serve-step .copy em { color: var(--color-body); font-family: var(--font-cormorant), serif; font-style: italic; font-size: 1.25rem; display: block; margin-bottom: 14px; }
 
 /* Legal pages */
@@ -162,12 +164,35 @@ img { max-width: 100%; display: block; }
 .recipe-tile summary::-webkit-details-marker { display: none; }
 .recipe-tile summary:after { content: '+'; color: var(--color-gold); font-weight: 400; font-size: 1.3rem; }
 .recipe-tile[open] summary:after { content: '\2212'; }
-.recipe-tile-body { padding: 0 28px 30px; overflow: hidden; }
+.recipe-tile[open] summary { border-bottom: 1px solid var(--line); }
+.recipe-tile-body { padding: 22px 28px 30px; overflow: hidden; }
 .recipe-tile-body .copy { font-size: .95rem; max-width: none; margin-bottom: 14px; }
+.recipe-tile-body .copy:first-child { color: var(--color-body); }
 .recipe-tile-body .cta { margin-top: 10px; }
 .recipe-tile[open] .recipe-tile-body { animation: revealDown .4s ease; }
 @keyframes revealDown { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
 @media (max-width: 900px) { .recipe-grid { grid-template-columns: 1fr; } }
+
+/* Collection — product cards */
+.product-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.product-card { display: flex; flex-direction: column; border: 1px solid var(--line); background: var(--color-surface); transition: border-color .25s ease; }
+.product-card:hover { border-color: rgba(175,139,63,.55); }
+.product-card-img { position: relative; aspect-ratio: 4/5; overflow: hidden; }
+.product-card-img:after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(12,8,4,.3)); }
+.product-card-body { padding: 24px 22px 28px; display: flex; flex-direction: column; flex: 1; }
+.product-name { font-family: var(--font-cheltenham), var(--font-cormorant), serif; color: var(--color-gold); text-transform: uppercase; letter-spacing: .04em; font-size: 1.05rem; font-weight: 700; line-height: 1.2; margin: 0 0 12px; }
+.product-copy { font-size: .9rem; max-width: none; margin-bottom: 22px; }
+.product-card .cta { margin-top: auto; align-self: flex-start; }
+@media (max-width: 900px) { .product-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 540px) { .product-grid { grid-template-columns: 1fr; } }
+
+/* Home — moment strip */
+.home-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 42px 0 32px; }
+
+/* Warm-light theme (preview only) */
+.theme-light { --color-black: #f4ece0; --color-body: #2c2218; --color-muted: #80735d; --color-surface: #fbf6ec; --line: rgba(120,90,40,.25); background: #f4ece0; color: var(--color-body); min-height: 100vh; }
+.theme-light .manifesto-quote { color: #2c2218; }
+.theme-light .copy { color: #3a2e20; }
 
 /* Events (contact) */
 .event-list { display: grid; gap: 0; margin-top: 32px; max-width: 720px; }
@@ -213,7 +238,8 @@ img { max-width: 100%; display: block; }
   .nav { display: none; }
   .menu-button { display: block; }
   .grid-two, .faq-layout { grid-template-columns: 1fr; }
-  .serve-step--rev .image-frame { order: 0; }
+  .serve-step { grid-template-columns: 1fr; }
+  .serve-step--rev .serve-figure { order: 0; }
   .faq-nav { display: none; }
   .faq-select { display: block; }
   .section { padding: 72px 0; }

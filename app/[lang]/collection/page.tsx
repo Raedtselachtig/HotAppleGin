@@ -1,14 +1,29 @@
+import Image from 'next/image';
 import { Hero } from '@/components/sections/Hero';
-import { ImageSlot } from '@/components/ui/ImageSlot';
 import { WaitlistForm } from '@/components/ui/Form';
-import { products } from '@/lib/content';
+import { products, availableImages } from '@/lib/content';
 
 export const metadata = { title: 'The Collection' };
+
 export default function Collection() {
  return <main>
-  <Hero title="THE COLLECTION" subtitle="AVAILABLE SEASONALLY" imageName="IMG_4704.jpg" />
-  <section className="section"><div className="container"><a className="cta" href="#waitlist">Be the first to know</a></div></section>
-  <section className="section"><div className="container" style={{ display: 'grid', gap: 44 }}>{products.map(([title, copy, image], index) => <article className="grid-two" key={title}><ImageSlot name={image} alt={image} ratio="4/5" /><div><h2 className="display section-title animate-headline">{title}</h2><p className="copy">{copy}</p></div></article>)}</div></section>
+  <Hero title="THE COLLECTION" subtitle="Available Seasonally" imageName="IMG_4704.jpg" />
+  <section className="section" style={{ paddingTop: 'clamp(56px, 8vw, 96px)' }}>
+   <div className="container">
+    <div className="product-grid">
+     {products.map(([title, copy, image]) => (
+      <article className="product-card animate-headline" key={title}>
+       <div className="product-card-img">{availableImages.has(image) && <Image src={`/images/${image}`} alt={title} fill sizes="(max-width: 900px) 50vw, 25vw" style={{ objectFit: 'cover' }} />}</div>
+       <div className="product-card-body">
+        <h2 className="product-name">{title}</h2>
+        <p className="copy product-copy">{copy}</p>
+        <a className="cta" href="#waitlist">Be the first to know</a>
+       </div>
+      </article>
+     ))}
+    </div>
+   </div>
+  </section>
   <section className="section" id="waitlist"><div className="container"><h2 className="display section-title animate-headline">Be the first to know when Hot Apple Gin returns.</h2><WaitlistForm /></div></section>
  </main>;
 }
