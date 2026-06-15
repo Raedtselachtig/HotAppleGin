@@ -9,16 +9,18 @@ export default async function Recipe({ params }: { params: Promise<{ lang: strin
   .filter((r) => r.trim() !== '[COPY_NEEDED]')
   .map((r) => {
    const [head, ...rest] = r.split('\n\n');
-   return { head, body: rest.join('\n\n') };
+   return { head, paras: rest };
   });
  return <main><section className="section" style={{ paddingTop: 170 }}><div className="container">
   <h1 className="display section-title animate-headline">RECIPE</h1>
   <div className="recipe-grid">
-   {tiles.map((t, i) => <article className="recipe-tile animate-headline" key={i}>
-    <h2 className="recipe-tile-h">{t.head}</h2>
-    <p className="copy">{t.body}</p>
-    {i === tiles.length - 1 && <Link className="cta" href={`/${lang}/collection`}>Order the original</Link>}
-   </article>)}
+   {tiles.map((t, i) => <details className="recipe-tile" key={i}>
+    <summary className="recipe-tile-h">{t.head}</summary>
+    <div className="recipe-tile-body">
+     {t.paras.map((p, j) => <p className="copy" key={j}>{p}</p>)}
+     {i === tiles.length - 1 && <Link className="cta" href={`/${lang}/collection`}>Order the original</Link>}
+    </div>
+   </details>)}
   </div>
  </div></section></main>;
 }

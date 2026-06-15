@@ -6,7 +6,7 @@ export const metadata = { title: 'Our Story' };
 const messages = ['Warm gin… 🤔', 'Hmmm…', "Still, I think I'm going to try to make it during the Christmas holidays."];
 
 export default function OurStory() {
- const introParas = storyIntro.split('\n\n').slice(1); // drop the "OUR STORY" label
+ const introParas = storyIntro.split('\n\n').slice(1);
  const paras = storyOrigin.split('\n\n');
  const last = paras[paras.length - 1];
  const body = paras.slice(0, -1);
@@ -19,9 +19,7 @@ export default function OurStory() {
    </div>
   </section>
 
-  <section style={{ padding: '0' }}>
-   <div className="story-wide"><ImageSlot name="fireplace.png" alt="A warm winter moment" ratio="21/9" /></div>
-  </section>
+  <div className="story-photo"><ImageSlot name="origin-fireside.jpg" alt="Hot Apple Gin by the fire, where it began" ratio="1/1" /></div>
 
   <section className="section">
    <div className="container">
@@ -36,9 +34,7 @@ export default function OurStory() {
     <h2 className="display section-title animate-headline">The Origin of Hot Apple Gin</h2>
     {body.slice(0, mid).map((p) => <p className="copy story-line" key={p}>{p}</p>)}
    </div>
-   <div className="story-wide" style={{ margin: '64px auto' }}>
-    <ImageSlot name="winter-garden-party.png" alt="A gathering, warm and unhurried" ratio="21/9" />
-   </div>
+   <div className="story-photo" style={{ margin: '64px auto' }}><ImageSlot name="origin-garden-fire.jpg" alt="Winter evenings in the garden, around the fire" ratio="3/4" /></div>
    <div className="container story-body">
     {body.slice(mid).map((p) => <p className="copy story-line" key={p}>{p}</p>)}
    </div>
