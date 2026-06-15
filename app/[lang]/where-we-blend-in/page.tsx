@@ -5,15 +5,15 @@ export const metadata = { title: 'Where We Blend In' };
 
 // [filename, title, tongue-in-cheek line] — copy is a proposal, see chat.
 const tiles: [string, string, string][] = [
- ['apres-ski.jpg', 'Après-ski', 'The slope was just the warm-up.'],
- ['wwbi-cafe-winter-terrace.jpg', 'Café winter terrace', 'Outside in winter. On purpose.'],
- ['winter-garden-party.png', 'Garden, at dusk', 'Coats on. Nobody in a hurry to leave.'],
- ['wwbi-hotel-lobby-bar.jpg', 'Hotel lobby bar', 'Checked in. In no rush to go up.'],
- ['fireplace.png', 'By the fire', 'The fire sets the pace.'],
- ['wwbi-cafe-terrace.jpg', 'Café terrace', 'One drink, then the afternoon disappears.'],
- ['IMG_0975.png', 'Christmas market', 'Where the first glass went to a stranger.'],
- ['wwbi-hotel-winter-terrace.jpg', 'Hotel winter terrace', 'A view, and a reason to stay out.'],
- ['wwbi-slopeside-restaurant.jpg', 'Slope-side', 'Lunch that quietly became dinner.']
+ ['wwbi-terrace-two.jpg', 'Café terrace', 'One drink, then the afternoon disappears.'],
+ ['wwbi-apres-inside.jpg', 'Après-ski bar', 'The slope was just the warm-up.'],
+ ['wwbi-garden-group-tap.jpg', 'On tap, in the garden', 'Five litres. Optimistic, briefly.'],
+ ['wwbi-waiter-tray.jpg', 'Table service', 'Two on the way over.'],
+ ['wwbi-firepit-group.jpg', 'Around the fire', 'The fire sets the pace.'],
+ ['wwbi-apres-outside.jpg', 'On the mountain', 'Cold air, warm round.'],
+ ['wwbi-market-crowd.jpg', 'Christmas market', 'Where the first glass went to a stranger.'],
+ ['wwbi-slopeside-friends.jpg', 'Slope-side', 'Lunch that quietly became dinner.'],
+ ['wwbi-hotel-terrace-two.jpg', 'Hotel terrace', 'A view, and a reason to stay out.']
 ];
 
 export default function WhereWeBlendIn() {

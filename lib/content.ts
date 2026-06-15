@@ -14,7 +14,10 @@ export const availableImages = new Set<string>([
  'wwbi-cafe-winter-terrace.jpg', 'wwbi-cafe-terrace.jpg',
  'wwbi-hotel-winter-terrace.jpg', 'wwbi-hotel-lobby-bar.jpg',
  'wwbi-slopeside-restaurant.jpg', 'hero-lounge.jpg',
- 'origin-fireside.jpg', 'origin-garden-fire.jpg'
+ 'origin-fireside.jpg', 'origin-garden-fire.jpg',
+ 'wwbi-terrace-two.jpg', 'wwbi-waiter-tray.jpg', 'wwbi-apres-inside.jpg',
+ 'wwbi-apres-outside.jpg', 'wwbi-garden-group-tap.jpg', 'wwbi-firepit-group.jpg',
+ 'wwbi-market-crowd.jpg', 'wwbi-slopeside-friends.jpg', 'wwbi-hotel-terrace-two.jpg'
 ]);
 
 export const imageSlots: Record<string, string | undefined> = {
