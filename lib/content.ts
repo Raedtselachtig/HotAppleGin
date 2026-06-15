@@ -57,7 +57,7 @@ export const products = [
 ];
 
 export const serveSteps = [
- ['STEP 1 - OPEN', 'This is where it all starts.', "Open the bottle and pour Hot Apple Gin into a pan, warming gently until the first steam begins\nto rise. No boiling, we're making a cocktail, not soup.", 'IMG_1791.jpg'],
+ ['STEP 1 - OPEN', 'This is where it all starts.', "Open the bottle and pour Hot Apple Gin into a pan, warming gently until the first steam begins to rise. No boiling, we're making a cocktail, not soup.", 'IMG_1791.jpg'],
  ['STEP 2 - HEAT', 'Good things take warmth.', 'Let the flavours open up slowly while the room starts smelling like you\ndefinitely made the right decision tonight.', 'IMG_4655.jpg'],
  ['STEP 3 - GARNISH', 'Elegance lives in the details.', "A slice of apple. A whisper of cinnamon. Because details matter, \nthis isn't just a drink.", 'IMG_4661.jpg'],
  ['STEP 4 - SERVE', 'Now the good part.', 'Serve warm in a stemmed glass and let the aroma do the rest. Bonus points\nif someone says "This smells great!" before their first sip.', 'IMG_1784.jpg'],

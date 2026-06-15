@@ -39,7 +39,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     <Link className="cta animate-headline" href={`/${lang}/where-we-blend-in`}>See where we blend in</Link>
    </div>
   </section>
-  <Band title="PARTNERSHIPS" copy="Built for premium menus and standout shelves." link={`/${lang}/partnerships`} label="Available for select partners" image="partners-hotel-lobby.jpg" />
+  <Band title="PARTNERSHIPS" copy="Built for considered menus and standout shelves." link={`/${lang}/partnerships`} label="Available for select partners" image="partners-hotel-lobby.jpg" />
   <section className="section quiet-band" style={{ paddingBottom: 'clamp(18px, 2.5vw, 36px)' }}>
    <div className="container">
     <h2 className="display section-title animate-headline">A MODERN CLASSIC IN THE MAKING</h2>

@@ -4,13 +4,13 @@ export const metadata = { title: 'Partnerships' };
 
 const workWith: [string, string][] = [
  ['Bars, restaurants & hotels', 'A warm serve that earns its place on a winter menu, and keeps the table seated a little longer.'],
- ['Retail & premium liquor stores', 'A distinctive bottle that holds its own on the shelf in the months that matter.'],
+ ['Retail & specialist liquor stores', 'A distinctive bottle that holds its own on the shelf in the months that matter.'],
  ['Distributors & importers', 'A young winter category with room to grow, behind a brand built to travel.'],
  ['Event partners & seasonal concepts', 'Made for Christmas markets, festivals and winter activations. Where it all began.']
 ];
 
 const why: [string, string][] = [
- ['Distinctive concept', 'A warm, premium serve with immediate appeal'],
+ ['Distinctive concept', 'A warm, characterful serve with immediate appeal'],
  ['Strong positioning', 'Fits both on menus and on shelves'],
  ['Effortless execution', 'Simple preparation, consistent quality'],
  ['Memorable experience', 'Built around warmth and shared moments']
@@ -27,7 +27,7 @@ export default function Partnerships() {
   <section className="section" style={{ paddingTop: 170, paddingBottom: 40 }}>
    <div className="container">
     <h1 className="display section-title animate-headline">PARTNERSHIPS</h1>
-    <p className="copy animate-headline">A premium winter cocktail, created for partners who value distinction. Built to perform across premium environments, from hospitality venues to retail shelves and international distribution. A warm, refined serve that stands out through experience, not comparison.</p>
+    <p className="copy animate-headline">A winter cocktail with a point of view, created for partners who value distinction. Built to perform across the rooms that matter, from hospitality venues to retail shelves and international distribution. A warm, refined serve that stands out through experience, not comparison.</p>
    </div>
   </section>
   <section className="section" style={{ paddingTop: 0, paddingBottom: 40 }}>
