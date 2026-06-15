@@ -10,8 +10,8 @@ export function Particles() {
     if (!ctx) return;
     let frame = 0;
     const particles = Array.from({ length: 40 }, () => ({ x: Math.random(), y: Math.random(), r: Math.random() * 2 + 1, s: Math.random() * .35 + .1 }));
-    function resize() { canvas.width = window.innerWidth * devicePixelRatio; canvas.height = window.innerHeight * devicePixelRatio; }
-    function draw() {
+    const resize = () => { canvas.width = window.innerWidth * devicePixelRatio; canvas.height = window.innerHeight * devicePixelRatio; };
+    const draw = () => {
       frame = requestAnimationFrame(draw);
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       ctx.fillStyle = '#ef950d';
@@ -23,7 +23,7 @@ export function Particles() {
         ctx.arc(p.x * canvas.width, p.y * canvas.height, p.r * devicePixelRatio, 0, Math.PI * 2);
         ctx.fill();
       });
-    }
+    };
     resize(); draw(); window.addEventListener('resize', resize);
     return () => { cancelAnimationFrame(frame); window.removeEventListener('resize', resize); };
   }, []);

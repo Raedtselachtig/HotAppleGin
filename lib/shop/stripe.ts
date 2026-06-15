@@ -2,5 +2,5 @@ import Stripe from 'stripe';
 export function stripeClient() {
   const key = process.env.STRIPE_SECRET_KEY;
   if (!key) throw new Error('STRIPE_SECRET_KEY is required');
-  return new Stripe(key, { apiVersion: '2025-11-17.clover' });
+  return new Stripe(key, { apiVersion: '2025-02-24.acacia' });
 }
