@@ -2,7 +2,7 @@
   --color-black: #070707;
   --color-gold: #af8b3f;
   --color-amber: #ef950d;
-  --color-body: #e6ddcd;
+  --color-body: #eae3d7de;
   --color-muted: #8a8070;
   --color-surface: #101010;
   --line: rgba(175,139,63,.18);
@@ -22,9 +22,9 @@ img { max-width: 100%; display: block; }
 /* Typography — restrained, editorial, premium */
 .eyebrow { color: var(--color-gold); font-size: .7rem; letter-spacing: .28em; text-transform: uppercase; margin: 0 0 20px; font-weight: 400; }
 .display { font-family: var(--font-cormorant), Georgia, serif; font-weight: 300; letter-spacing: .04em; line-height: 1.08; }
-.headline { font-size: clamp(1.9rem, 3.2vw, 3rem); letter-spacing: .16em; font-weight: 300; margin: 0; text-transform: uppercase; }
-.section-title { font-size: clamp(1.55rem, 2.4vw, 2.3rem); letter-spacing: .06em; margin: 0 0 22px; font-weight: 300; }
-.copy { color: #cdc4b4; font-size: clamp(.94rem, 1vw, 1.02rem); line-height: 1.9; max-width: 560px; white-space: pre-line; font-weight: 300; }
+.headline { font-size: clamp(1.7rem, 2.6vw, 2.4rem); letter-spacing: .18em; font-weight: 300; margin: 0; text-transform: uppercase; }
+.section-title { font-size: clamp(1.45rem, 2.1vw, 2.05rem); letter-spacing: .1em; margin: 0 0 22px; font-weight: 300; text-transform: uppercase; }
+.copy { color: var(--color-body); font-size: clamp(.92rem, 1vw, 1rem); line-height: 1.95; max-width: 560px; white-space: pre-line; font-weight: 300; }
 .muted { color: var(--color-muted); }
 .cta { display: inline-flex; align-items: center; border: 1px solid rgba(175,139,63,.55); color: var(--color-gold); padding: 13px 24px; letter-spacing: .2em; text-transform: uppercase; font-size: .68rem; background: transparent; transition: background .3s ease, color .3s ease, border-color .3s ease; }
 .cta:hover { background: var(--color-gold); color: var(--color-black); border-color: var(--color-gold); }
