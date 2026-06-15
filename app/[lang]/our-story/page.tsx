@@ -20,7 +20,7 @@ export default function OurStory() {
   </section>
 
   <section className="story-scene">
-   <div className="story-scene-bg"><Image src="/images/origin-fireside.jpg" alt="" fill sizes="100vw" style={{ objectFit: 'cover' }} /></div>
+   <div className="story-scene-bg"><Image src="/images/origin-fireside.jpg" alt="" fill sizes="100vw" style={{ objectFit: 'cover', objectPosition: '28% 52%' }} /></div>
    <div className="container">
     <p className="eyebrow animate-headline">How it started</p>
     <p className="copy story-line">{opening}</p>
@@ -28,15 +28,15 @@ export default function OurStory() {
    </div>
   </section>
 
-  <section className="section" style={{ paddingTop: 0 }}>
+  <section className="section" style={{ paddingTop: 'clamp(64px, 8vw, 116px)', paddingBottom: 'clamp(28px, 3vw, 44px)' }}>
    <div className="container story-body">
-    <h2 className="display section-title animate-headline">The Origin of Hot Apple Gin</h2>
+    <h2 className="display section-title animate-headline" style={{ marginBottom: 30 }}>The Origin of Hot Apple Gin</h2>
     {body.map((p) => <p className="copy story-line" key={p}>{p}</p>)}
    </div>
   </section>
 
   <section className="story-scene story-scene--center">
-   <div className="story-scene-bg"><Image src="/images/origin-garden-fire.jpg" alt="" fill sizes="100vw" style={{ objectFit: 'cover' }} /></div>
+   <div className="story-scene-bg"><Image src="/images/origin-garden-fire.jpg" alt="" fill sizes="100vw" style={{ objectFit: 'cover', objectPosition: 'left 66%' }} /></div>
    <div className="container"><p className="display manifesto-quote">{last}</p></div>
   </section>
  </main>;

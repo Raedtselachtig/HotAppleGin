@@ -1,15 +1,20 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { availableImages } from '@/lib/content';
+import { availableImages, availableVideos } from '@/lib/content';
 
-export function Hero({ eyebrow, title, subtitle, imageName, welcome, ctaHref, ctaLabel, align = 'center' }: {
- eyebrow?: string; title: string; subtitle?: string; imageName: string;
+export function Hero({ eyebrow, title, subtitle, imageName, videoName, welcome, ctaHref, ctaLabel, align = 'center' }: {
+ eyebrow?: string; title: string; subtitle?: string; imageName: string; videoName?: string;
  welcome?: string; ctaHref?: string; ctaLabel?: string; align?: 'center' | 'left';
 }) {
  const hasImage = availableImages.has(imageName);
+ const hasVideo = !!videoName && availableVideos.has(videoName);
  const lines = title.split('\n');
  return <section className={`hero hero--${align}`}>
-  <div className="hero-bg ken-burns">{hasImage && <Image src={`/images/${imageName}`} alt={title.replace(/\n/g, ' ')} fill priority sizes="100vw" style={{ objectFit: 'cover' }} />}</div>
+  <div className={`hero-bg${hasVideo ? '' : ' ken-burns'}`}>
+   {hasVideo
+    ? <video src={`/videos/${videoName}`} poster={hasImage ? `/images/${imageName}` : undefined} autoPlay muted loop playsInline preload="metadata" />
+    : hasImage && <Image src={`/images/${imageName}`} alt={title.replace(/\n/g, ' ')} fill priority sizes="100vw" style={{ objectFit: 'cover' }} />}
+  </div>
   <div className="hero-glow" aria-hidden="true" />
   <div className="container hero-content">
    {eyebrow && <p className="eyebrow">{eyebrow}</p>}

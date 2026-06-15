@@ -17,7 +17,14 @@ export const availableImages = new Set<string>([
  'origin-fireside.jpg', 'origin-garden-fire.jpg',
  'wwbi-terrace-two.jpg', 'wwbi-waiter-tray.jpg', 'wwbi-apres-inside.jpg',
  'wwbi-apres-outside.jpg', 'wwbi-garden-group-tap.jpg', 'wwbi-firepit-group.jpg',
- 'wwbi-market-crowd.jpg', 'wwbi-slopeside-friends.jpg', 'wwbi-hotel-terrace-two.jpg'
+ 'wwbi-market-crowd.jpg', 'wwbi-slopeside-friends.jpg', 'wwbi-hotel-terrace-two.jpg',
+ 'bottle-on-apples.jpg', 'partners-hotel-lobby.jpg'
+]);
+
+// Achtergrond-video's in /public/videos. Hero/Band tonen de muted autoplay-loop
+// als de naam hierin staat, anders valt het terug op de foto (poster).
+export const availableVideos = new Set<string>([
+ 'hero-lounge.mp4'
 ]);
 
 export const imageSlots: Record<string, string | undefined> = {
