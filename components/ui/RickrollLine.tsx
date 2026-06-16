@@ -20,7 +20,7 @@ export function RickrollLine({ text }: { text: string }) {
  }, []);
 
  if (!desktop) {
-  return <p className="copy animate-headline" style={{ margin: '0 auto' }}>{text}</p>;
+  return <p className="copy" style={{ margin: '0 auto' }}>{text}</p>;
  }
 
  const start = () => {
@@ -36,7 +36,7 @@ export function RickrollLine({ text }: { text: string }) {
 
  return (
   <>
-   <button type="button" className="copy rickroll-trigger animate-headline" onClick={start}>{text}</button>
+   <button type="button" className="copy rickroll-trigger" onClick={start}>{text}</button>
    {playing && <iframe className="rickroll-audio" src={RICK_SRC} allow="autoplay" title="Now playing" aria-hidden="true" tabIndex={-1} />}
    {hint && (
     <div className="rickroll-catch" role="button" tabIndex={0} aria-label="Stop" onClick={stop} onKeyDown={stop}>

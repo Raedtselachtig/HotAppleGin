@@ -49,7 +49,7 @@ export default function Partnerships() {
     <div className="card-grid">{why.map(([t, d]) => <div className="mini-card" key={t}><h3>{t}</h3><p>{d}</p></div>)}</div>
    </div>
   </section>
-  <section className="section" id="enquire" style={{ paddingTop: 0, paddingBottom: 40 }}>
+  <section className="section" id="enquire" style={{ paddingTop: 0, paddingBottom: 40, scrollMarginTop: 110 }}>
    <div className="container grid-two">
     <div>
      <h2 className="display section-title animate-headline">Become a partner</h2>
