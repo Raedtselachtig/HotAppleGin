@@ -78,7 +78,7 @@ img { max-width: 100%; display: block; }
 .hero--left .hero-content { text-align: left; max-width: 600px; margin-left: 0; margin-right: auto; padding-top: 0; }
 .hero--left .headline span { display: block; }
 .hero-welcome { font-family: var(--font-cormorant), Georgia, serif; font-style: italic; color: var(--color-body); font-size: clamp(1.2rem, 1.8vw, 1.6rem); line-height: 1.4; max-width: 34ch; margin-top: 24px; }
-.hero-cta { margin-top: 34px; }
+.hero-cta { margin-top: 34px; display: flex; flex-wrap: wrap; gap: 14px; }
 
 /* Manifesto — a quiet, warm, ceremonial pause */
 .manifesto-inner { max-width: 960px; }

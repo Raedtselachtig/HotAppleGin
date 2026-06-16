@@ -11,6 +11,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
    title={'NEW STORY\nSAME WARMTH'}
    ctaHref={`/${lang}/collection`}
    ctaLabel="Meet the Collection"
+   cta2Href={`/${lang}/partnerships`}
+   cta2Label="Become a Partner"
    imageName="hero-lounge.jpg"
    videoName="hero-lounge.mp4"
    align="left"

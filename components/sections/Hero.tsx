@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { availableImages, availableVideos } from '@/lib/content';
 import { HeroVideo } from './HeroVideo';
 
-export function Hero({ eyebrow, title, subtitle, imageName, videoName, welcome, ctaHref, ctaLabel, align = 'center', focal = '70% center' }: {
+export function Hero({ eyebrow, title, subtitle, imageName, videoName, welcome, ctaHref, ctaLabel, cta2Href, cta2Label, align = 'center', focal = '70% center' }: {
  eyebrow?: string; title: string; subtitle?: string; imageName: string; videoName?: string;
- welcome?: string; ctaHref?: string; ctaLabel?: string; align?: 'center' | 'left'; focal?: string;
+ welcome?: string; ctaHref?: string; ctaLabel?: string; cta2Href?: string; cta2Label?: string; align?: 'center' | 'left'; focal?: string;
 }) {
  const hasImage = availableImages.has(imageName);
  const hasVideo = !!videoName && availableVideos.has(videoName);
@@ -21,7 +21,10 @@ export function Hero({ eyebrow, title, subtitle, imageName, videoName, welcome, 
    <h1 className="display headline">{lines.map((line, i) => <span key={i} className="word-stagger">{line}</span>)}</h1>
    {subtitle && <p className="hero-subtitle">{subtitle}</p>}
    {welcome && <p className="hero-welcome">{welcome}</p>}
-   {ctaHref && ctaLabel && <Link className="cta hero-cta" href={ctaHref}>{ctaLabel}</Link>}
+   {ctaHref && ctaLabel && <div className="hero-cta">
+    <Link className="cta" href={ctaHref}>{ctaLabel}</Link>
+    {cta2Href && cta2Label && <Link className="cta" href={cta2Href}>{cta2Label}</Link>}
+   </div>}
   </div>
  </section>;
 }

@@ -40,7 +40,7 @@ export default function Contact() {
   <section className="section" id="events" style={{ paddingTop: 0, scrollMarginTop: 120 }}>
    <div className="container">
     <h2 className="display section-title animate-headline">Find us where it matters most</h2>
-    <p className="copy">Come find us this season:</p>
+    <p className="copy">Come find us at selected trade shows, winter fairs and seasonal events.</p>
     <div className="event-list">
      {events.map(({ name, tag, date, place, url }) => (
       <a className="event-row" href={url} target="_blank" rel="noopener noreferrer" key={name}>

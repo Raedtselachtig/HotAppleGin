@@ -17,9 +17,9 @@ const why: [string, string][] = [
 ];
 
 const steps: [string, string][] = [
- ['01 · Get in touch', 'Tell us who you are, your venue, store, or distribution, and what you have in mind.'],
- ['02 · A real conversation', 'No brochures. We talk through fit, volumes and the serve, and answer your questions.'],
- ['03 · Set up to launch', 'Product, serving guidance and brand assets, so it lands as well in your space as in ours.']
+ ['01 · Get in touch', 'Tell us who you are, your venue, store or distribution, and what you have in mind.'],
+ ['02 · A real conversation', 'We talk through fit, volumes, the serve and your questions.'],
+ ['03 · Set up to launch', 'Product, serving guidance and brand assets, so it lands properly.']
 ];
 
 export default function Partnerships() {
