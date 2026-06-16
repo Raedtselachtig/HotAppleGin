@@ -8,7 +8,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
  return <main>
   <Hero
    eyebrow="A Winter Cocktail · Served Warm"
-   title={'NEW STORY\nSAME WARMTH'}
+   title={'NEW MEMORIES\nSAME WARMTH'}
    ctaHref={`/${lang}/collection`}
    ctaLabel="Meet the Collection"
    cta2Href={`/${lang}/partnerships`}
