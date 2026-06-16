@@ -21,7 +21,8 @@ export const availableImages = new Set<string>([
  'bottle-on-apples.jpg', 'partners-hotel-lobby.jpg',
  'wwbi-christmas-dinner.jpg', 'wwbi-events.jpg',
  'wwbi-slopeside-sun.jpg', 'wwbi-backyard.jpg', 'wwbi-icerink.jpg',
- 'wwbi-hotel-canal-terrace.jpg', 'wwbi-autumn-walk.jpg', 'wwbi-rainy-restaurant.jpg'
+ 'wwbi-hotel-canal-terrace.jpg', 'wwbi-autumn-walk.jpg', 'wwbi-rainy-restaurant.jpg',
+ 'wwbi-fancy-dinner.jpg'
 ]);
 
 // Achtergrond-video's in /public/videos. Hero/Band tonen de muted autoplay-loop

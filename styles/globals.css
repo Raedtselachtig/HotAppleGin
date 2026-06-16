@@ -81,9 +81,9 @@ img { max-width: 100%; display: block; }
 .hero-cta { margin-top: 34px; }
 
 /* Manifesto — a quiet, warm, ceremonial pause */
-.manifesto-inner { max-width: 880px; }
+.manifesto-inner { max-width: 960px; }
 .manifesto-rule { width: 64px; height: 1px; background: var(--color-gold); margin: 0 0 30px; }
-.manifesto-quote { font-family: var(--font-cormorant), Georgia, serif; font-style: italic; font-weight: 300; color: #f0e8d8; font-size: clamp(1.9rem, 3.6vw, 3.1rem); line-height: 1.24; letter-spacing: .01em; margin: 0 0 28px; }
+.manifesto-quote { font-family: var(--font-cormorant), Georgia, serif; font-style: italic; font-weight: 300; color: #f0e8d8; font-size: clamp(1.7rem, 2.9vw, 2.7rem); line-height: 1.26; letter-spacing: .01em; margin: 0 0 28px; text-wrap: balance; }
 @media (prefers-reduced-motion: reduce) { .hero-glow { animation: none; opacity: .7; } }
 
 /* Quiet (photo-less) homepage bands — breathing room between full-bleed photos */
