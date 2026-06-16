@@ -221,6 +221,18 @@ img { max-width: 100%; display: block; }
 .recipe-redacted-text { color: var(--color-body); font-style: italic; font-family: var(--font-cormorant), Georgia, serif; font-size: clamp(1.1rem, 1.6vw, 1.35rem); }
 .recipe-cta { margin-top: 14px; justify-self: start; }
 
+/* Recipe blocks inside the collapsible tiles — compact sizing */
+.recipe-tile-body .recipe-figure { aspect-ratio: 1/1; margin: 0 0 20px; }
+.recipe-tile-body .recipe-quote { font-size: clamp(1.35rem, 1.6vw, 1.7rem); line-height: 1.15; margin: 8px 0; }
+.recipe-tile-body .recipe-ingredients { padding: 18px 18px; gap: 10px; margin: 4px 0; }
+.recipe-tile-body .recipe-ingredients li { padding-left: 22px; font-size: .95rem; }
+.recipe-tile-body .recipe-plainlist li { font-size: 1.08rem; }
+.recipe-tile-body .recipe-lines { font-size: .95rem; }
+.recipe-tile-body .recipe-triad { padding: 14px 16px; margin: 10px 0; }
+.recipe-tile-body .recipe-triad span { font-size: .98rem; }
+.recipe-tile-body .recipe-redacted { padding: 16px 16px; margin: 10px 0; }
+.recipe-tile-body .recipe-redacted-text { font-size: 1.05rem; }
+
 /* Collection — product cards */
 .product-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
 .product-card { display: flex; flex-direction: column; border: 1px solid var(--line); background: var(--color-surface); transition: border-color .25s ease; }

@@ -77,7 +77,7 @@ export const recipes = [
 export const recipeSections: { head: string; image: string; blocks: { type: string; text?: string; items?: string[] }[] }[] = [
  {
   head: 'Can you make Hot Apple Gin at home?',
-  image: 'IMG_1791.jpg',
+  image: 'origin-fireside.jpg',
   blocks: [
    { type: 'list', items: ['You can heat apple juice.', 'You can add gin.', 'You can even add cinnamon.'] },
    { type: 'p', text: 'And then you can spend the rest of the evening wondering why it tastes so much different than you remembered.' },
@@ -89,7 +89,7 @@ export const recipeSections: { head: string; image: string; blocks: { type: stri
  },
  {
   head: 'What is in Hot Apple Gin?',
-  image: 'bottle-on-apples.jpg',
+  image: 'recipe-apples.jpg',
   blocks: [
    { type: 'p', text: 'Hot Apple Gin is built on:' },
    { type: 'ingredients', items: ['apple juice made from a carefully balanced blend of apple varieties', 'gin distilled specifically for this drink', 'a layered spice profile', 'a few things we have not even told our children', 'and the discipline to make it taste the same every time'] },
@@ -100,7 +100,7 @@ export const recipeSections: { head: string; image: string; blocks: { type: stri
  },
  {
   head: 'Why we bottled the recipe',
-  image: 'hero-lounge.jpg',
+  image: 'recipe-label.jpg',
   blocks: [
    { type: 'p', text: 'We are proud that we managed to capture the recipe in a bottle.' },
    { type: 'p', text: 'The apple, the gin, the spices, the extras, the warmth, the feeling, all balanced before it reaches your kitchen, bar, terrace or winter table.' },
