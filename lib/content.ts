@@ -96,7 +96,7 @@ export const recipeSections: { head: string; image: string; blocks: { type: stri
   image: 'recipe-ingredients.jpg',
   blocks: [
    { type: 'p', text: 'Hot Apple Gin is built on:' },
-   { type: 'ingredients', items: ['Apple juice made from a carefully balanced blend of apple varieties', 'Our own private gin distilled specifically for this drink', 'A layered spice profile', 'A few things we have not even told our children', 'And the discipline to make it taste the same every time'] },
+   { type: 'ingredients', items: ['Apple juice made from a carefully balanced blend of apple varieties', 'Our own private gin, distilled specifically for this drink', 'A layered spice profile', 'A few things we have not even told our children', 'And the discipline to make it taste the same every time'] },
    { type: 'p', text: 'The full recipe?' },
    { type: 'redacted', text: "Let's keep it undisclosed for everyone's emotional wellbeing." },
    { type: 'p', text: 'It saves you disappointment, us awkward emails, and your local therapist one very specific conversation.' }
