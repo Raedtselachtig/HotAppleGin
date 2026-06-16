@@ -124,7 +124,7 @@ img { max-width: 100%; display: block; }
 .legal-h { font-family: var(--font-cheltenham), var(--font-cormorant), serif; color: var(--color-gold); text-transform: uppercase; letter-spacing: .08em; font-size: 1.15rem; font-weight: 700; margin: 36px 0 10px; }
 
 /* Where We Blend In — mosaic */
-.mosaic { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 44px; }
+.mosaic { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 44px; }
 .mosaic-tile { aspect-ratio: 1 / 1; perspective: 1100px; }
 .flip { position: relative; width: 100%; height: 100%; transition: transform .7s cubic-bezier(.4,0,.2,1); transform-style: preserve-3d; }
 .mosaic-tile:hover .flip, .mosaic-tile:focus-within .flip { transform: rotateY(180deg); }

@@ -18,7 +18,8 @@ export const availableImages = new Set<string>([
  'wwbi-terrace-two.jpg', 'wwbi-waiter-tray.jpg', 'wwbi-apres-inside.jpg',
  'wwbi-apres-outside.jpg', 'wwbi-garden-group-tap.jpg', 'wwbi-firepit-group.jpg',
  'wwbi-market-crowd.jpg', 'wwbi-slopeside-friends.jpg', 'wwbi-hotel-terrace-two.jpg',
- 'bottle-on-apples.jpg', 'partners-hotel-lobby.jpg'
+ 'bottle-on-apples.jpg', 'partners-hotel-lobby.jpg',
+ 'wwbi-christmas-dinner.jpg', 'wwbi-events.jpg'
 ]);
 
 // Achtergrond-video's in /public/videos. Hero/Band tonen de muted autoplay-loop
@@ -100,7 +101,7 @@ export const recipeSections: { head: string; image: string; blocks: { type: stri
  },
  {
   head: 'Why we bottled the recipe',
-  image: 'recipe-label.jpg',
+  image: 'recipe-bottling.jpg',
   blocks: [
    { type: 'p', text: 'We are proud that we managed to capture the recipe in a bottle.' },
    { type: 'p', text: 'The apple, the gin, the spices, the extras, the warmth, the feeling, all balanced before it reaches your kitchen, bar, terrace or winter table.' },
