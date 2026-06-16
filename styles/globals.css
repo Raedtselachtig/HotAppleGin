@@ -133,7 +133,7 @@ img { max-width: 100%; display: block; }
 .flip-front:after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 56%, rgba(12,8,4,.28)); }
 .flip-back { transform: rotateY(180deg); background: linear-gradient(135deg, #1d1407, #0e0a05); display: grid; place-items: center; align-content: center; gap: 12px; padding: 24px; text-align: center; }
 .flip-title { color: var(--color-gold); font-family: var(--font-cheltenham), var(--font-cormorant), serif; text-transform: uppercase; letter-spacing: .08em; font-size: 1.1rem; font-weight: 700; }
-.flip-line { color: var(--color-body); font-family: var(--font-cormorant), Georgia, serif; font-style: italic; font-size: .98rem; line-height: 1.4; max-width: 24ch; }
+.flip-line { color: var(--color-body); font-family: var(--font-cormorant), Georgia, serif; font-style: italic; font-size: .98rem; line-height: 1.4; max-width: 24ch; white-space: pre-line; }
 @media (max-width: 900px) { .mosaic { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .mosaic { grid-template-columns: 1fr; } }
 
