@@ -18,7 +18,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   <section className="section manifesto">
    <div className="container manifesto-inner">
     <div className="manifesto-rule animate-headline" />
-    <p className="display manifesto-quote animate-headline">{'Hot Apple Gin was never meant to become a brand. It was meant to be enjoyed by family, in winter, with nowhere to be.'}</p>
+    <p className="display manifesto-quote animate-headline">{'Hot Apple Gin was never meant to become a brand. It was meant to be enjoyed by family, in winter, with nowhere to be. And it actually still is.'}</p>
    </div>
   </section>
   <Band title="THE COLLECTION" copy="Bottles for slow nights and people who rarely leave after one glass." link={`/${lang}/collection`} label="Meet the Collection" image="IMG_4627.jpg" />

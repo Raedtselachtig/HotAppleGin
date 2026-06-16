@@ -13,7 +13,13 @@ const tiles: [string, string, string][] = [
  ['wwbi-apres-outside.jpg', 'Worth the climb?', 'The cold made its point. We made ours.'],
  ['wwbi-market-crowd.jpg', 'Winter fairs', 'Where the first stranger became a regular.'],
  ['wwbi-christmas-dinner.jpg', 'Christmas dinner', 'Dress code: fancy. We were already there.'],
- ['wwbi-events.jpg', 'Events', 'Where the office party stops feeling obligatory.']
+ ['wwbi-events.jpg', 'Events', 'Where the office party stops feeling obligatory.'],
+ ['wwbi-slopeside-sun.jpg', 'Off the slopes', 'A strange amount of skiing happens between these moments.'],
+ ['wwbi-backyard.jpg', 'The back garden', 'When one drink in the garden turns into an evening.'],
+ ['wwbi-icerink.jpg', 'Rink-side', 'Some people came here to skate.'],
+ ['wwbi-hotel-canal-terrace.jpg', 'Hotel terrace', 'Turns out the five-star review was one glass away.'],
+ ['wwbi-autumn-walk.jpg', 'After a long walk', 'As if you really need a walk as an excuse.'],
+ ['wwbi-rainy-restaurant.jpg', 'While it rains', 'Who needs a conversation starter.']
 ];
 
 export default function WhereWeBlendIn() {
