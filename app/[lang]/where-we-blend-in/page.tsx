@@ -5,22 +5,22 @@ export const metadata = { title: 'Where We Blend In' };
 
 // [filename, title, tongue-in-cheek line] — copy is a proposal, see chat.
 const tiles: [string, string, string][] = [
- ['wwbi-terrace-two.jpg', 'Your favourite terrace?', 'One drink, and the afternoon quietly cancels its plans.'],
- ['wwbi-apres-inside.jpg', 'Après-ski', 'The skiing was just the warm-up.'],
+ ['wwbi-terrace-two.jpg', 'Your favourite terrace', "Nothing says 'just one' quite like the second round."],
+ ['wwbi-apres-inside.jpg', 'Après-ski', 'Who needs skiing, when you can have this?'],
  ['wwbi-garden-group-tap.jpg', 'Slope-side', "Five litres looked ambitious. It wasn't."],
- ['wwbi-waiter-tray.jpg', 'Your usual table?', 'The second round arrives before you ask.'],
- ['wwbi-firepit-group.jpg', 'Around the fire', "Out here, nobody's watching the clock."],
- ['wwbi-apres-outside.jpg', 'Worth the climb?', 'The cold made its point. We made ours.'],
- ['wwbi-market-crowd.jpg', 'Winter fairs', 'Where the first stranger became a regular.'],
- ['wwbi-christmas-dinner.jpg', 'Christmas dinner', 'Dress code: fancy. We were already there.'],
+ ['wwbi-waiter-tray.jpg', 'Your usual table', 'The second round arrives before you ask.'],
+ ['wwbi-firepit-group.jpg', 'Around the fire', 'Nobody remembers who started it.'],
+ ['wwbi-apres-outside.jpg', 'Worth the climb', 'The cold made its point. We made ours.'],
+ ['wwbi-market-crowd.jpg', 'Winter fairs', 'Thousands of lights. Yet one bright idea.'],
+ ['wwbi-christmas-dinner.jpg', 'Christmas dinner', 'Dress code: fancy. We already did.'],
  ['wwbi-events.jpg', 'Events', 'Where the office party stops feeling obligatory.'],
  ['wwbi-slopeside-sun.jpg', 'Off the slopes', 'A strange amount of skiing happens between these moments.'],
  ['wwbi-backyard.jpg', 'The back garden', 'When one drink in the garden turns into an evening.'],
- ['wwbi-icerink.jpg', 'Rink-side', 'Some people came here to skate.'],
- ['wwbi-hotel-canal-terrace.jpg', 'Hotel terrace', 'Turns out the five-star review was one glass away.'],
+ ['wwbi-icerink.jpg', 'Rink-side', 'Some people actually came here to skate.'],
+ ['wwbi-hotel-canal-terrace.jpg', 'Hotel terrace', 'Turns out the five-star review was just one glass away.'],
  ['wwbi-autumn-walk.jpg', 'After a long walk', 'As if you really need a walk as an excuse.'],
- ['wwbi-rainy-restaurant.jpg', 'While it rains', 'Who needs a conversation starter.'],
- ['wwbi-fancy-dinner.jpg', 'Dinner reservations', 'The reservation was for dinner. The evening had other ideas.']
+ ['wwbi-rainy-restaurant.jpg', 'While it rains', 'Who needs a conversation starter anyway.'],
+ ['wwbi-fancy-dinner.jpg', 'Dinner reservations', 'Sometimes, arriving early is a good thing.']
 ];
 
 export default function WhereWeBlendIn() {
