@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { ContactForm } from '@/components/ui/Form';
 
 export const metadata = { title: 'Contact' };
@@ -25,7 +26,8 @@ const eventSchema = {
  }))
 };
 
-export default function Contact() {
+export default async function Contact({ params }: { params: Promise<{ lang: string }> }) {
+ const { lang } = await params;
  return <main>
   <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventSchema) }} />
   <section className="section" style={{ paddingTop: 170 }}>
@@ -49,6 +51,10 @@ export default function Contact() {
        <p className="event-meta muted">{place}</p>
       </a>
      ))}
+    </div>
+    <div className="event-cta">
+     <p className="copy">Attending one of these? Let&rsquo;s set up a meeting.</p>
+     <Link className="cta" href={`/${lang}/partnerships#enquire`}>Become a partner</Link>
     </div>
    </div>
   </section>

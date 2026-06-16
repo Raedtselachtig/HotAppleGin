@@ -272,6 +272,8 @@ img { max-width: 100%; display: block; }
 .event-row:last-child { border-bottom: 1px solid var(--line); }
 .event-row:hover { background: rgba(175,139,63,.05); padding-left: 24px; }
 .event-row:hover .event-name { color: #d7b25a; }
+.event-cta { max-width: 720px; margin: 40px 0 0; display: grid; justify-items: center; gap: 18px; text-align: center; }
+.event-cta .copy { max-width: none; }
 .event-name { font-family: var(--font-cheltenham), var(--font-cormorant), serif; color: var(--color-gold); text-transform: uppercase; letter-spacing: .06em; font-size: 1.3rem; margin: 0 0 6px; }
 .event-tag { color: var(--color-muted); font-family: var(--font-dm-sans), sans-serif; font-size: .8rem; letter-spacing: .12em; }
 .event-meta { margin: 2px 0; font-size: .95rem; letter-spacing: .02em; }
