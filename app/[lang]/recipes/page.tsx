@@ -6,8 +6,12 @@ export const metadata = { title: 'Recipe' };
 
 export default async function Recipe({ params }: { params: Promise<{ lang: string }> }) {
  const { lang } = await params;
- return <main><section className="section" style={{ paddingTop: 170 }}><div className="container">
-  <h1 className="display section-title animate-headline">RECIPE</h1>
+ return <main>
+  <section className="recipe-hero">
+   <div className="recipe-hero-bg ken-burns"><Image src="/images/recipe-hero.jpg" alt="" fill priority sizes="100vw" style={{ objectFit: 'cover' }} /></div>
+   <div className="container"><h1 className="display section-title animate-headline" style={{ margin: 0 }}>RECIPE</h1></div>
+  </section>
+  <section className="section" style={{ paddingTop: 'clamp(40px, 5vw, 72px)' }}><div className="container">
   <div className="recipe-grid">
    {recipeSections.map((s, si) => (
     <details className="recipe-tile" name="recipe" key={si}>

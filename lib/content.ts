@@ -77,7 +77,7 @@ export const recipes = [
 export const recipeSections: { head: string; image: string; blocks: { type: string; text?: string; items?: string[] }[] }[] = [
  {
   head: 'Can you make Hot Apple Gin at home?',
-  image: 'origin-fireside.jpg',
+  image: 'recipe-apple-jars.jpg',
   blocks: [
    { type: 'list', items: ['You can heat apple juice.', 'You can add gin.', 'You can even add cinnamon.'] },
    { type: 'p', text: 'And then you can spend the rest of the evening wondering why it tastes so much different than you remembered.' },
