@@ -7,8 +7,8 @@ export const metadata = { title: 'Where We Blend In' };
 const tiles: [string, string, string][] = [
  ['wwbi-terrace-two.jpg', 'Your favourite terrace', "Nothing says 'just one' quite like the second round."],
  ['wwbi-apres-inside.jpg', 'Après-ski', 'Who needs skiing, when you can have this?'],
- ['wwbi-christmas-dinner.jpg', 'Christmas dinner', 'Dress code: fancy.\nWe already did.'],
- ['wwbi-market-crowd.jpg', 'Winter fairs', 'Thousands of lights.\nYet one bright idea.'],
+ ['wwbi-christmas-dinner.jpg', 'Christmas dinner', 'Dress code: dress fancy.\nWe already did.'],
+ ['wwbi-market-crowd.jpg', 'Winter fairs', 'Thousands of lights.\nOne bright idea.'],
  ['wwbi-backyard.jpg', 'The back garden', 'When one drink in the garden turns into an evening.'],
  ['wwbi-icerink.jpg', 'Rink-side', 'Some people actually came here to skate.'],
  ['wwbi-garden-group-tap.jpg', 'Slope-side', "Five litres looked ambitious.\nIt wasn't."],
