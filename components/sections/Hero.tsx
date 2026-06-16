@@ -3,18 +3,17 @@ import Link from 'next/link';
 import { availableImages, availableVideos } from '@/lib/content';
 import { HeroVideo } from './HeroVideo';
 
-export function Hero({ eyebrow, title, subtitle, imageName, videoName, welcome, ctaHref, ctaLabel, align = 'center' }: {
+export function Hero({ eyebrow, title, subtitle, imageName, videoName, welcome, ctaHref, ctaLabel, align = 'center', focal = '70% center' }: {
  eyebrow?: string; title: string; subtitle?: string; imageName: string; videoName?: string;
- welcome?: string; ctaHref?: string; ctaLabel?: string; align?: 'center' | 'left';
+ welcome?: string; ctaHref?: string; ctaLabel?: string; align?: 'center' | 'left'; focal?: string;
 }) {
  const hasImage = availableImages.has(imageName);
  const hasVideo = !!videoName && availableVideos.has(videoName);
  const lines = title.split('\n');
  return <section className={`hero hero--${align}`}>
   <div className="hero-bg ken-burns">
-   {hasVideo
-    ? <HeroVideo src={`/videos/${videoName}`} poster={hasImage ? `/images/${imageName}` : undefined} />
-    : hasImage && <Image src={`/images/${imageName}`} alt={title.replace(/\n/g, ' ')} fill priority sizes="100vw" style={{ objectFit: 'cover' }} />}
+   {hasImage && <Image src={`/images/${imageName}`} alt={title.replace(/\n/g, ' ')} fill priority sizes="100vw" style={{ objectFit: 'cover', objectPosition: focal }} />}
+   {hasVideo && <HeroVideo src={`/videos/${videoName}`} focal={focal} />}
   </div>
   <div className="hero-glow" aria-hidden="true" />
   <div className="container hero-content">

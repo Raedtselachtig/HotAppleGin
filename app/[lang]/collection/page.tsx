@@ -20,7 +20,7 @@ const productSchema = {
 export default function Collection() {
  return <main>
   <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
-  <Hero title="THE COLLECTION" subtitle="Available Seasonally" imageName="IMG_4704.jpg" />
+  <Hero title="THE COLLECTION" subtitle="Available Seasonally" imageName="IMG_4704.jpg" focal="center" />
   <section className="section" style={{ paddingTop: 'clamp(56px, 8vw, 96px)' }}>
    <div className="container">
     <div className="product-grid">

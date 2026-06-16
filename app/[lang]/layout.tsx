@@ -10,7 +10,7 @@ const orgSchema = {
  alternateName: 'Hot Apple Gin',
  url: 'https://hotapplegin.com',
  logo: '/logo.png',
- description: 'A premium warm gin cocktail (RTD), crafted in Haarlem, the Netherlands.',
+ description: 'A warm gin cocktail (RTD), crafted in Haarlem, the Netherlands.',
  sameAs: ['https://www.instagram.com/hotapplegin/']
 };
 

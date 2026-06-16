@@ -71,5 +71,50 @@ export const recipes = [
 `Why we bottled the recipe\n\nWe are proud that we managed to capture the recipe in a bottle.\n\nThe apple, the gin, the spices, the extras, the warmth, the feeling, all\nbalanced before it reaches your kitchen, bar, terrace or winter table.\n\nThat is the mission.\n\nWherever Hot Apple Gin is served, it should taste and feel like Hot Apple Gin.\n\nDifferent setting.\nSame warmth.\n\nReady to heat.\nReady to serve.\nReady to share with friends and family.\n\nDo we compare ourselves to Coca-Cola?\n\nOf course not.\n\nWe are just saying there is a reason certain recipes stay undisclosed.\n\nBesides, ours is served warm.`
 ];
 
+// Structured editorial version of the recipe page (exact copy preserved, only
+// reorganised into typed blocks so each can be styled). Block types:
+// p | quote | list | ingredients | redacted | lines | triad
+export const recipeSections: { head: string; image: string; blocks: { type: string; text?: string; items?: string[] }[] }[] = [
+ {
+  head: 'Can you make Hot Apple Gin at home?',
+  image: 'IMG_1791.jpg',
+  blocks: [
+   { type: 'list', items: ['You can heat apple juice.', 'You can add gin.', 'You can even add cinnamon.'] },
+   { type: 'p', text: 'And then you can spend the rest of the evening wondering why it tastes so much different than you remembered.' },
+   { type: 'p', text: 'That is the thing with recipes. Making something nice once is not the hard part. Making it taste exactly the same every time is where the trouble starts.' },
+   { type: 'p', text: 'If Hot Apple Gin were just warm apple juice with a splash of gin and a bit of cinnamon, we would probably have left it at that.' },
+   { type: 'quote', text: 'We did not.' },
+   { type: 'p', text: 'It took us two years, a gin distilled specifically for this drink, and more test rounds than anyone should admit publicly to arrive at the recipe now known as Hot Apple Gin.' }
+  ]
+ },
+ {
+  head: 'What is in Hot Apple Gin?',
+  image: 'bottle-on-apples.jpg',
+  blocks: [
+   { type: 'p', text: 'Hot Apple Gin is built on:' },
+   { type: 'ingredients', items: ['apple juice made from a carefully balanced blend of apple varieties', 'gin distilled specifically for this drink', 'a layered spice profile', 'a few things we have not even told our children', 'and the discipline to make it taste the same every time'] },
+   { type: 'p', text: 'The full recipe?' },
+   { type: 'redacted', text: "Let's keep it undisclosed for everyone's emotional wellbeing." },
+   { type: 'p', text: 'It saves you disappointment, us awkward emails, and your local therapist one very specific conversation.' }
+  ]
+ },
+ {
+  head: 'Why we bottled the recipe',
+  image: 'hero-lounge.jpg',
+  blocks: [
+   { type: 'p', text: 'We are proud that we managed to capture the recipe in a bottle.' },
+   { type: 'p', text: 'The apple, the gin, the spices, the extras, the warmth, the feeling, all balanced before it reaches your kitchen, bar, terrace or winter table.' },
+   { type: 'quote', text: 'That is the mission.' },
+   { type: 'p', text: 'Wherever Hot Apple Gin is served, it should taste and feel like Hot Apple Gin.' },
+   { type: 'lines', items: ['Different setting.', 'Same warmth.'] },
+   { type: 'triad', items: ['Ready to heat.', 'Ready to serve.', 'Ready to share with friends and family.'] },
+   { type: 'p', text: 'Do we compare ourselves to Coca-Cola?' },
+   { type: 'quote', text: 'Of course not.' },
+   { type: 'p', text: 'We are just saying there is a reason certain recipes stay undisclosed.' },
+   { type: 'quote', text: 'Besides, ours is served warm.' }
+  ]
+ }
+];
+
 export const storyIntro = `OUR STORY\n\nHot Apple Gin was never meant to become a brand. It was meant to be enjoyed\nby family, in winter, with nowhere to be. What began as a quiet experiment\nbecame a recipe we couldn't keep to ourselves. Warm, layered, and made with\ncare: this is a drink that carries a story in every glass.\n\nWe're proud to finally share it.`;
 export const storyOrigin = `It started with a message from a brother who was travelling one winter, a\ntip, a nudge, a thought that simply said: look at this.\nThe reply came back almost immediately:\n\n"Warm gin… 🤔"\n"Hmmm…"\n"I think I'm going to try making this over the Christmas holidays."\n\nWhat followed were weeks of experimenting, adjusting, and starting over. A\nspice syrup developed from scratch. Proportions tweaked by feel rather than\nmeasurement. And a gin to tie it all together. Almost nothing written down.\nIt took two full winters before the recipe became what it is today, but\nsomewhere along the way, it stopped being an experiment.\n\nIt became a ritual.\n\nEvery winter, family gathered. Brothers, sisters, parents, children, coats\non, sometimes a fire burning, often outside. After a long walk, a day of\nshopping, or simply coming home after a cold day, to good company. Those\nafternoons and evenings are what Hot Apple Gin is made of. Over time, it\nbecame our family recipe. The kind you don't let go of.\n\nThen came the moment that changed everything. We were together, glasses in\nhand, when someone said, half-jokingly and not entirely serious, that\nother people should be able to taste this too. The silence that followed\nsaid everything.\n\nThat same year, we set up at a Christmas market for the first time. We ran\nout of everything, restocked in a hurry, and ran out again. More than once.\nWe never forgot the first glass we sold to a stranger, and we never will.\n\nThe year after, people came back asking for us by name. That told us\neverything we needed to know.\n\nWe bottled our first batch. The response confirmed what we already felt.\nToday, we make Hot Apple Gin with our own gin, developed specifically for\nthis recipe. And now, this winter, Hot Apple Gin will be served for the\nfirst time in bars and restaurants across multiple countries, poured by\nhands that aren't ours, to people we've never met.\n\nGrowing up means letting go, they say… We think we're ready for that.\n\nWhat started around a family fire, is now finding its way to tables across\nthe world.\n\nThat, we think, is how a legacy begins.`;

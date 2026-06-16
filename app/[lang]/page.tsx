@@ -30,7 +30,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     <Link className="cta animate-headline" href={`/${lang}/our-story`}>Where it began</Link>
    </div>
   </section>
-  <Band title="SERVED WARM" copy="Some things simply work better warm. Slowly heated. Carefully poured." link={`/${lang}/serve`} label="Discover the Serve" image="wwbi-cafe-winter-terrace.jpg" />
+  <Band title="SERVED WARM" copy="Some things simply work better warm. Slowly heated. Carefully served." link={`/${lang}/serve`} label="Discover the Serve" image="wwbi-cafe-winter-terrace.jpg" />
   <section className="section quiet-band">
    <div className="container">
     <div className="quiet-rule animate-headline" />
@@ -39,7 +39,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     <Link className="cta animate-headline" href={`/${lang}/where-we-blend-in`}>See where we blend in</Link>
    </div>
   </section>
-  <Band title="PARTNERSHIPS" copy="Built for considered menus and standout shelves." link={`/${lang}/partnerships`} label="Available for select partners" image="partners-hotel-lobby.jpg" />
+  <Band title="PARTNERSHIPS" copy="Built for curated menus and standout shelves." link={`/${lang}/partnerships`} label="Available for select partners" image="partners-hotel-lobby.jpg" />
   <section className="section quiet-band" style={{ paddingBottom: 'clamp(18px, 2.5vw, 36px)' }}>
    <div className="container">
     <h2 className="display section-title animate-headline">A MODERN CLASSIC IN THE MAKING</h2>

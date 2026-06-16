@@ -1,12 +1,19 @@
 'use client';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
-// Robust mobile autoplay: React doesn't always reflect the `muted` JSX prop to the
-// DOM property, which makes iOS block muted autoplay. We set it on the element and
-// force play() on mount and again once the data is ready.
-export function HeroVideo({ src, poster }: { src: string; poster?: string }) {
+// Desktop-only background video. Mobile browsers (iOS especially) frequently block
+// muted-autoplay and can leave the hero blank, so on small screens we skip the
+// video entirely and let the poster <Image> + CSS ken-burns zoom carry the motion.
+export function HeroVideo({ src, focal }: { src: string; focal?: string }) {
  const ref = useRef<HTMLVideoElement>(null);
+ const [show, setShow] = useState(false);
+
  useEffect(() => {
+  setShow(window.matchMedia('(min-width: 601px)').matches);
+ }, []);
+
+ useEffect(() => {
+  if (!show) return;
   const v = ref.current;
   if (!v) return;
   v.muted = true;
@@ -14,6 +21,8 @@ export function HeroVideo({ src, poster }: { src: string; poster?: string }) {
   tryPlay();
   v.addEventListener('canplay', tryPlay, { once: true });
   return () => v.removeEventListener('canplay', tryPlay);
- }, []);
- return <video ref={ref} src={src} poster={poster} autoPlay muted loop playsInline preload="auto" />;
+ }, [show]);
+
+ if (!show) return null;
+ return <video ref={ref} className="hero-video" src={src} autoPlay muted loop playsInline preload="auto" style={focal ? { objectPosition: focal } : undefined} />;
 }
