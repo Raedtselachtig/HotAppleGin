@@ -63,7 +63,7 @@ export const products = [
 export const serveSteps = [
  ['STEP 1 - OPEN', 'This is where it all starts.', "Open the bottle and pour Hot Apple Gin into a pan, warming gently until the first steam begins to rise. No boiling, we're making a cocktail, not soup.", 'IMG_1791.jpg'],
  ['STEP 2 - HEAT', 'Good things take warmth.', 'Let the flavours open up slowly while the room starts smelling like you\ndefinitely made the right decision tonight.', 'IMG_4655.jpg'],
- ['STEP 3 - GARNISH', 'Elegance lives in the details.', "A slice of apple. A whisper of cinnamon. Because details matter, \nthis isn't just a drink.", 'IMG_4661.jpg'],
+ ['STEP 3 - GARNISH', 'Elegance lives in the details.', "A slice of apple. A whisper of spice. Because details matter, \nthis isn't just a drink.", 'IMG_4661.jpg'],
  ['STEP 4 - SERVE', 'Now the good part.', 'Serve warm in a stemmed glass and let the aroma do the rest. Bonus points\nif someone says "This smells great!" before their first sip.', 'IMG_1784.jpg'],
  ['STEP 5 - SLOW DOWN', 'Some drinks are made to be held onto.', 'Warm hands, slow conversations and another round that suddenly felt\nentirely appropriate.', 'IMG_4656.jpg']
 ];
@@ -83,10 +83,10 @@ export const recipeSections: { head: string; image: string; blocks: { type: stri
   head: 'Can you make Hot Apple Gin at home?',
   image: 'recipe-apple-jars.jpg',
   blocks: [
-   { type: 'list', items: ['You can heat apple juice.', 'You can add gin.', 'You can even add cinnamon.'] },
+   { type: 'list', items: ['You can heat apple juice.', 'You can add gin.', 'You can even add spices.'] },
    { type: 'p', text: 'And then you can spend the rest of the evening wondering why it tastes so much different than you remembered.' },
    { type: 'p', text: 'That is the thing with recipes. Making something nice once is not the hard part. Making it taste exactly the same every time is where the trouble starts.' },
-   { type: 'p', text: 'If Hot Apple Gin were just warm apple juice with a splash of gin and a bit of cinnamon, we would probably have left it at that.' },
+   { type: 'p', text: 'If Hot Apple Gin were just warm apple juice with a splash of gin and a bit of spice, we would probably have left it at that.' },
    { type: 'quote', text: 'We did not.' },
    { type: 'p', text: 'It took us two years, a gin distilled specifically for this drink, and more test rounds than anyone should admit publicly to arrive at the recipe now known as Hot Apple Gin.' }
   ]
