@@ -16,9 +16,9 @@ const cheltenham = localFont({
 
 export const metadata: Metadata = {
  metadataBase: new URL('https://hotapplegin.com'),
- title: { default: 'Hot Apple Gin', template: '%s · Hot Apple Gin' },
- description: 'A Winter Cocktail, Served Warm',
- openGraph: { title: 'Hot Apple Gin', description: 'A Winter Cocktail, Served Warm', url: 'https://hotapplegin.com', siteName: 'Hot Apple Gin', type: 'website' }
+ title: { default: 'Hot Apple Gin · The Warm Winter Cocktail', template: '%s · Hot Apple Gin' },
+ description: 'Hot Apple Gin, the warm winter cocktail. Gin and spiced apple, gently heated and served warm. Crafted in Haarlem, the Netherlands.',
+ openGraph: { title: 'Hot Apple Gin · The Warm Winter Cocktail', description: 'Hot Apple Gin, the warm winter cocktail. Gin and spiced apple, gently heated and served warm. Crafted in Haarlem, the Netherlands.', url: 'https://hotapplegin.com', siteName: 'Hot Apple Gin', type: 'website' }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
