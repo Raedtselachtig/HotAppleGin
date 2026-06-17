@@ -32,7 +32,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     <Link className="cta animate-headline" href={`/${lang}/our-story`}>Where it began</Link>
    </div>
   </section>
-  <Band title="SERVED WARM" copy="Some things simply work better warm. Slowly heated. Carefully served." link={`/${lang}/serve`} label="Discover the Serve" image="wwbi-cafe-winter-terrace.jpg" />
+  <Band title="SERVED WARM" copy="Some things simply work better warm. Slowly heated. Carefully served." link={`/${lang}/serve`} label="Discover the Serve" image="served-warm-people.jpg" />
   <section className="section quiet-band">
    <div className="container">
     <div className="quiet-rule animate-headline" />
