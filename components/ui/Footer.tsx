@@ -7,7 +7,7 @@ export function Footer({ lang }: { lang: string }) {
  return <footer className="footer">
   <div className="container footer-inner">
    <Link href={`/${lang}`} className="footer-logo"><Logo small /></Link>
-   <p className="footer-tag">A Winter Cocktail · Served Warm</p>
+   <p className="footer-tag">The Warm Winter Cocktail</p>
    <nav className="footer-nav">{nav.map(([label, href]) => <Link key={label} href={`/${lang}/${href}`}>{label}</Link>)}</nav>
    <div className="footer-meta">
     <a href="https://www.instagram.com/hotapplegin" target="_blank" rel="noopener noreferrer">Instagram</a>
