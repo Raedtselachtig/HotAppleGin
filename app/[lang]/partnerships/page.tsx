@@ -1,4 +1,5 @@
 import { ContactForm } from '@/components/ui/Form';
+import { ImageSlot } from '@/components/ui/ImageSlot';
 
 export const metadata = { title: 'Partnerships' };
 
@@ -25,9 +26,14 @@ const steps: [string, string][] = [
 export default function Partnerships() {
  return <main>
   <section className="section" style={{ paddingTop: 170, paddingBottom: 40 }}>
-   <div className="container">
-    <h1 className="display section-title animate-headline">PARTNERSHIPS</h1>
-    <p className="copy animate-headline">A winter cocktail with a point of view, created for partners who value distinction. Built to perform across the rooms that matter, from hospitality venues to retail shelves and international distribution. A warm, refined serve that stands out through experience, not comparison.</p>
+   <div className="container grid-two" style={{ alignItems: 'start' }}>
+    <div>
+     <h1 className="display section-title animate-headline">PARTNERSHIPS</h1>
+     <p className="copy animate-headline">A winter cocktail with a point of view, created for partners who value distinction. Built to perform across the rooms that matter, from hospitality venues to retail shelves and international distribution. A warm, refined serve that stands out through experience, not comparison.</p>
+    </div>
+    <div className="animate-headline">
+     <ImageSlot name="partnerships-production.jpg" alt="Hot Apple Gin production" ratio="3/4" />
+    </div>
    </div>
   </section>
   <section className="section" style={{ paddingTop: 0, paddingBottom: 40 }}>
