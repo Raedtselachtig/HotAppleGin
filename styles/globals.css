@@ -126,6 +126,9 @@ img { max-width: 100%; display: block; }
 .serve-dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(175,139,63,.25); border: 0; padding: 0; transition: background .25s, transform .28s ease; cursor: pointer; }
 .serve-dot.active { background: var(--color-gold); transform: scale(1.55); }
 
+/* Partnerships header image — fills text column height */
+.partnerships-header-img { position: relative; overflow: hidden; border: 1px solid var(--line); min-height: 200px; }
+
 /* Legal pages */
 .legal .copy { max-width: 760px; margin-bottom: 18px; }
 .legal-date { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 36px; }
