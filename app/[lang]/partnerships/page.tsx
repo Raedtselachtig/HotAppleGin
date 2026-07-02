@@ -61,7 +61,7 @@ export default function Partnerships() {
      <h2 className="display section-title animate-headline">Become a partner</h2>
      <p className="copy">Hospitality, retail, distribution or seasonal events, tell us where Hot Apple Gin fits and we&rsquo;ll be in touch. One form, one conversation. We support our partners with product, serving guidance and brand assets.</p>
     </div>
-    <ContactForm fields={['Name', 'Company', 'Email', 'Message']} button="Send enquiry" subject="Verzoek van partnerships" />
+    <ContactForm fields={['Name', 'Company', 'Email', 'Message']} button="Send enquiry" subject="Verzoek van partnerships" fromName="Hot Apple Gin Family Co." />
    </div>
   </section>
  </main>;

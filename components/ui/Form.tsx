@@ -22,10 +22,12 @@ export function ContactForm({
  fields = ['Name', 'Email', 'Message'],
  button = 'Send',
  subject = 'Nieuw contactformulier',
+ fromName = 'Hot Apple Gin',
 }: {
  fields?: string[];
  button?: string;
  subject?: string;
+ fromName?: string;
 }) {
  const [status, setStatus] = useState<Status>('idle');
 
@@ -40,7 +42,7 @@ export function ContactForm({
    const res = await fetch('/api/contact', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ subject, fields: values }),
+    body: JSON.stringify({ subject, fields: values, fromName }),
    });
    setStatus(res.ok ? 'sent' : 'error');
   } catch {
