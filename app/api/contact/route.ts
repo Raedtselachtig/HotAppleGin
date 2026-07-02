@@ -1,7 +1,8 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const apiKey = process.env.RESEND_API_KEY || process.env.Resend;
+const resend = new Resend(apiKey);
 
 export async function POST(request: Request) {
  const { subject, fields } = await request.json().catch(() => ({}));
@@ -12,8 +13,8 @@ export async function POST(request: Request) {
   .map(([k, v]) => `${k}: ${v}`)
   .join('\n');
 
- if (!process.env.RESEND_API_KEY) {
-  console.log('[contact] no RESEND_API_KEY — skipping send\n', text);
+ if (!apiKey) {
+  console.log('[contact] no API key — skipping send\n', text);
   return NextResponse.json({ ok: true });
  }
 
