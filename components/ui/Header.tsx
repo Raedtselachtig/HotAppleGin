@@ -17,13 +17,13 @@ export function Header({ lang }: { lang: string }) {
   onScroll(); window.addEventListener('scroll', onScroll);
   return () => window.removeEventListener('scroll', onScroll);
  }, []);
- const hrefFor = (href: string) => `/${lang}/${href}`.replace(/\/$/, '');
- const isActive = (href: string) => pathname === hrefFor(href);
+ const hrefFor = (href: string) => href === '' ? '/' : `/${lang}/${href}`;
+ const isActive = (href: string) => href === '' ? pathname === '/' : pathname === hrefFor(href);
  return (
   <>
    <header className={`header ${scrolled ? 'scrolled' : ''}`}>
     <div className="container header-inner">
-     <Link href={`/${lang}`}><Logo /></Link>
+     <Link href="/"><Logo /></Link>
      <nav className="nav">{nav.map(([label, href]) => <Link key={label} className={isActive(href) ? 'active' : ''} href={hrefFor(href)}>{label}</Link>)}</nav>
      <button className="menu-button" onClick={() => setOpen(true)}>Menu</button>
     </div>

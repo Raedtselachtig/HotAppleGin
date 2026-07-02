@@ -1,3 +1,4 @@
+import { permanentRedirect } from 'next/navigation';
 import Link from 'next/link';
 import { Hero } from '@/components/sections/Hero';
 import { Band } from '@/components/sections/Band';
@@ -5,6 +6,7 @@ import { RickrollLine } from '@/components/ui/RickrollLine';
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
  const { lang } = await params;
+ if (lang === 'en') permanentRedirect('/');
  return <main>
   <Hero
    eyebrow="The Warm Winter Cocktail"
