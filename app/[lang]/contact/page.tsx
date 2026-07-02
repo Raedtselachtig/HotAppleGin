@@ -36,7 +36,7 @@ export default async function Contact({ params }: { params: Promise<{ lang: stri
      <h1 className="display section-title animate-headline">{"Let's Heat Things Up"}</h1>
      <p className="copy">{"If it's worth saying, it's worth sending. We're listening."}</p>
     </div>
-    <ContactForm fields={['Name', 'Email', 'Message']} button="Warm regards" />
+    <ContactForm fields={['Name', 'Email', 'Message']} button="Warm regards" subject="Nieuw contactformulier" />
    </div>
   </section>
   <section className="section" id="events" style={{ paddingTop: 0, scrollMarginTop: 120 }}>

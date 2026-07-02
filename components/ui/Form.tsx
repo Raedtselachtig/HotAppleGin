@@ -16,10 +16,41 @@ export function WaitlistForm() {
  );
 }
 
-export function ContactForm({ fields = ['Name', 'Email', 'Message'], button = 'Send' }: { fields?: string[]; button?: string }) {
- const [sent, setSent] = useState(false);
- function submit(event: FormEvent<HTMLFormElement>) { event.preventDefault(); setSent(true); }
- if (sent) return <p className="copy">Thanks. We&rsquo;ll be in touch.</p>;
+type Status = 'idle' | 'sending' | 'sent' | 'error';
+
+export function ContactForm({
+ fields = ['Name', 'Email', 'Message'],
+ button = 'Send',
+ subject = 'Nieuw contactformulier',
+}: {
+ fields?: string[];
+ button?: string;
+ subject?: string;
+}) {
+ const [status, setStatus] = useState<Status>('idle');
+
+ async function submit(e: FormEvent<HTMLFormElement>) {
+  e.preventDefault();
+  setStatus('sending');
+  const data = new FormData(e.currentTarget);
+  const values: Record<string, string> = {};
+  fields.forEach(f => { values[f] = (data.get(f.toLowerCase()) as string) || ''; });
+
+  try {
+   const res = await fetch('/api/contact', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ subject, fields: values }),
+   });
+   setStatus(res.ok ? 'sent' : 'error');
+  } catch {
+   setStatus('error');
+  }
+ }
+
+ if (status === 'sent') return <p className="copy">Thanks. We&rsquo;ll be in touch.</p>;
+ if (status === 'error') return <p className="copy">Something went wrong. Email us directly at <a href="mailto:info@hotapplegin.com">info@hotapplegin.com</a>.</p>;
+
  return (
   <form className="form" onSubmit={submit}>
    {fields.map((field) => field === 'Message' || field === 'Bericht' ? (
@@ -27,7 +58,9 @@ export function ContactForm({ fields = ['Name', 'Email', 'Message'], button = 'S
    ) : (
     <label className="field" key={field}>{field}<input className="input" name={field.toLowerCase()} type={field.toLowerCase().includes('email') || field.toLowerCase().includes('e-mail') ? 'email' : 'text'} required={!field.toLowerCase().includes('onderwerp')} /></label>
    ))}
-   <button className="cta" type="submit">{button}</button>
+   <button className="cta" type="submit" disabled={status === 'sending'}>
+    {status === 'sending' ? 'Sending...' : button}
+   </button>
   </form>
  );
 }
