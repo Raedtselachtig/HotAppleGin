@@ -23,7 +23,7 @@ export const availableImages = new Set<string>([
  'wwbi-slopeside-sun.jpg', 'wwbi-backyard.jpg', 'wwbi-icerink.jpg',
  'wwbi-hotel-canal-terrace.jpg', 'wwbi-autumn-walk.jpg', 'wwbi-rainy-restaurant.jpg',
  'wwbi-fancy-dinner.jpg', 'collection-bar.jpg', 'served-warm-people.jpg', 'partners-restaurant.jpg',
- 'partnerships-production.jpg'
+ 'partnerships-production.jpg', 'recipe-bottling-funnel.png'
 ]);
 
 // Achtergrond-video's in /public/videos. Hero/Band tonen de muted autoplay-loop
@@ -82,7 +82,7 @@ export const recipes = [
 export const recipeSections: { head: string; image: string; blocks: { type: string; text?: string; items?: string[] }[] }[] = [
  {
   head: 'Can you make Hot Apple Gin at home?',
-  image: 'recipe-apple-jars.jpg',
+  image: 'recipe-bottling-funnel.png',
   blocks: [
    { type: 'list', items: ['You can heat apple juice.', 'You can add gin.', 'You can even add spices.'] },
    { type: 'p', text: 'And then you can spend the rest of the evening wondering why it tastes so much different than you remembered.' },
