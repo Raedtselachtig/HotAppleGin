@@ -1,8 +1,15 @@
-import Link from 'next/link';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
 import { ContactForm } from '@/components/ui/Form';
 
-export const metadata = { title: 'Contact' };
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
+ const { lang } = await params;
+ const t = await getTranslations({ locale: lang, namespace: 'meta.titles' });
+ return { title: t('contact') };
+}
 
+// Evenementen zijn feitelijke data (namen, data, locaties) en veranderen per seizoen;
+// die blijven hier staan, los van de vertaallaag.
 type Ev = { name: string; tag: string; date: string; place: string; url: string; start: string; end: string };
 const events: Ev[] = [
  { name: 'Bar Convent Berlin', tag: 'Trade only', date: '12-14 October 2026', place: 'Exhibition Centre Berlin, Berlin', url: 'https://www.barconvent.com/berlin/en-gb.html', start: '2026-10-12', end: '2026-10-14' },
@@ -28,21 +35,23 @@ const eventSchema = {
 
 export default async function Contact({ params }: { params: Promise<{ lang: string }> }) {
  const { lang } = await params;
+ setRequestLocale(lang);
+ const t = await getTranslations('contact');
  return <main>
   <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventSchema) }} />
   <section className="section" style={{ paddingTop: 170 }}>
    <div className="container grid-two">
     <div>
-     <h1 className="display section-title animate-headline">{"Let's Heat Things Up"}</h1>
-     <p className="copy">{"If it's worth saying, it's worth sending. We're listening."}</p>
+     <h1 className="display section-title animate-headline">{t('title')}</h1>
+     <p className="copy">{t('intro')}</p>
     </div>
-    <ContactForm fields={['Name', 'Email', 'Message']} button="Warm regards" subject="Nieuw contactformulier" />
+    <ContactForm fields={['name', 'email', 'message']} button={t('formButton')} subject="Nieuw contactformulier" />
    </div>
   </section>
   <section className="section" id="events" style={{ paddingTop: 0, scrollMarginTop: 120 }}>
    <div className="container">
-    <h2 className="display section-title animate-headline">Find us where it matters most</h2>
-    <p className="copy">Come find us at selected trade shows, winter fairs and seasonal events.</p>
+    <h2 className="display section-title animate-headline">{t('eventsTitle')}</h2>
+    <p className="copy">{t('eventsCopy')}</p>
     <div className="event-list">
      {events.map(({ name, tag, date, place, url }) => (
       <a className="event-row" href={url} target="_blank" rel="noopener noreferrer" key={name}>
@@ -53,8 +62,8 @@ export default async function Contact({ params }: { params: Promise<{ lang: stri
      ))}
     </div>
     <div className="event-cta">
-     <p className="copy">Attending one of these? Let&rsquo;s set up a meeting.</p>
-     <Link className="cta" href={`/${lang}/partnerships#enquire`}>Become a partner</Link>
+     <p className="copy">{t('eventsCta')}</p>
+     <Link className="cta" href="/partnerships#enquire">{t('becomePartner')}</Link>
     </div>
    </div>
   </section>

@@ -1,0 +1,796 @@
+{
+  "nav": {
+    "home": "Home",
+    "collection": "Die Kollektion",
+    "ourStory": "Unsere Geschichte",
+    "serve": "Servieren",
+    "recipes": "Rezept",
+    "faq": "FAQ",
+    "partnerships": "Partnerships",
+    "contact": "Kontakt",
+    "menu": "Menü",
+    "close": "Schließen"
+  },
+  "footer": {
+    "tagline": "Der warme Wintercocktail",
+    "collection": "Die Kollektion",
+    "ourStory": "Unsere Geschichte",
+    "serve": "Servieren",
+    "recipes": "Rezept",
+    "faq": "FAQ",
+    "partnerships": "Partnerships",
+    "contact": "Kontakt",
+    "instagram": "Instagram",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "cookies": "Cookies",
+    "rights": "© 2026 Hot Apple Gin Family Co.",
+    "responsible": "Gute Dinge, in Maßen. Bitte verantwortungsvoll genießen."
+  },
+  "language": {
+    "label": "Sprache",
+    "en": "English",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "fr": "Français"
+  },
+  "home": {
+    "heroEyebrow": "Der warme Wintercocktail",
+    "heroTitle": "NEUE ERINNERUNGEN\nDIESELBE WÄRME",
+    "heroCta": "Die Kollektion entdecken",
+    "heroCta2": "Partner werden",
+    "manifesto": "Hot Apple Gin war nie als Marke gedacht. Er war dafür gedacht, mit Familie und Freunden genossen zu werden, im Winter, wenn man nirgendwo hin muss. Und das ist er eigentlich immer noch.",
+    "collectionBandTitle": "DIE KOLLEKTION",
+    "collectionBandCopy": "Flaschen für lange Abende und Menschen, die selten nach einem Glas gehen.",
+    "collectionBandLabel": "Die Kollektion entdecken",
+    "storyTitle": "UNSERE GESCHICHTE",
+    "storyCopy": "Gebaut auf Momente, nicht auf Anlässe.\nEin Getränk, das Menschen zusammenbringt.",
+    "storyLink": "Wo es begann",
+    "servedBandTitle": "WARM SERVIERT",
+    "servedBandCopy": "Manche Dinge funktionieren einfach besser warm. Langsam erwärmt. Sorgfältig serviert.",
+    "servedBandLabel": "Das Servieren entdecken",
+    "blendTitle": "WO WIR DAZUGEHÖREN",
+    "blendCopy": "Von stillen Abenden bis zu vollen Tischen.\nDifferent setting, same warmth.",
+    "blendLink": "Sehen, wo wir dazugehören",
+    "partnersBandTitle": "PARTNERSHIPS",
+    "partnersBandCopy": "Gemacht für die Momente, für die es sich zu bleiben lohnt.",
+    "partnersBandLabel": "Verfügbar für ausgewählte Partner",
+    "modernClassic": "EIN MODERNER KLASSIKER IM ENTSTEHEN",
+    "rickrollText": "Irgendjemand musste es sagen.",
+    "rickrollHint": "Sie wurden gerade gerickrollt. Tippen Sie irgendwo, um es zu stoppen."
+  },
+  "wwbi": {
+    "title": "WO WIR DAZUGEHÖREN",
+    "intro": "Von stillen Abenden bis zu vollen Tischen.\nDifferent setting, same warmth.\nIrgendwie fügen wir uns immer nahtlos ein.",
+    "tiles": [
+      { "image": "wwbi-terrace-two.jpg", "title": "Ihre Lieblingsterrasse", "line": "Nichts sagt 'nur eins' so gut wie die zweite Runde." },
+      { "image": "wwbi-apres-inside.jpg", "title": "Après-Ski", "line": "Wer braucht Skifahren, wenn man das haben kann?" },
+      { "image": "wwbi-christmas-dinner.jpg", "title": "Weihnachtsessen", "line": "Dresscode: fein gemacht.\nSind wir längst." },
+      { "image": "wwbi-market-crowd.jpg", "title": "Wintermärkte", "line": "Tausende Lichter.\nEine brillante Idee."},
+      { "image": "wwbi-backyard.jpg", "title": "Der Garten hinterm Haus", "line": "Wenn aus einem Drink im Garten ein ganzer Abend wird." },
+      { "image": "wwbi-icerink.jpg", "title": "Am Eisrand", "line": "Manche kamen wirklich zum Schlittschuhlaufen." },
+      { "image": "wwbi-garden-group-tap.jpg", "title": "An der Piste", "line": "Fünf Liter wirkten ehrgeizig.\nWaren sie nicht." },
+      { "image": "wwbi-fancy-dinner.jpg", "title": "Tischreservierung", "line": "Manchmal ist Früh-dran-Sein genau richtig." },
+      { "image": "wwbi-waiter-tray.jpg", "title": "Ihr Stammtisch", "line": "Aber der Tisch war noch nicht komplett." },
+      { "image": "wwbi-apres-outside.jpg", "title": "Den Aufstieg wert", "line": "Die Kälte machte ihren Punkt.\nWir unseren." },
+      { "image": "wwbi-autumn-walk.jpg", "title": "Nach einem langen Spaziergang", "line": "Als bräuchte man einen Spaziergang als Ausrede." },
+      { "image": "wwbi-hotel-canal-terrace.jpg", "title": "Hotelterrasse", "line": "Die Fünf-Sterne-Bewertung war nur ein Glas entfernt." },
+      { "image": "wwbi-firepit-group.jpg", "title": "Am Feuer", "line": "Niemand weiß mehr, wer angefangen hat." },
+      { "image": "wwbi-rainy-restaurant.jpg", "title": "Während es regnet", "line": "Wer braucht da noch einen Gesprächseinstieg." },
+      { "image": "wwbi-events.jpg", "title": "Events", "line": "Wo die Firmenfeier aufhört, sich verpflichtend anzufühlen." },
+      { "image": "wwbi-slopeside-sun.jpg", "title": "Abseits der Piste", "line": "Erstaunlich viel Skifahren passiert zwischen diesen Momenten." }
+    ]
+  },
+  "partnerships": {
+    "title": "PARTNERSHIPS",
+    "intro": "Ein Wintercocktail mit klarer Haltung, geschaffen für Partner, die Unterschied schätzen. Gebaut, um in den Räumen zu bestehen, die zählen, von Gastronomiebetrieben über Handelsregale bis zur internationalen Distribution. Eine warme, raffinierte Servierweise, die durch Erfahrung auffällt, nicht durch Vergleich.",
+    "workWithEyebrow": "Mit wem wir arbeiten",
+    "workWithSub": "Vier Einstiege. Wählen Sie den passenden und melden Sie sich unten.",
+    "workWith": [
+      { "title": "Bars, Restaurants & Hotels", "body": "Eine warme Servierweise, die sich ihren Platz auf der Winterkarte verdient und den Tisch etwas länger besetzt hält." },
+      { "title": "Handel & Spezialgeschäfte", "body": "Eine unverwechselbare Flasche, die sich im Regal behauptet, in den Monaten, die zählen." },
+      { "title": "Distributeure & Importeure", "body": "Eine junge Winterkategorie mit Raum zu wachsen, hinter einer Marke, die zum Reisen gemacht ist." },
+      { "title": "Eventpartner & Saisonkonzepte", "body": "Gemacht für Weihnachtsmärkte, Festivals und Winteraktivierungen. Wo alles begann." }
+    ],
+    "howItWorksEyebrow": "Wie es funktioniert",
+    "steps": [
+      { "title": "01 · Kontakt aufnehmen", "body": "Sagen Sie uns, wer Sie sind, Ihr Betrieb, Geschäft oder Ihre Distribution, und was Ihnen vorschwebt." },
+      { "title": "02 · Ein echtes Gespräch", "body": "Wir sprechen über Passung, Mengen, die Servierweise und Ihre Fragen." },
+      { "title": "03 · Bereit für den Start", "body": "Produkt, Servierhinweise und Markenmaterial, damit es richtig ankommt." }
+    ],
+    "whyEyebrow": "Warum Hot Apple Gin funktioniert",
+    "why": [
+      { "title": "Unverwechselbares Konzept", "body": "Eine warme, charaktervolle Servierweise mit sofortiger Anziehungskraft" },
+      { "title": "Starke Positionierung", "body": "Passt auf die Karte wie ins Regal" },
+      { "title": "Müheloser Ablauf", "body": "Einfache Zubereitung, gleichbleibende Qualität" },
+      { "title": "Einprägsames Erlebnis", "body": "Rund um Wärme und geteilte Momente gebaut" }
+    ],
+    "becomeTitle": "Partner werden",
+    "becomeCopy": "Gastronomie, Handel, Distribution oder Saisonevents, sagen Sie uns, wo Hot Apple Gin passt, und wir melden uns. Ein Formular, ein Gespräch. Wir unterstützen unsere Partner mit Produkt, Servierhinweisen und Markenmaterial.",
+    "formButton": "Anfrage senden"
+  },
+  "contact": {
+    "title": "Jetzt wird's heiß.",
+    "intro": "Ist es das Sagen wert, ist es das Senden wert. Wir hören zu.",
+    "formButton": "Warme Grüße",
+    "eventsTitle": "Finden Sie uns, wo es am meisten zählt",
+    "eventsCopy": "Besuchen Sie uns auf ausgewählten Fachmessen, Wintermärkten und Saisonevents.",
+    "eventsCta": "Sind Sie bei einem davon? Lassen Sie uns ein Treffen vereinbaren.",
+    "becomePartner": "Partner werden"
+  },
+  "form": {
+    "fields": { "name": "Name", "company": "Unternehmen", "email": "E-Mail", "message": "Nachricht" },
+    "sending": "Wird gesendet...",
+    "sent": "Danke. Wir melden uns.",
+    "errorPrefix": "Etwas ist schiefgelaufen. Schreiben Sie uns direkt an",
+    "waitlist": {
+      "sent": "Danke, wir übernehmen ab hier. Sie hören von uns, wenn die Wärme zurückkehrt.",
+      "name": "Name",
+      "email": "E-Mail",
+      "share": "Möchten Sie uns noch etwas mitteilen?",
+      "consent": "Ich bin 18+ und durchaus fähig, warme Entscheidungen zu treffen.",
+      "button": "Halten Sie mich warm"
+    }
+  },
+  "ageGate": {
+    "title": "Warme Drinks.\nErwachsene Regeln.",
+    "question": "Sind Sie alt genug, um Alkohol zu trinken?",
+    "confirm": "Ich bin alt genug",
+    "deny": "Noch nicht"
+  },
+  "collection": {
+    "heroTitle": "DIE KOLLEKTION",
+    "heroSubtitle": "Saisonal erhältlich",
+    "productCta": "Erfahren Sie es als Erster",
+    "waitlistTitle": "Erfahren Sie als Erster, wenn Hot Apple Gin zurückkehrt.",
+    "products": [
+      {
+        "title": "HOT APPLE GIN - THE ORIGINAL",
+        "copy": "Unsere charakteristische Flasche. Gemacht, um langsam erwärmt und großzügig eingeschenkt zu werden.\nDie Art Getränk, die aus einer Runde unmerklich zwei macht.",
+        "image": "IMG_4681.jpg",
+        "specs": "4.1% ABV · 1L"
+      },
+      {
+        "title": "HOT APPLE GIN 0.0",
+        "copy": "Die ganze Wärme. Kein Alkohol.\nImmer noch warm. Immer noch vielschichtig. Immer noch das Entschleunigen wert.",
+        "image": "IMG_4686.jpg",
+        "specs": "Alkoholfrei · 1L"
+      },
+      {
+        "title": "ORIGINAL GESCHENKSET",
+        "copy": "Das volle Hot Apple Gin-Erlebnis, bereit zum Verschenken.\nFür Menschen, für die man das gute Glas herausholt.",
+        "image": "IMG_4688.jpg",
+        "specs": "Geschenkset · 4.1% ABV · 1L"
+      },
+      {
+        "title": "0.0 GESCHENKSET",
+        "copy": "Das volle Ritual. Nur ohne den Alkohol.\nEin Geschenkset für warme Momente, bei denen es ohnehin nie wirklich um Alkohol ging.",
+        "image": "IMG_4687.jpg",
+        "specs": "Geschenkset · Alkoholfrei · 1L"
+      }
+    ]
+  },
+  "serve": {
+    "title": "SERVIEREN",
+    "intro": "Manche Dinge funktionieren einfach besser warm.\nLangsam erwärmt. Sorgfältig serviert.",
+    "stepNav": "Schrittnavigation",
+    "prevStep": "Vorheriger Schritt",
+    "nextStep": "Nächster Schritt",
+    "stepsLabel": "Schritte",
+    "stepAria": "Schritt {number}",
+    "steps": [
+      {
+        "label": "SCHRITT 1 - ÖFFNEN",
+        "lead": "Hier beginnt alles.",
+        "body": "Öffnen Sie die Flasche und gießen Sie Hot Apple Gin in einen Topf, sanft erwärmen, bis der erste Dampf aufsteigt. Nicht kochen, wir machen einen Cocktail, keine Suppe.",
+        "image": "IMG_1791.jpg"
+      },
+      {
+        "label": "SCHRITT 2 - ERWÄRMEN",
+        "lead": "Gute Dinge brauchen Wärme.",
+        "body": "Lassen Sie die Aromen sich langsam öffnen, während der Raum zu riechen beginnt, als hätten Sie\nheute Abend absolut die richtige Entscheidung getroffen.",
+        "image": "IMG_4655.jpg"
+      },
+      {
+        "label": "SCHRITT 3 - GARNIEREN",
+        "lead": "Eleganz lebt im Detail.",
+        "body": "Eine Scheibe Apfel. Ein Hauch Gewürz. Weil Details zählen, \nist das nicht einfach nur ein Getränk.",
+        "image": "IMG_4661.jpg"
+      },
+      {
+        "label": "SCHRITT 4 - SERVIEREN",
+        "lead": "Jetzt der gute Teil.",
+        "body": "Servieren Sie warm in einem Stielglas und lassen Sie das Aroma den Rest tun. Pluspunkte,\nwenn jemand sagt, dass es herrlich duftet, noch vor dem ersten Schluck.",
+        "image": "IMG_1784.jpg"
+      },
+      {
+        "label": "SCHRITT 5 - ENTSCHLEUNIGEN",
+        "lead": "Manche Drinks sind zum Festhalten gemacht.",
+        "body": "Warme Hände, langsame Gespräche und noch eine Runde, die sich plötzlich\nvollkommen angemessen anfühlte.",
+        "image": "IMG_4656.jpg"
+      }
+    ]
+  },
+  "recipes": {
+    "heroTitle": "REZEPT",
+    "orderCta": "The Original bestellen",
+    "classified": "Geheim",
+    "sections": [
+      {
+        "head": "Kann man Hot Apple Gin zu Hause machen?",
+        "image": "recipe-bottling-funnel.png",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Man kann Apfelsaft erwärmen.",
+              "Man kann Gin hinzufügen.",
+              "Man kann sogar Gewürze hinzufügen."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Und dann kann man den Rest des Abends damit verbringen, sich zu fragen, warum es so anders schmeckt, als man es in Erinnerung hatte."
+          },
+          {
+            "type": "p",
+            "text": "Das ist die Sache mit Rezepten. Etwas einmal gut zu machen ist nicht der schwere Teil. Es jedes Mal exakt gleich schmecken zu lassen, da fängt der Ärger an."
+          },
+          {
+            "type": "p",
+            "text": "Wäre Hot Apple Gin nur warmer Apfelsaft mit einem Schuss Gin und etwas Gewürz, hätten wir es wohl dabei belassen."
+          },
+          {
+            "type": "quote",
+            "text": "Haben wir nicht."
+          },
+          {
+            "type": "p",
+            "text": "Es kostete uns zwei Jahre, einen eigens für dieses Getränk destillierten Gin und mehr Testrunden, als man öffentlich zugeben sollte, um zu dem Rezept zu gelangen, das heute als Hot Apple Gin bekannt ist."
+          }
+        ]
+      },
+      {
+        "head": "Was ist in Hot Apple Gin?",
+        "image": "recipe-ingredients.jpg",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hot Apple Gin baut auf:"
+          },
+          {
+            "type": "ingredients",
+            "items": [
+              "Apfelsaft aus einer sorgfältig ausbalancierten Mischung von Apfelsorten",
+              "Unser eigener Gin, eigens für dieses Getränk destilliert",
+              "Ein vielschichtiges Gewürzprofil",
+              "Ein paar Dinge, die wir nicht einmal unseren Kindern verraten haben",
+              "Und die Disziplin, es jedes Mal gleich schmecken zu lassen"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Das vollständige Rezept?"
+          },
+          {
+            "type": "redacted",
+            "text": "Behalten wir es für uns, zum emotionalen Wohl aller."
+          },
+          {
+            "type": "p",
+            "text": "Es erspart Ihnen Enttäuschung, uns unangenehme E-Mails und Ihrem Therapeuten ein sehr spezifisches Gespräch."
+          }
+        ]
+      },
+      {
+        "head": "Warum wir das Rezept in Flaschen füllten",
+        "image": "recipe-bottling.jpg",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wir sind stolz, dass es uns gelungen ist, das Rezept in einer Flasche einzufangen."
+          },
+          {
+            "type": "p",
+            "text": "Der Apfel, der Gin, die Gewürze, die Extras, die Wärme, das Gefühl, alles im Gleichgewicht, bevor es Ihre Küche, Bar, Terrasse oder Wintertafel erreicht."
+          },
+          {
+            "type": "quote",
+            "text": "Das ist die Mission."
+          },
+          {
+            "type": "p",
+            "text": "Wo immer Hot Apple Gin serviert wird, soll er schmecken und sich anfühlen wie Hot Apple Gin."
+          },
+          {
+            "type": "lines",
+            "items": [
+              "Different setting.",
+              "Same warmth."
+            ]
+          },
+          {
+            "type": "triad",
+            "items": [
+              "Bereit zum Erwärmen.",
+              "Bereit zum Servieren.",
+              "Bereit zum Teilen mit Freunden und Familie."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Vergleichen wir uns mit Coca-Cola?"
+          },
+          {
+            "type": "quote",
+            "text": "Natürlich nicht."
+          },
+          {
+            "type": "p",
+            "text": "Wir sagen nur, dass es einen Grund gibt, warum bestimmte Rezepte geheim bleiben."
+          },
+          {
+            "type": "quote",
+            "text": "Außerdem wird unseres warm serviert."
+          }
+        ]
+      }
+    ]
+  },
+  "story": {
+    "heading": "UNSERE GESCHICHTE",
+    "howItStarted": "Wie es begann",
+    "originHeading": "Die Entstehung von Hot Apple Gin",
+    "chat": ["Warmer Gin… 🤔", "Hmmm…", "Ich glaube, ich versuche es trotzdem über die Weihnachtstage zu machen."],
+    "intro": "UNSERE GESCHICHTE\n\nHot Apple Gin war nie als Marke gedacht. Er war dafür gedacht, mit der Familie genossen zu werden, im Winter, wenn man nirgendwo hin muss. Was als stilles Experiment begann, wurde zu einem Rezept, das wir nicht für uns behalten konnten. Warm, vielschichtig und mit Sorgfalt gemacht: das ist ein Getränk, das in jedem Glas eine Geschichte trägt.\n\nWir sind stolz, sie endlich zu teilen.",
+    "origin": "Es begann mit einer Nachricht von einem Bruder, der einen Winter lang unterwegs war, ein Tipp, ein Anstoß, ein Gedanke, der einfach sagte: schau dir das an.\nDie Antwort kam fast sofort zurück:\n\n\"Warmer Gin… 🤔\"\n\"Hmmm…\"\n\"Ich glaube, ich versuche das über die Weihnachtstage zu machen.\"\n\nWas folgte, waren Wochen des Experimentierens, Anpassens und Von-vorn-Beginnens. Ein Gewürzsirup von Grund auf entwickelt. Verhältnisse nach Gefühl statt nach Maß justiert. Und ein Gin, um alles zu verbinden. Fast nichts aufgeschrieben. Es dauerte zwei volle Winter, bis das Rezept wurde, was es heute ist, aber irgendwo unterwegs hörte es auf, ein Experiment zu sein.\n\nEs wurde ein Ritual.\n\nJeden Winter kam die Familie zusammen. Brüder, Schwestern, Eltern, Kinder, Mäntel an, manchmal ein Feuer, oft draußen. Nach einem langen Spaziergang, einem Tag Einkaufen oder einfach nach einem kalten Tag heimkommen, zu guter Gesellschaft. Diese Nachmittage und Abende sind das, woraus Hot Apple Gin gemacht ist. Mit der Zeit wurde es unser Familienrezept. Die Art, die man nicht loslässt.\n\nDann kam der Moment, der alles veränderte. Wir waren zusammen, das Glas in der Hand, als jemand halb im Scherz und nicht ganz ernst sagte, dass andere Menschen das auch schmecken können sollten. Die Stille, die folgte, sagte alles.\n\nIm selben Jahr standen wir zum ersten Mal auf einem Weihnachtsmarkt. Wir waren durch alles hindurch, füllten hastig nach und waren erneut ausverkauft. Mehr als einmal. Wir vergessen das erste Glas, das wir an einen Fremden verkauften, nie, und das werden wir auch nie.\n\nIm Jahr darauf kamen Menschen zurück und fragten nach uns beim Namen. Das sagte uns alles, was wir wissen mussten.\n\nWir füllten unsere erste Charge ab. Die Reaktion bestätigte, was wir bereits fühlten. Heute machen wir Hot Apple Gin mit unserem eigenen Gin, eigens für dieses Rezept entwickelt. Und jetzt, diesen Winter, wird Hot Apple Gin zum ersten Mal in Bars und Restaurants in mehreren Ländern serviert, von Händen, die nicht die unseren sind, an Menschen, die wir nie getroffen haben.\n\nErwachsenwerden heißt loslassen, sagt man… Wir glauben, dafür sind wir bereit.\n\nWas an einem Familienfeuer begann, findet nun seinen Weg zu Tischen auf der ganzen Welt.\n\nDas, glauben wir, ist, wie ein Vermächtnis beginnt."
+  },
+  "faq": {
+    "title": "FAQ",
+    "categories": [
+      {
+        "title": "Was ist Hot Apple Gin?",
+        "items": [
+          {
+            "q": "Was ist Hot Apple Gin?",
+            "a": "Ein warmer Cocktail in der Flasche. Auf Gin-Basis, mit dem Apfel voran, warm serviert, gemacht für die Monate, in denen sich ein Gin Tonic wie eine verpasste Gelegenheit anfühlt. Es begann als Familienrezept, wurde ein wenig gegen die eigene Absicht zur Marke und hat seither nicht zurückgeblickt."
+          },
+          {
+            "q": "Ist Hot Apple Gin ein Gin?",
+            "a": "Gin ist die Grundlage, ja. Aber das ist kein Gin, den man mixt oder auf Eis serviert. Hot Apple Gin ist ein trinkfertiger Cocktail, vorgemischt, vollständig fertig, gemacht zum Erwärmen und Einschenken. Der Gin wurde eigens für dieses Rezept entwickelt."
+          },
+          {
+            "q": "Was ist ein warmer RTD-Cocktail?",
+            "a": "RTD steht für ready-to-drink, ein Cocktail, der vollständig zusammengesetzt ankommt. Hot Apple Gin ist ein warmer RTD: Sie erwärmen ihn, schenken ihn ein und reichen ihn jemandem. Keine Jigger, keine Blender, kein Barkeeper-Diplom. Die Kategorie der warmen RTDs wächst weltweit schnell, und Hot Apple Gin liegt am oberen Ende, dem einzigen Ende, das uns je interessiert hat."
+          },
+          {
+            "q": "Was unterscheidet Hot Apple Gin von Glühwein?",
+            "a": "Glühwein ist auf Weinbasis, schwerer, tanninreich und meist sehr süß. Hot Apple Gin baut auf Gin und Apfel, was ihn leichter, klarer und deutlich interessanter macht. Gleiche Temperatur. Eine völlig andere Kategorie."
+          },
+          {
+            "q": "Was unterscheidet Hot Apple Gin von heißem Cider?",
+            "a": "Heißer Cider ist vergorener Apfelsaft mit ein paar Gewürzen, rustikal, einfach und in Ordnung für das, was er ist. Hot Apple Gin ist ein handwerklicher Cocktail mit einem Rezept, das zwei Winter brauchte, um zu stimmen. Wenn Cider das lässige Ende des Apfelspektrums ist, dann ist Hot Apple Gin das andere Ende, ganz."
+          },
+          {
+            "q": "Was unterscheidet Hot Apple Gin von gewöhnlichem Cider?",
+            "a": "Kalter Cider ist ein Sommergetränk, spritzig, erfrischend, unkompliziert. Hot Apple Gin ist warm, still, auf Gin-Basis und für ganz anderes Wetter gemacht. Apfel ist das Einzige, was sie teilen. Darüber hinaus sind sie nicht wirklich im selben Gespräch."
+          },
+          {
+            "q": "Was unterscheidet Hot Apple Gin von einem gewöhnlichen Gin Tonic?",
+            "a": "Saison, Temperatur und Absicht. Ein Gin Tonic ist kalt, spritzig und für eine Terrasse im Juli gemacht. Hot Apple Gin ist warm, still und für die andere Hälfte des Jahres gemacht. Im Kern dieselbe Spirituose, ein völlig anderes Erlebnis. Beide haben ihren Platz. Dieser hat im Winter nur das bessere Timing."
+          },
+          {
+            "q": "Ist Hot Apple Gin saisonal oder ganzjährig erhältlich?",
+            "a": "Saisonal. Hot Apple Gin ist für die kälteren Monate gemacht, Herbst, Winter, Weihnachtsmärkte, langsame Abende, die in etwas Ungeplantes übergehen. Er ist nicht ganzjährig erhältlich. Knappheit steht ihm, wie sich zeigt, gut."
+          },
+          {
+            "q": "Ich mag keinen Gin. Ist Hot Apple Gin trotzdem etwas für mich?",
+            "a": "Ja. Der Gin arbeitet im Hintergrund, fügt Tiefe, Botanicals und einen Abgang hinzu, den Apfelsaft allein nie hinbekäme. Aber er drängt sich nicht auf. Menschen, die behaupten, keinen Gin zu mögen, genießen den ganzen Abend Hot Apple Gin, ohne es ein einziges Mal zu erwähnen. Wie ich Sie kenne, werden Sie einer davon sein."
+          },
+          {
+            "q": "Ich liebe Gin. Ist Hot Apple Gin etwas für mich?",
+            "a": "Dann werden Sie genau zu schätzen wissen, was drin ist. Ein niederländischer Gin, eigens für dieses Rezept entwickelt, kein nachträglicher Einfall, keine Basis von der Stange. Er ist in jedem Schluck da. Sie werden einfach die Person am Tisch sein, die es bemerkt."
+          },
+          {
+            "q": "Ich habe andere warme Apfelgetränke gesehen, ist das dasselbe?",
+            "a": "Es gibt reichlich warme Apfelgetränke. Wir haben gehört, es gibt sogar ein paar, die sich ähnlich nennen. Es gibt einen Hot Apple Gin. Leicht zu erkennen. Schwer zu vergessen."
+          }
+        ]
+      },
+      {
+        "title": "Geschmack & Zutaten",
+        "items": [
+          {
+            "q": "Wie schmeckt Hot Apple Gin?",
+            "a": "Warmer Apfel vorneweg, aufgebaut auf einer Mischung gepresster Apfelsorten. Botanische Tiefe vom Gin darunter. Ein vielschichtiger Gewürzabgang, der bleibt, ohne zu lange zu bleiben. Und ein Aroma, im Moment des Erwärmens, das die halbe Arbeit erledigt, bevor jemand einen Schluck nimmt."
+          },
+          {
+            "q": "Ist das nicht einfach warmer Apfelsaft?",
+            "a": "Sie könnten Ihre Familie versammeln, etwas Apfelsaft erwärmen und einen guten Gin dazugeben. Und dann den Rest des Abends damit verbringen, allen zu erklären, warum Sie dachten, das wäre dasselbe. Hot Apple Gin baut auf einer sorgfältig entwickelten Mischung von Apfelsorten, einem niederländischen Gin eigens für dieses Rezept und einer Gewürzbalance, die zwei volle Winter brauchte, um zu stimmen. Warmer Apfelsaft ist ein feines Getränk. Das hier ist etwas anderes."
+          },
+          {
+            "q": "Ist Hot Apple Gin süß?",
+            "a": "Süß genug, um einladend zu sein. Nicht süß genug, um ein Problem zu werden. Der Apfel gibt Wärme und Fülle; die Botanicals und Gewürze des Gins halten ihn davon ab, ins Dessert-Gebiet zu kippen. Die meisten, die etwas Sirupartiges erwarten, sind angenehm überrascht."
+          },
+          {
+            "q": "Enthält Hot Apple Gin echten Apfelsaft?",
+            "a": "Ja. Die Basis ist eine Mischung gepresster Apfelsorten, verschiedene Äpfel bringen verschiedene Dinge in den Geschmack, und die Mischung wurde sorgfältig gewählt. Darüber hinaus: Gin und ein Gewürzrezept, das zwei volle Winter brauchte, um fertig zu werden."
+          },
+          {
+            "q": "Welche Zutaten stecken in Hot Apple Gin?",
+            "a": "Eine Mischung von Apfelsäften aus mehreren Sorten, niederländischer Gin eigens für dieses Rezept entwickelt, und eine Gewürzmischung, die wir nicht vollständig preisgeben, nicht aus Geheimniskrämerei, sondern weil zwei Winter voller Versuch und Irrtum ein wenig Geheimnis verdienen."
+          },
+          {
+            "q": "Wie lautet das genaue Rezept?",
+            "a": "Wir könnten es Ihnen sagen. Aber dann müssten wir Sie leider töten. Zwei Winter Testen, eine von Grund auf entwickelte Gewürzmischung und ein eigens für dieses Rezept gebauter Gin, weiter gehen wir nicht. Kaufen Sie die Flasche. Das ist einfacher."
+          },
+          {
+            "q": "Enthält Hot Apple Gin Koffein?",
+            "a": "Nein. Die Wärme ist ganz natürlich."
+          },
+          {
+            "q": "Wie viele Kalorien hat Hot Apple Gin?",
+            "a": "Kalorienangaben finden Sie auf dem Produktetikett. Bei 4.1% ABV liegt die Kalorienlast pro Glas deutlich unter der der meisten hochprozentigen Spirituosen oder Cocktails. Etwas, das man im Hinterkopf behält, wenn jemand am Tisch unweigerlich danach fragt."
+          }
+        ]
+      },
+      {
+        "title": "Alkohol & Ernährung",
+        "items": [
+          {
+            "q": "Wie viel Alkohol enthält Hot Apple Gin?",
+            "a": "Das Original hat 4.1% ABV, vergleichbar mit einem kräftigen Bier. Die 0.0-Version enthält keinen Alkohol. Zwei Flaschen, dasselbe Ritual, ein anderer Morgen danach."
+          },
+          {
+            "q": "Gilt 4.1% ABV als alkoholarm?",
+            "a": "Ja, alkoholarm nach den meisten regulatorischen und verbraucherüblichen Maßstäben. Es war eine bewusste Entscheidung. Die Wärme, das Aroma und das Ritual hängen nicht von hohem Alkoholgehalt ab. Sie können einen ganzen Abend haben, ohne die Art von Entscheidungen, die Sie am Dienstag bereuen."
+          },
+          {
+            "q": "Gibt es eine alkoholfreie Version von Hot Apple Gin?",
+            "a": "Ja. Hot Apple Gin 0.0, die ganze Wärme, kein Alkohol. Dieselbe Apfelmischung, dieselben Gewürze, dasselbe Aroma beim Erwärmen. Es ist kein Kompromiss; es ist dasselbe Getränk mit einem anderen Ende. Erhältlich über Die Kollektion."
+          },
+          {
+            "q": "Wie schmeckt Hot Apple Gin 0.0?",
+            "a": "Warm, vielschichtig und das Entschleunigen wert. Das Apfel- und Gewürzprofil ist vollständig erhalten. Ob Sie den Alkohol aus Wahl oder aus Umständen weglassen, das Erlebnis hält stand. Manche bevorzugen ihn. Wir verstehen, warum. Siehe Die Kollektion."
+          },
+          {
+            "q": "Ist Hot Apple Gin vegan?",
+            "a": "Ja. Keine Tiere kamen zu Schaden. Nur ein paar Äpfel."
+          },
+          {
+            "q": "Ist Hot Apple Gin glutenfrei?",
+            "a": "Hot Apple Gin enthält keine glutenhaltigen Zutaten. Wenn Sie Zöliakie oder eine ernste Unverträglichkeit haben, beachten Sie das Produktetikett für alle Details, Produktionsumgebungen können variieren, und wir sehen Sie lieber prüfen als annehmen."
+          },
+          {
+            "q": "Enthält Hot Apple Gin Allergene?",
+            "a": "Vollständige Allergeninformationen stehen auf dem Produktetikett. Wenn Sie eine bestimmte Allergie haben, prüfen Sie das Etikett oder kontaktieren Sie uns vor dem Konsum. Wir beantworten lieber eine Frage, als ein Problem zu verursachen."
+          }
+        ]
+      },
+      {
+        "title": "Servieren & Erwärmen",
+        "items": [
+          {
+            "q": "Wie wird Hot Apple Gin serviert?",
+            "a": "Erwärmt. In ein Stielglas geschenkt. Garniert mit einer Scheibe Apfel und, wenn Sie es richtig machen, einem Hauch Gewürz. Fünf Schritte, keiner davon schwierig. Das ganze Ritual steht auf Servieren, und es lohnt sich, ihm zu folgen."
+          },
+          {
+            "q": "Was ist die ideale Serviertemperatur?",
+            "a": "Warm, nicht kochend. Erwärmen Sie ihn sanft, bis der erste Dampf aufsteigt, irgendwo um 65-70°C. Heiß genug, dass das Aroma den Raum füllt. Kühl genug, dass sich niemand die Lippe verbrennt. Dieses Fenster ist kleiner, als es klingt, aber leichter zu treffen, als es sich liest."
+          },
+          {
+            "q": "Kann Hot Apple Gin auch kalt serviert werden?",
+            "a": "Er heißt nicht ohne Grund Hot Apple Gin. Sie könnten ihn kalt servieren, so wie Sie Champagner warm servieren könnten. Wir sind nicht hier, um zu urteilen. Wir sind hier, um anzumerken, dass manche Namen einen Zweck haben."
+          },
+          {
+            "q": "Wie erwärme ich Hot Apple Gin zu Hause?",
+            "a": "Topf, niedrige bis mittlere Hitze, sanft rühren, herunternehmen, sobald Dampf erscheint. Das war's. Nicht kochen, Sie machen einen Cocktail, keine Reduktion. Vollständige Schritt-für-Schritt-Anleitung auf Servieren."
+          },
+          {
+            "q": "Kann Hot Apple Gin in der Mikrowelle erwärmt werden?",
+            "a": "Können Sie. Aber ein Topf braucht zwei Minuten und das Ergebnis ist merklich besser. Mikrowellen erhitzen ungleichmäßig und man schießt leicht über das Ziel hinaus. Manche Abkürzungen sind die dreißig Sekunden, die sie sparen, nicht wert."
+          },
+          {
+            "q": "Kann Hot Apple Gin im Topf erwärmt werden?",
+            "a": "Ja, und das ist die empfohlene Methode. Niedrige bis mittlere Hitze, sanft rühren, vom Herd in dem Moment, in dem Dampf erscheint. Einfach genug, dass es keine Ausrede gibt, es falsch zu machen."
+          },
+          {
+            "q": "Kann Hot Apple Gin in größeren Mengen für Feiern serviert werden?",
+            "a": "Ja. Erwärmen Sie den ganzen Liter in einem Topf oder skalieren Sie mit mehreren Flaschen in einem größeren Topf hoch. Halten Sie ihn auf niedrigster Stufe, um die Temperatur ohne Kochen zu halten. Eine Kelle und genug Gläser sind die ganze Ausrüstung, die Sie brauchen. In größeren Mengen kommt er erst richtig zur Geltung, das Aroma im Raum übernimmt das Marketing für Sie."
+          },
+          {
+            "q": "Welche Garnitur passt am besten zu Hot Apple Gin?",
+            "a": "Eine dünne Scheibe frischer Apfel ist der Klassiker. Ein leichter Hauch Gewürz ergänzt das Bild. Die Garnitur zählt, sie sollte so gut aussehen, wie sie riecht, denn man schaut, bevor man trinkt."
+          },
+          {
+            "q": "Sollte ich zusätzliche Gewürze hinzufügen?",
+            "a": "Die Gewürzmischung steckt bereits im Rezept, es muss nichts hinzu. Ein Hauch Gewürz als Garnitur ist eine Frage der Präsentation, keine Geschmackskorrektur. Das Getränk ist fertig, bevor es Sie erreicht."
+          },
+          {
+            "q": "Welches Glas sollte ich verwenden?",
+            "a": "Ein Stielglas, Weinglas oder eine Coupe. Der Stiel hält Ihre Hand von der Wärme fern. Er macht es auch zu dem Anlass, der es ist. Eine hitzebeständige Tasse tut es, wenn das ist, was Sie haben. Aber ein richtiges Glas macht einen Unterschied. Das tut es immer."
+          },
+          {
+            "q": "Kann Hot Apple Gin in Cocktails oder Mixgetränken verwendet werden?",
+            "a": "Er ist ein vollständiger Cocktail, so wie er abgefüllt ist. Sie könnten etwas hinzufügen. Manche geben Ketchup auf ein perfektes Steak. Wir sind nicht hier, um Sie aufzuhalten, nur um anzumerken, dass manche Dinge für sich perfekt sind."
+          },
+          {
+            "q": "Kann Hot Apple Gin beim Kochen oder in Desserts verwendet werden?",
+            "a": "Ja, und es ist eine bessere Idee, als es klingen mag. Warmer Apfel und Gewürz übersetzen sich gut in Glasuren für Ente oder Schwein, Sirupe aus pochierter Birne oder gewürzte Kuchenteige. Der Alkohol verkocht. Der Geschmack bleibt."
+          }
+        ]
+      },
+      {
+        "title": "Anlässe & Events",
+        "items": [
+          {
+            "q": "Eignet sich Hot Apple Gin für Weihnachtsmärkte und Winterevents?",
+            "a": "Er wurde praktisch dafür gemacht. Tragbar, leicht in größeren Mengen zu erwärmen, und das Aroma allein zieht Menschen an, bevor ein Wort gesagt ist. Wir wissen es, wir haben auf einem Weihnachtsmarkt angefangen. Wir waren am ersten Tag zweimal ausverkauft. Wir haben es nie vergessen."
+          },
+          {
+            "q": "Kann Hot Apple Gin in Skihütten oder Après-Ski-Bars serviert werden?",
+            "a": "Er gehört dorthin. Warm, vielschichtig, alkoholarm genug, um am Berg funktionsfähig zu bleiben. Er erwärmt sich schnell, das Format für größere Mengen passt perfekt für eine belebte Hütte, und es ist die Art Getränk, über die Menschen danach sprechen. Das ist keine Kleinigkeit."
+          },
+          {
+            "q": "Eignet sich Hot Apple Gin als Willkommensgetränk?",
+            "a": "Ja. Ein warmes Willkommensgetränk im Winter macht ein Statement, das kalter Prosecco nicht macht. Richtig serviert, Stielglas, Garnitur an Ort und Stelle, setzt es den Ton, bevor jemand sitzt."
+          },
+          {
+            "q": "Kann Hot Apple Gin in Gastronomie oder Catering eingesetzt werden?",
+            "a": "Ja. Einfach zuzubereiten, gleichbleibend in der Qualität und die Art Servierweise, die eine Karte einprägsam macht. Hot Apple Gin funktioniert in allerlei Gastronomieumgebungen, von Hotellounges über Cateringbetriebe bis zu Weinkarten mit Ambition. Mehr auf der Partnerships-Seite."
+          },
+          {
+            "q": "Was sind die besten Anlässe, um Hot Apple Gin zu servieren?",
+            "a": "Kalte Abende mit Menschen, die man nicht gehen sehen möchte. Weihnachtsessen, Winterterrassen, Skihütten, Firmenevents, bei denen noch eine Flasche Prosecco die einfache, und falsche, Wahl gewesen wäre. Überall, wo Wärme zählt, buchstäblich oder anderweitig."
+          }
+        ]
+      },
+      {
+        "title": "Lagerung & Haltbarkeit",
+        "items": [
+          {
+            "q": "Wie sollte ich Hot Apple Gin lagern?",
+            "a": "Kühl, dunkel, aufrecht. Ein Schrank oder eine Speisekammer genügt. Vor dem Öffnen keine Kühlung nötig."
+          },
+          {
+            "q": "Muss Hot Apple Gin gekühlt werden?",
+            "a": "Nicht vor dem Öffnen. Nach dem Öffnen verlängert der Kühlschrank die Haltbarkeit, und bei 4.1% ABV ist die Haltbarkeit nach dem Öffnen kürzer als die einer hochprozentigen Spirituose. Sehen Sie ihn als schicken Saft mit einem Gin-Problem."
+          },
+          {
+            "q": "Wie ist die Haltbarkeit einer ungeöffneten Flasche?",
+            "a": "Das Mindesthaltbarkeitsdatum steht auf der Flasche. Richtig gelagert hält er sich gut durch. Sie zu kaufen und dann ein Jahr zu vergessen ist keine Lagerstrategie, die wir empfehlen."
+          },
+          {
+            "q": "Wie lange hält Hot Apple Gin nach dem Öffnen?",
+            "a": "Ein paar Wochen bei Raumtemperatur, länger im Kühlschrank. Ein niedriger Alkoholgehalt bedeutet, dass er nicht ewig hält, sobald Luft hineinkommt. Der praktische Rat: Lassen Sie nicht viel in der Flasche. Problem gelöst."
+          },
+          {
+            "q": "Kann ich Hot Apple Gin mehrmals erwärmen?",
+            "a": "Ein- oder zweimal ist in Ordnung. Wiederholtes Erwärmen mindert den Geschmack und flacht das Aroma ab. Besser nur so viel erwärmen, wie Sie in einem Zug trinken. Das ist keine schwer zu haltende Disziplin."
+          }
+        ]
+      },
+      {
+        "title": "Bestellung & Versand",
+        "items": [
+          {
+            "q": "In welchen Ländern ist Hot Apple Gin erhältlich?",
+            "a": "Online bestellen ist international möglich, und unsere Handelspräsenz wächst mit jeder Saison. Für die aktuelle Verfügbarkeit in Ihrem Land prüfen Sie den Webshop oder kontaktieren Sie uns direkt. Wir arbeiten daran, irgendwo in Ihrer Nähe zu sein, schneller, als Sie erwarten würden."
+          },
+          {
+            "q": "Wie lange dauert die Lieferung?",
+            "a": "Innerhalb der Niederlande in der Regel 1-3 Werktage. Internationale Bestellungen variieren je nach Ziel, Sie sehen einen geschätzten Zeitrahmen beim Bezahlen. Wenn Sie von weit her bestellen: wir wissen die Mühe zu schätzen."
+          },
+          {
+            "q": "Was kostet der Versand?",
+            "a": "Wird beim Bezahlen anhand von Standort und Bestellgröße berechnet. Es können Schwellen für kostenlosen Versand gelten, prüfen Sie den Webshop für die aktuellen Konditionen."
+          },
+          {
+            "q": "Kann ich meine Bestellung verfolgen?",
+            "a": "Ja. Ein Tracking-Link kommt per E-Mail, sobald Ihre Bestellung versandt ist. Ist er nicht aufgetaucht, prüfen Sie zuerst den Spam und melden Sie sich dann. Wir kümmern uns darum."
+          },
+          {
+            "q": "Was, wenn meine Flasche beschädigt ankommt?",
+            "a": "Das sollte nicht passieren. Wenn doch: kontaktieren Sie uns mit einem Foto und Ihren Bestelldaten. Wir machen es wieder gut, ohne Diskussion."
+          },
+          {
+            "q": "Kann ich meine Bestellung zurückgeben?",
+            "a": "Rückgaben folgen den geltenden Verbraucherschutzregeln. Stimmt etwas nicht, melden Sie sich, wir lösen es lieber, als Sie mit einem Problem sitzen zu lassen."
+          }
+        ]
+      },
+      {
+        "title": "Geschenke & Geschenksets",
+        "items": [
+          {
+            "q": "Bietet Hot Apple Gin Geschenksets an?",
+            "a": "Ja, und es sind Geschenke, an die man sich wirklich erinnert. Das Original Geschenkset kombiniert Hot Apple Gin mit allem für das volle Ritual. Das 0.0 Geschenkset tut dasselbe, ohne den Alkohol. Beide erhältlich über Die Kollektion. Für Menschen, für die man das gute Glas herausholt."
+          },
+          {
+            "q": "Kann ich einer Geschenkbestellung eine persönliche Nachricht hinzufügen?",
+            "a": "Ja. Eine Option für eine persönliche Nachricht ist beim Bezahlen verfügbar. Halten Sie es kurz oder machen Sie es bedeutsam, Ihre Wahl."
+          },
+          {
+            "q": "Bieten Sie Geschenkverpackung an?",
+            "a": "Die Verpackung kommt bereit zum Verschenken. Haben Sie darüber hinaus besondere Wünsche, kontaktieren Sie uns vor der Bestellung und wir sehen, was möglich ist."
+          },
+          {
+            "q": "Eignet sich Hot Apple Gin als Firmengeschenk?",
+            "a": "Ja, und es ist eines, das in Erinnerung bleibt, was der Sinn eines Firmengeschenks ist. Warm, unverwechselbar und nicht noch eine Flasche Wein, die jemand an einem Dienstag öffnet. Erhältlich in Flaschen und Geschenksets, mit Optionen für größere Bestellungen. Melden Sie sich über die Partnerships-Seite."
+          }
+        ]
+      },
+      {
+        "title": "Geschäft & Großhandel",
+        "items": [
+          {
+            "q": "Beliefern Sie Bars, Restaurants und Hotels?",
+            "a": "Ja. Hot Apple Gin ist für Orte gemacht, die den Moment schätzen, Hotellounges, Restaurantkarten mit Haltung, Winterterrassen, die etwas Bestellenswertes wollen. Wir arbeiten mit Partnern, denen die Servierweise am Herzen liegt, nicht nur die Marge. Mehr auf der Partnerships-Seite."
+          },
+          {
+            "q": "Arbeiten Sie mit Distributeuren?",
+            "a": "Ja, und wir expandieren aktiv. Wenn Sie ein Vertriebsunternehmen vertreten und eine Passung sehen, wollen wir von Ihnen hören. Nehmen Sie über Partnerships Kontakt auf."
+          },
+          {
+            "q": "Kann ich Hot Apple Gin in meinem Geschäft verkaufen?",
+            "a": "Handel und Spezialgeschäfte für Spirituosen gehören zu unserem Partnernetz. Wenn Ihre Regale Platz für etwas haben, das sich seinen Platz verdient, lassen Sie uns reden. Beginnen Sie über Partnerships."
+          },
+          {
+            "q": "Bieten Sie Mengen- oder Großhandelspreise?",
+            "a": "Wir veröffentlichen keine Preisliste, wir bauen Partnerships. Gute Dinge beginnen mit einem Gespräch, und wir kümmern uns um die Menschen, mit denen wir arbeiten. Melden Sie sich über Partnerships und wir nehmen es von dort."
+          },
+          {
+            "q": "Kann ich Hot Apple Gin auf Festivals oder Events servieren?",
+            "a": "Ja, Saisonevents und Festivalkonzepte liegen nah an unseren Wurzeln. Hot Apple Gin begann auf einem Weihnachtsmarkt. Planen Sie eine Winteraktivierung und sehen eine Passung, nehmen Sie über Partnerships Kontakt auf."
+          },
+          {
+            "q": "Stellen Sie POS- oder Werbematerial bereit?",
+            "a": "Wir unterstützen unsere Partner mit Markenmaterial und Servierhinweisen an jedem Kontaktpunkt. Spezifische POS-Wünsche lassen sich beim Aufsetzen der Partnerschaft besprechen. Uns liegt daran, wie es in Ihrem Raum aussieht, denn es fällt auf unseren zurück."
+          },
+          {
+            "q": "Sind maßgeschneiderte Marken-Kollaborationen möglich?",
+            "a": "Möglich. Wir sind wählerisch, eine schlechte Passung nützt niemandem. Haben Sie ein Konzept, das Sinn ergibt, hören wir zu."
+          },
+          {
+            "q": "Wie kann ich mehr Informationen über Großhandel oder Partnerships anfragen?",
+            "a": "Über die Partnerships-Seite oder über das Kontaktformular. Wir ziehen ein echtes Gespräch einer Broschürenanfrage vor."
+          }
+        ]
+      },
+      {
+        "title": "Marke & Geschichte",
+        "items": [
+          {
+            "q": "Woher kommt Hot Apple Gin?",
+            "a": "Aus Haarlem, Niederlande. Die Stadt, die einem Viertel in New York ihren Namen gab und der Welt nun einen warmen Gin-Cocktail gibt. Wir halten beides für einen angemessenen Beitrag."
+          },
+          {
+            "q": "Wer hat Hot Apple Gin erschaffen?",
+            "a": "Kein Konzern. Keine F&E-Abteilung. Keine Fokusgruppe. Eine Familie, ein Rezept und die Art Handwerk, die nicht mit einem Organigramm kommt."
+          },
+          {
+            "q": "Ist Hot Apple Gin ein Familienunternehmen?",
+            "a": "Es ist ein Unternehmen. Aber vor allem ist es eine Familienangelegenheit, eine, die zu einem Unternehmen wurde. Ein Familienunternehmen. Der Name ist ein ziemlich deutlicher Hinweis."
+          },
+          {
+            "q": "Warum wurde Hot Apple Gin erschaffen?",
+            "a": "Warum ist der Himmel blau? Warum ist das Gras grün? Manche Dinge sind einfach dazu bestimmt. Eine Liebe fürs Handgemachte, ein Funke Inspiration und zwei Winter obsessiver Verfeinerung, so entstand Hot Apple Gin. Wir haben längst aufgehört, nach dem Warum zu fragen."
+          },
+          {
+            "q": "Wo wird Hot Apple Gin produziert?",
+            "a": "In den Niederlanden. Der Gin ist eigens für dieses Rezept entwickelt, nicht zugekauft, nicht ersetzt. Dafür gebaut."
+          },
+          {
+            "q": "Was inspirierte das Rezept?",
+            "a": "Eine Nachricht. Ein Anstoß. Ein Winterexperiment, das sich weigerte, ein Experiment zu bleiben. Die ganze Geschichte steht auf der Website, und sie ist zwei Minuten wert."
+          },
+          {
+            "q": "Warum nennen Sie es einen Wintercocktail?",
+            "a": "Weil die meisten Getränke, die behaupten, das ganze Jahr zu funktionieren, für keine Jahreszeit entworfen wurden. Hot Apple Gin ist für kaltes Wetter gemacht, langsame Abende und die Art Gesellschaft, die man nicht gehen sehen möchte. Das ist ein Wintergetränk."
+          }
+        ]
+      },
+      {
+        "title": "Nachhaltigkeit & Verpackung",
+        "items": [
+          {
+            "q": "Kann ich die Flasche von Hot Apple Gin recyceln?",
+            "a": "Ja. Glas, vollständig recycelbar. Eine so gut gestaltete Flasche verdient ein zweites Leben, selbst wenn dieses Leben etwas weniger Interessantes ist."
+          },
+          {
+            "q": "Wie steht Hot Apple Gin zum Thema Nachhaltigkeit?",
+            "a": "Wir denken ernsthaft darüber nach und benutzen es nicht als Marketing-Schlagzeile. Nachhaltige Entscheidungen sind eingebaut in die Art, wie wir produzieren und verpacken, nicht nachträglich aufgesetzt. Wir werden mehr dazu sagen, während wir wachsen, und wir sagen es, wenn es verdient ist."
+          }
+        ]
+      },
+      {
+        "title": "Finden & Folgen",
+        "items": [
+          {
+            "q": "Ist Hot Apple Gin im Handel erhältlich?",
+            "a": "Die Handelsverfügbarkeit wächst jede Saison in ganz Europa. Der schnellste Weg ist immer der Webshop auf hotapplegin.com, internationaler Versand verfügbar. Wollen Sie es in einem bestimmten Geschäft in Ihrer Nähe, lassen Sie es uns wissen. Anfragen für Verkaufsstellen nehmen wir ernst."
+          },
+          {
+            "q": "Wo kann ich Hot Apple Gin in meiner Nähe kaufen?",
+            "a": "Beginnen Sie auf hotapplegin.com. Der Handel wächst, aber der Webshop versendet international und ist immer die verlässlichste Option. Sind Sie irgendwo, wo wir noch nicht sind, ist das eine nützliche Information für uns."
+          },
+          {
+            "q": "Kann ich Hot Apple Gin auf Fachmessen oder Events besuchen?",
+            "a": "Ja, wir sind auf Fachmessen und Saisonevents präsent. Folgen Sie uns auf Instagram für Ankündigungen oder melden Sie sich über die Seite Die Kollektion an. Wir kündigen Dinge nicht zweimal an."
+          },
+          {
+            "q": "Bieten Sie Limited Editions an?",
+            "a": "Die Kollektion ist von Natur aus saisonal, und wir erkunden neue Ausführungen, wenn das Timing stimmt. Folgen Sie auf Instagram oder melden Sie sich für frühen Zugang an. Limitierte Releases haben keine Warteliste, sie haben einen Verkaufsschluss-Moment."
+          },
+          {
+            "q": "Wie bleibe ich über neue Releases auf dem Laufenden?",
+            "a": "Melden Sie sich über die Seite Die Kollektion an. Sie hören zuerst, wenn Hot Apple Gin zurückkehrt. Wir posten auch auf Instagram, @hotapplegin."
+          },
+          {
+            "q": "Wie kann ich das Hot Apple Gin-Team erreichen?",
+            "a": "Über die Kontakt-Seite. Wir lesen alles. Wir antworten auf das, was eine Antwort verdient, und das ist das meiste."
+          }
+        ]
+      }
+    ]
+  },
+  "legal": {
+    "lastUpdated": "Zuletzt aktualisiert: Juni 2026",
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "intro": "Hot Apple Gin Family Co., mit Sitz in Haarlem, Niederlande, respektiert Ihre Privatsphäre und verarbeitet personenbezogene Daten im Einklang mit der Datenschutz-Grundverordnung (DSGVO). Diese Erklärung erläutert, was wir erheben, warum, und welche Rechte Sie haben.",
+      "sections": [
+        { "h": "Was wir erheben", "p": "Wir verarbeiten nur die Daten, die Sie uns über ein Formular auf dieser Website geben - Ihren Namen, Ihre E-Mail-Adresse und die Nachricht oder Angaben, die Sie übermitteln (zum Beispiel über das Kontaktformular oder die Warteliste). Wir verwenden keine Cookies, keine Werbe-Pixel und keine Analyse von Drittanbietern, und wir verfolgen Besucher nicht und erstellen keine Profile." },
+        { "h": "Warum wir sie nutzen & Rechtsgrundlage", "p": "Wir nutzen Ihre Daten ausschließlich, um Ihnen zu antworten, um Sie zu informieren, wenn Sie uns darum bitten (zum Beispiel wenn Hot Apple Gin zurückkehrt), und um Ihre Anfragen zu bearbeiten. Die Rechtsgrundlage ist Ihre Einwilligung und, sofern relevant, die Durchführung von Maßnahmen auf Ihre Anfrage." },
+        { "h": "Speicherung, Weitergabe & Aufbewahrung", "p": "Ihre Daten werden sicher bei den Dienstleistern gespeichert, die diese Website hosten und unsere Nachrichten zustellen und sie ausschließlich nach unseren Weisungen und nach Möglichkeit innerhalb des Europäischen Wirtschaftsraums verarbeiten. Wir verkaufen Ihre Daten niemals. Wir bewahren sie bis zu fünf Jahre nach Ihrem letzten Kontakt mit uns auf, danach werden sie gelöscht - oder früher, auf Ihre Anfrage." },
+        { "h": "Ihre Rechte", "p": "Nach der DSGVO können Sie von uns Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch oder Übertragung Ihrer Daten verlangen. Schreiben Sie dazu an info@hotapplegin.com oder nutzen Sie unsere Kontakt-Seite. Sie haben zudem das Recht, eine Beschwerde bei der niederländischen Datenschutzbehörde (Autoriteit Persoonsgegevens) einzureichen." },
+        { "h": "Sicherheit & Änderungen", "p": "Wir treffen angemessene technische und organisatorische Maßnahmen zum Schutz Ihrer Daten. Wir können diese Erklärung aktualisieren; das oben genannte Datum weist die aktuellste Version aus." }
+      ]
+    },
+    "terms": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "intro": "Diese Bedingungen gelten für Ihre Nutzung dieser Website, betrieben von Hot Apple Gin Family Co., Haarlem, Niederlande.",
+      "sections": [
+        { "h": "Wer wir sind", "p": "Hot Apple Gin Family Co. · Haarlem, Niederlande · Handelskammer (KvK): [KvK-nummer] · USt: [BTW-nummer] · info@hotapplegin.com" },
+        { "h": "Alter & verantwortungsvoller Genuss", "p": "Hot Apple Gin (the Original) ist ein alkoholisches Getränk. Diese Website richtet sich an Personen im gesetzlichen Trinkalter. Bitte genießen Sie verantwortungsvoll." },
+        { "h": "Website & Inhalte", "p": "Wir bemühen uns, die Informationen auf dieser Seite korrekt und aktuell zu halten, stellen sie jedoch \"wie besehen\" ohne Gewähr bereit. Der Name Hot Apple Gin, das Logo, die Fotografie und die Inhalte sind unser Eigentum und dürfen ohne unsere schriftliche Genehmigung nicht verwendet werden." },
+        { "h": "Online-Verkauf", "p": "Online-Bestellungen sind noch nicht möglich. Wir eröffnen unseren Webshop später in diesem Jahr; zu diesem Zeitpunkt werden hier die vollständigen Geschäftsbedingungen - Bestellung, Preise, Zahlung (sicher abgewickelt über Stripe), Versand und Ihr Widerrufsrecht - veröffentlicht." },
+        { "h": "Haftung, geltendes Recht & Änderungen", "p": "Soweit gesetzlich zulässig, ist unsere Haftung für die Nutzung dieser Website beschränkt; nichts hierin schließt eine Haftung aus, die nach niederländischem Recht nicht ausgeschlossen werden kann. Diese Bedingungen unterliegen niederländischem Recht. Wir können sie aktualisieren; die angezeigte Version gilt, solange sie veröffentlicht ist." }
+      ]
+    },
+    "cookies": {
+      "title": "Cookies",
+      "paras": [
+        "Wir sind im Geschäft mit warmen Drinks, nicht in der Bäckerei. Also servieren wir keine Cookies. Diese Seite verwendet sie ohnehin nicht.",
+        "Kein Tracking, keine Werbe-Pixel, keine Analyse von Drittanbietern. Die Alterskontrolle lebt in der Sitzung Ihres Browsers und vergisst Sie in dem Moment, in dem Sie den Tab schließen. Sollte unser Webshop je einen funktionalen Cookie oder zwei zum Funktionieren brauchen, sagen wir das klar und fragen dort, wo die Regeln es verlangen."
+      ]
+    }
+  },
+  "shop": {
+    "title": "DIE KOLLEKTION",
+    "copy": "Saisonal erhältlich.\nErfahren Sie es als Erster."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "body": "Diese Seite hat sich verabschiedet, wie das letzte Glas am Ende des Abends. Bringen wir Sie zu etwas Wärmerem.",
+    "cta": "Zurück zur Startseite"
+  },
+  "meta": {
+    "defaultTitle": "Hot Apple Gin · Der warme Wintercocktail",
+    "description": "Hot Apple Gin, der warme Wintercocktail. Gin und gewürzter Apfel, sanft erwärmt und warm serviert. Hergestellt in Haarlem, Niederlande.",
+    "titles": {
+      "collection": "Die Kollektion",
+      "ourStory": "Unsere Geschichte",
+      "serve": "Servieren",
+      "recipes": "Rezept",
+      "faq": "FAQ",
+      "partnerships": "Partnerships",
+      "contact": "Kontakt",
+      "blend": "Wo Wir Dazugehören",
+      "shop": "Shop",
+      "privacy": "Datenschutzerklärung",
+      "terms": "Allgemeine Geschäftsbedingungen",
+      "cookies": "Cookies"
+    }
+  }
+}

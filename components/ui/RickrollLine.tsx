@@ -6,9 +6,9 @@ import { useEffect, useRef, useState } from 'react';
 // click is the user gesture browsers want; the hint appears once the track starts.
 const RICK_SRC = 'https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&modestbranding=1&playsinline=1';
 
-export function RickrollLine({ text }: { text: string }) {
+export function RickrollLine({ text, hint }: { text: string; hint: string }) {
  const [playing, setPlaying] = useState(false);
- const [hint, setHint] = useState(false);
+ const [showHint, setShowHint] = useState(false);
  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
  useEffect(() => () => { if (timer.current) clearTimeout(timer.current); }, []);
@@ -16,11 +16,11 @@ export function RickrollLine({ text }: { text: string }) {
  const start = () => {
   setPlaying(true);
   if (timer.current) clearTimeout(timer.current);
-  timer.current = setTimeout(() => setHint(true), 2600);
+  timer.current = setTimeout(() => setShowHint(true), 2600);
  };
  const stop = () => {
   if (timer.current) { clearTimeout(timer.current); timer.current = null; }
-  setHint(false);
+  setShowHint(false);
   setPlaying(false);
  };
 
@@ -28,9 +28,9 @@ export function RickrollLine({ text }: { text: string }) {
   <>
    <button type="button" className="copy rickroll-trigger" onClick={start}>{text}</button>
    {playing && <iframe className="rickroll-audio" src={RICK_SRC} allow="autoplay" title="Now playing" aria-hidden="true" tabIndex={-1} />}
-   {hint && (
+   {showHint && (
     <div className="rickroll-catch" role="button" tabIndex={0} aria-label="Stop" onClick={stop} onKeyDown={stop}>
-     <span className="rickroll-hint">You just got rickrolled. Tap anywhere to make it stop.</span>
+     <span className="rickroll-hint">{hint}</span>
     </div>
    )}
   </>

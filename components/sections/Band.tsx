@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import Image from 'next/image';
+import { Link } from '@/i18n/navigation';
 import { availableImages } from '@/lib/content';
 
 export function Band({ title, copy, link, label, image }: { title: string; copy?: string; link?: string; label?: string; image: string }) {
