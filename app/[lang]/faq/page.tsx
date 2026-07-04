@@ -51,7 +51,7 @@ const targetsByLocale: Record<string, Target[]> = {
  fr: [
   { phrase: 'salons professionnels et des événements saisonniers', href: '/contact#events' },
   { phrase: 'La Collection', href: '/collection' },
-  { phrase: 'Le Service', href: '/serve' },
+  { phrase: 'Le Rituel', href: '/serve' },
   { phrase: 'page Contact', href: '/contact' },
   { phrase: 'Partenaires', href: '/partnerships' },
   { phrase: '@hotapplegin', href: 'https://www.instagram.com/hotapplegin/', external: true },

@@ -39,12 +39,12 @@
     "heroTitle": "NEW MEMORIES\nSAME WARMTH",
     "heroCta": "Ontdek de collectie",
     "heroCta2": "Word partner",
-    "manifesto": "Hot Apple Gin was nooit bedoeld als merk. Het was bedoeld om te delen met familie en vrienden, in de winter, zonder ergens te hoeven zijn. En dat is het eigenlijk nog steeds.",
+    "manifesto": "Hot Apple Gin was nooit bedoeld als merk. Het was bedoeld om te delen met familie en vrienden, in de winter, zonder ergens heen te hoeven. En dat is het eigenlijk nog steeds.",
     "collectionBandTitle": "DE COLLECTIE",
     "collectionBandCopy": "Flessen voor trage avonden en mensen die zelden na één glas vertrekken.",
     "collectionBandLabel": "Ontdek de collectie",
     "storyTitle": "ONS VERHAAL",
-    "storyCopy": "Gebouwd op momenten, niet op gelegenheden.\nEen drankje dat mensen samenbrengt.",
+    "storyCopy": "Gebouwd op momenten, niet op gelegenheden.\nEen drankje dat mensen bij elkaar houdt.",
     "storyLink": "Waar het begon",
     "servedBandTitle": "WARM GESERVEERD",
     "servedBandCopy": "Sommige dingen werken gewoon beter warm. Langzaam verwarmd. Zorgvuldig geschonken.",
@@ -53,7 +53,7 @@
     "blendCopy": "Van stille avonden tot volle tafels.\nDifferent setting, same warmth.",
     "blendLink": "Zie waar we ons thuis voelen",
     "partnersBandTitle": "PARTNERSHIPS",
-    "partnersBandCopy": "Gemaakt voor de momenten om voor te blijven.",
+    "partnersBandCopy": "Gemaakt voor momenten waarvoor je blijft.",
     "partnersBandLabel": "Beschikbaar voor geselecteerde partners",
     "modernClassic": "EEN MODERNE KLASSIEKER IN WORDING",
     "rickrollText": "Iemand moest het zeggen.",
@@ -83,13 +83,13 @@
   },
   "partnerships": {
     "title": "PARTNERSHIPS",
-    "intro": "Een wintercocktail met een uitgesproken karakter, gemaakt voor partners die onderscheid waarderen. Gebouwd om te presteren in de ruimtes die ertoe doen, van horecazaken tot winkelschappen en internationale distributie. Een warme, verfijnde serveerwijze die opvalt door beleving, niet door vergelijking.",
+    "intro": "Een wintercocktail met een uitgesproken karakter, gemaakt voor partners die onderscheid waarderen. Gemaakt om te werken op plekken die ertoe doen: horeca, winkelschappen en internationale distributie. Een warme, verfijnde serveerwijze die opvalt door beleving, niet door vergelijking.",
     "workWithEyebrow": "Met wie we werken",
     "workWithSub": "Vier ingangen. Kies degene die past en neem hieronder contact op.",
     "workWith": [
-      { "title": "Bars, restaurants & hotels", "body": "Een warme serveerwijze die haar plek op de winterkaart verdient, en de tafel wat langer bezet houdt." },
+      { "title": "Bars, restaurants & hotels", "body": "Een warme serveerwijze die haar plek op de winterkaart verdient en gasten wat langer laat blijven." },
       { "title": "Retail & speciaalzaken", "body": "Een onderscheidende fles die zich staande houdt in het schap in de maanden die tellen." },
-      { "title": "Distributeurs & importeurs", "body": "Een jonge wintercategorie met ruimte om te groeien, achter een merk dat gemaakt is om te reizen." },
+      { "title": "Distributeurs & importeurs", "body": "Een jonge wintercategorie met ruimte om te groeien, gedragen door een merk dat gemaakt is om te reizen." },
       { "title": "Evenementpartners & seizoensconcepten", "body": "Gemaakt voor kerstmarkten, festivals en winteractivaties. Waar het allemaal begon." }
     ],
     "howItWorksEyebrow": "Hoe het werkt",
@@ -128,7 +128,7 @@
       "name": "Naam",
       "email": "E-mail",
       "share": "Nog iets wat je kwijt wilt?",
-      "consent": "Ik ben 18+ en prima in staat om warme beslissingen te nemen.",
+      "consent": "Ik ben 18+ en prima in staat tot warme beslissingen.",
       "button": "Houd me warm"
     }
   },
@@ -146,13 +146,13 @@
     "products": [
       {
         "title": "HOT APPLE GIN - THE ORIGINAL",
-        "copy": "Onze kenmerkende fles. Gemaakt om langzaam te verwarmen en gul te schenken.\nHet soort drankje dat ongemerkt van één rondje er twee maakt.",
+        "copy": "Onze kenmerkende fles. Gemaakt om langzaam te verwarmen en gul te schenken.\nHet soort drankje dat ongemerkt van één ronde twee maakt.",
         "image": "IMG_4681.jpg",
         "specs": "4,1% vol · 1L"
       },
       {
         "title": "HOT APPLE GIN 0.0",
-        "copy": "Alle warmte. Geen alcohol.\nNog steeds warm. Nog steeds gelaagd. Nog steeds het vertragen waard.",
+        "copy": "Alle warmte. Geen alcohol.\nNog altijd warm. Nog altijd gelaagd. Nog altijd het vertragen waard.",
         "image": "IMG_4686.jpg",
         "specs": "Alcoholvrij · 1L"
       },
@@ -164,7 +164,7 @@
       },
       {
         "title": "0.0 GESCHENKSET",
-        "copy": "Het volledige ritueel. Alleen zonder de alcohol.\nEen geschenkset voor warme momenten die toch nooit echt om alcohol draaiden.",
+        "copy": "Het hele ritueel. Alleen zonder alcohol.\nEen geschenkset voor warme momenten die toch nooit echt om alcohol draaiden.",
         "image": "IMG_4687.jpg",
         "specs": "Geschenkset · Alcoholvrij · 1L"
       }
@@ -188,13 +188,13 @@
       {
         "label": "STAP 2 - VERWARMEN",
         "lead": "Goede dingen hebben warmte nodig.",
-        "body": "Laat de smaken zich langzaam openen terwijl de kamer begint te ruiken alsof je\nvanavond absoluut de juiste keuze hebt gemaakt.",
+        "body": "Laat de smaken zich langzaam openen terwijl de kamer begint te ruiken alsof je\nvanavond de juiste keuze hebt gemaakt. Dat had je ook.",
         "image": "IMG_4655.jpg"
       },
       {
         "label": "STAP 3 - GARNEREN",
         "lead": "Elegantie zit in de details.",
-        "body": "Een schijfje appel. Een vleugje kruiden. Want details doen ertoe, \ndit is niet zomaar een drankje.",
+        "body": "Een schijfje appel. Een vleugje kruiden. Details doen ertoe. Dit is niet zomaar een drankje.",
         "image": "IMG_4661.jpg"
       },
       {
@@ -206,7 +206,7 @@
       {
         "label": "STAP 5 - VERTRAGEN",
         "lead": "Sommige drankjes zijn gemaakt om vast te houden.",
-        "body": "Warme handen, trage gesprekken en nog een rondje dat opeens\nvolkomen gepast voelde.",
+        "body": "Warme handen, trage gesprekken en nog een rondje dat ineens\nvolkomen terecht voelt.",
         "image": "IMG_4656.jpg"
       }
     ]
@@ -274,11 +274,11 @@
           },
           {
             "type": "redacted",
-            "text": "Laten we het geheimhouden, voor ieders emotionele welzijn."
+            "text": "Laten we het zo houden, voor ieders emotionele welzijn."
           },
           {
             "type": "p",
-            "text": "Het bespaart jou teleurstelling, ons ongemakkelijke mails, en je therapeut één heel specifiek gesprek."
+            "text": "Het bespaart jou teleurstelling, ons ongemakkelijke e-mails en je therapeut één heel specifiek gesprek."
           }
         ]
       },
@@ -288,7 +288,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "We zijn er trots op dat we het recept in een fles hebben weten te vangen."
+            "text": "We zijn er trots op dat we dit recept in een fles hebben gekregen."
           },
           {
             "type": "p",
@@ -342,8 +342,8 @@
     "howItStarted": "Hoe het begon",
     "originHeading": "De oorsprong van Hot Apple Gin",
     "chat": ["Warme gin… 🤔", "Hmmm…", "Toch denk ik dat ik het ga proberen te maken tijdens de kerstdagen."],
-    "intro": "ONS VERHAAL\n\nHot Apple Gin was nooit bedoeld als merk. Het was bedoeld om van te genieten met familie, in de winter, zonder ergens te hoeven zijn. Wat begon als een stil experiment werd een recept dat we niet voor onszelf konden houden. Warm, gelaagd en met zorg gemaakt: dit is een drankje dat in elk glas een verhaal draagt.\n\nWe zijn trots om het eindelijk te delen.",
-    "origin": "Het begon met een bericht van een broer die op reis was, een winter lang, een tip, een zetje, een gedachte die simpelweg zei: kijk hier eens naar.\nHet antwoord kwam vrijwel meteen terug:\n\n\"Warme gin… 🤔\"\n\"Hmmm…\"\n\"Ik denk dat ik dit ga proberen te maken tijdens de kerstdagen.\"\n\nWat volgde waren weken van experimenteren, bijstellen en opnieuw beginnen. Een kruidensiroop vanaf nul ontwikkeld. Verhoudingen bijgesteld op gevoel in plaats van op maat. En een gin om het allemaal te binden. Bijna niets opgeschreven. Het duurde twee volle winters voordat het recept werd wat het nu is, maar ergens onderweg hield het op een experiment te zijn.\n\nHet werd een ritueel.\n\nElke winter kwam de familie samen. Broers, zussen, ouders, kinderen, jassen aan, soms een vuur, vaak buiten. Na een lange wandeling, een dag winkelen, of gewoon thuiskomen na een koude dag, bij goed gezelschap. Die middagen en avonden zijn waar Hot Apple Gin van gemaakt is. Na verloop van tijd werd het ons familierecept. Het soort dat je niet loslaat.\n\nToen kwam het moment dat alles veranderde. We waren samen, glas in de hand, toen iemand half schertsend en niet helemaal serieus zei dat andere mensen dit ook zouden moeten kunnen proeven. De stilte die volgde zei alles.\n\nDatzelfde jaar stonden we voor het eerst op een kerstmarkt. Alles was op. We vulden haastig aan en raakten opnieuw uitverkocht. Meer dan één keer. We zijn het eerste glas dat we aan een vreemde verkochten nooit vergeten, en dat zullen we ook nooit.\n\nHet jaar erna kwamen mensen terug en vroegen naar ons bij naam. Dat vertelde ons alles wat we moesten weten.\n\nWe bottelden onze eerste batch. De reactie bevestigde wat we al voelden. Vandaag maken we Hot Apple Gin met onze eigen gin, speciaal voor dit recept ontwikkeld. En nu, deze winter, wordt Hot Apple Gin voor het eerst geschonken in bars en restaurants in meerdere landen, door handen die niet de onze zijn, aan mensen die we nooit hebben ontmoet.\n\nVolwassen worden betekent loslaten, zeggen ze… Wij denken dat we daar klaar voor zijn.\n\nWat begon rond een familievuur, vindt nu zijn weg naar tafels over de hele wereld.\n\nDat, denken wij, is hoe een nalatenschap begint."
+    "intro": "ONS VERHAAL\n\nHot Apple Gin was nooit bedoeld als merk. Het was bedoeld om met familie van te genieten, in de winter, zonder ergens heen te hoeven. Wat begon als een stil experiment werd een recept dat we niet voor onszelf konden houden. Warm, gelaagd en met zorg gemaakt. Een drankje met een verhaal in elk glas.\n\nWe zijn trots om het eindelijk te delen.",
+    "origin": "Het begon met een bericht van een broer die die winter op reis was. Een tip, een zetje, een gedachte die eigenlijk zei: kijk hier eens naar.\nHet antwoord kwam vrijwel meteen terug:\n\n\"Warme gin… 🤔\"\n\"Hmmm…\"\n\"Ik denk dat ik dit ga proberen te maken tijdens de kerstdagen.\"\n\nWat volgde waren weken van experimenteren, bijstellen en opnieuw beginnen. Een kruidensiroop vanaf nul ontwikkeld. Verhoudingen bijgesteld op gevoel, niet op milliliters. En een gin om het allemaal te binden. Bijna niets opgeschreven. Het duurde twee volle winters voordat het recept werd wat het nu is, maar ergens onderweg hield het op een experiment te zijn.\n\nHet werd een ritueel.\n\nElke winter kwam de familie samen. Broers, zussen, ouders, kinderen, jassen aan, soms een vuur, vaak buiten. Na een lange wandeling, een dag winkelen of gewoon een koude dag. Altijd met goed gezelschap. Die middagen en avonden zijn waar Hot Apple Gin van gemaakt is. Na verloop van tijd werd het ons familierecept. Het soort dat je niet loslaat.\n\nToen kwam het moment dat alles veranderde. We stonden samen, glas in de hand, toen iemand half als grap, maar niet helemaal, zei dat anderen dit ook moesten kunnen proeven. De stilte die volgde zei alles.\n\nDatzelfde jaar stonden we voor het eerst op een kerstmarkt. De voorraad was op. We vulden haastig aan en waren opnieuw uitverkocht. Meer dan één keer. We zijn het eerste glas dat we aan een vreemde verkochten nooit vergeten, en dat zullen we ook nooit.\n\nHet jaar erna kwamen mensen terug en vroegen naar ons bij naam. Dat vertelde ons alles wat we moesten weten.\n\nWe bottelden onze eerste batch. De reactie bevestigde wat we al voelden. Vandaag maken we Hot Apple Gin met onze eigen gin, speciaal voor dit recept ontwikkeld. En nu, deze winter, wordt Hot Apple Gin voor het eerst geschonken in bars en restaurants in meerdere landen, door andere handen, aan mensen die we nooit hebben ontmoet.\n\nVolwassen worden betekent loslaten, zeggen ze… Wij denken dat we daar klaar voor zijn.\n\nWat begon rond een familievuur, vindt nu zijn weg naar tafels over de hele wereld.\n\nDat, denken wij, is hoe een traditie begint."
   },
   "faq": {
     "title": "FAQ",
@@ -361,7 +361,7 @@
           },
           {
             "q": "Wat is een warme RTD-cocktail?",
-            "a": "RTD staat voor ready-to-drink, een cocktail die volledig samengesteld aankomt. Hot Apple Gin is een warme RTD: je verwarmt hem, schenkt hem in en geeft hem aan iemand. Geen jiggers, geen blenders, geen bartendersdiploma. De warme RTD-categorie groeit wereldwijd hard, en Hot Apple Gin zit aan de bovenkant, de enige kant waar we ooit in geïnteresseerd waren."
+            "a": "RTD staat voor ready-to-drink, een cocktail die volledig samengesteld aankomt. Hot Apple Gin is een warme RTD: je verwarmt hem, schenkt hem in en geeft hem door. Geen jiggers, geen blenders, geen bartendersdiploma. De warme RTD-categorie groeit wereldwijd hard, en Hot Apple Gin zit aan de bovenkant. De enige kant die ons ooit heeft geïnteresseerd."
           },
           {
             "q": "Wat maakt Hot Apple Gin anders dan glühwein?",
@@ -369,11 +369,11 @@
           },
           {
             "q": "Wat maakt Hot Apple Gin anders dan warme cider?",
-            "a": "Warme cider is gegiste appelsap met wat kruiden erdoor, rustiek, eenvoudig en prima voor wat het is. Hot Apple Gin is een ambachtelijke cocktail met een recept dat twee winters kostte om goed te krijgen. Als cider de nonchalante kant van het appelspectrum is, dan is Hot Apple Gin de andere kant, volledig."
+            "a": "Warme cider is gegiste appelsap met wat kruiden erdoor, rustiek, eenvoudig en prima voor wat het is. Hot Apple Gin is een ambachtelijke cocktail met een recept dat twee winters kostte om goed te krijgen. Als cider de nonchalante kant van het appelspectrum is, dan zit Hot Apple Gin volledig aan de andere kant."
           },
           {
             "q": "Wat maakt Hot Apple Gin anders dan gewone cider?",
-            "a": "Koude cider is een zomerdrankje, bruisend, verfrissend, ongecompliceerd. Hot Apple Gin is warm, niet-bruisend, op basis van gin en gemaakt voor heel ander weer. Appel is het enige wat ze delen. Daarbuiten zitten ze niet echt in hetzelfde gesprek."
+            "a": "Koude cider is een zomerdrankje, bruisend, verfrissend, ongecompliceerd. Hot Apple Gin is warm, niet-bruisend, op basis van gin en gemaakt voor heel ander weer. Appel is het enige wat ze delen. Daarbuiten horen ze niet echt in hetzelfde rijtje."
           },
           {
             "q": "Wat maakt Hot Apple Gin anders dan een gewone gin-tonic?",
@@ -385,7 +385,7 @@
           },
           {
             "q": "Ik hou niet van gin. Is Hot Apple Gin dan toch iets voor mij?",
-            "a": "Ja. De gin werkt op de achtergrond, voegt diepte, botanicals en een afdronk toe die appelsap alleen nooit voor elkaar krijgt. Maar hij dringt zich niet op. Mensen die beweren niet van gin te houden, genieten al de hele avond van Hot Apple Gin zonder het ook maar één keer ter sprake te brengen. Ik ken je, jij wordt er een van."
+            "a": "Ja. De gin werkt op de achtergrond, voegt diepte, botanicals en een afdronk toe die appelsap alleen nooit voor elkaar krijgt. Maar hij dringt zich niet op. Mensen die beweren niet van gin te houden, genieten al de hele avond van Hot Apple Gin zonder het ook maar één keer ter sprake te brengen. We kennen het type. Jij wordt er zo een."
           },
           {
             "q": "Ik hou juist van gin. Is Hot Apple Gin iets voor mij?",
@@ -402,7 +402,7 @@
         "items": [
           {
             "q": "Hoe smaakt Hot Apple Gin?",
-            "a": "Warme appel vooraan, gebouwd op een melange van geperste appelrassen. Botanische diepte van de gin eronder. Een gelaagde kruidenafdronk die blijft hangen zonder te overblijven. En een aroma, op het moment dat het opwarmt, dat het halve werk doet voordat iemand een slok neemt."
+            "a": "Warme appel vooraan, gebouwd op een melange van geperste appelrassen. Botanische diepte van de gin eronder. Een gelaagde kruidenafdronk die blijft hangen zonder te blijven plakken. En een aroma, op het moment dat het opwarmt, dat het halve werk doet voordat iemand een slok neemt."
           },
           {
             "q": "Is het niet gewoon warm appelsap?",
@@ -414,7 +414,7 @@
           },
           {
             "q": "Zit er echte appelsap in Hot Apple Gin?",
-            "a": "Ja. De basis is een melange van geperste appelrassen, verschillende appels brengen verschillende dingen in de smaak, en de melange is zorgvuldig gekozen. Daar bovenop: gin, en een kruidenrecept dat twee volle winters kostte om af te maken."
+            "a": "Ja. De basis is een melange van geperste appelrassen, verschillende appels doen verschillende dingen met de smaak, en de melange is zorgvuldig gekozen. Daar bovenop: gin, en een kruidenrecept dat twee volle winters kostte om af te maken."
           },
           {
             "q": "Welke ingrediënten zitten er in Hot Apple Gin?",
@@ -426,7 +426,7 @@
           },
           {
             "q": "Bevat Hot Apple Gin cafeïne?",
-            "a": "Nee. De warmte is volledig natuurlijk."
+            "a": "Nee. Alleen warmte. Geen cafeïne."
           },
           {
             "q": "Hoeveel calorieën bevat Hot Apple Gin?",
@@ -451,7 +451,7 @@
           },
           {
             "q": "Hoe smaakt Hot Apple Gin 0.0?",
-            "a": "Warm, gelaagd en het vertragen waard. Het appel- en kruidenprofiel is volledig intact. Of je nu alcohol overslaat uit keuze of uit noodzaak, de beleving blijft overeind. Sommige mensen geven er de voorkeur aan. We snappen waarom. Zie De Collectie."
+            "a": "Warm, gelaagd en het vertragen waard. Het appel- en kruidenprofiel is volledig intact. Of je alcohol nu overslaat uit keuze of omdat het moet, de beleving blijft overeind. Sommige mensen geven er de voorkeur aan. We snappen waarom. Zie De Collectie."
           },
           {
             "q": "Is Hot Apple Gin veganistisch?",
@@ -459,7 +459,7 @@
           },
           {
             "q": "Is Hot Apple Gin glutenvrij?",
-            "a": "Hot Apple Gin bevat geen glutenhoudende ingrediënten. Heb je coeliakie of een serieuze intolerantie, raadpleeg dan het productlabel voor alle details, productieomgevingen kunnen variëren en we zien je liever checken dan aannemen."
+            "a": "Hot Apple Gin bevat geen glutenhoudende ingrediënten. Heb je coeliakie of een serieuze intolerantie, raadpleeg dan het productlabel voor alle details, productieomgevingen kunnen variëren. We zien je liever checken dan aannemen."
           },
           {
             "q": "Bevat Hot Apple Gin allergenen?",
@@ -496,7 +496,7 @@
           },
           {
             "q": "Kan Hot Apple Gin in grotere hoeveelheden voor feesten geserveerd worden?",
-            "a": "Ja. Verwarm de hele liter in een pan, of schaal op met meerdere flessen in een grotere pot. Houd het op de laagste stand om de temperatuur vast te houden zonder te koken. Een pollepel en genoeg glazen is alle uitrusting die je nodig hebt. In grotere hoeveelheden komt hij juist tot zijn recht, het aroma in de kamer doet de marketing voor je."
+            "a": "Ja. Verwarm de hele liter in een pan, of schaal op met meerdere flessen in een grotere pot. Houd het op de laagste stand om de temperatuur vast te houden zonder te koken. Een pollepel en genoeg glazen is alle uitrusting die je nodig hebt. In grotere hoeveelheden komt hij juist tot zijn recht. Het aroma in de kamer doet de marketing voor je."
           },
           {
             "q": "Welke garnering past het best bij Hot Apple Gin?",
@@ -537,7 +537,7 @@
           },
           {
             "q": "Kan Hot Apple Gin in de horeca of catering gebruikt worden?",
-            "a": "Ja. Eenvoudig te bereiden, constant in kwaliteit, en het soort serveerwijze dat een kaart memorabel maakt. Hot Apple Gin werkt in allerlei horecaomgevingen, van hotellounges tot cateringoperaties tot wijnkaarten met ambitie. Meer op de Partnerships-pagina."
+            "a": "Ja. Eenvoudig te bereiden, constant in kwaliteit, en het soort serveerwijze dat een kaart memorabel maakt. Hot Apple Gin werkt in allerlei horecaomgevingen: van hotellounges en cateraars tot wijnkaarten met ambitie. Meer op de Partnerships-pagina."
           },
           {
             "q": "Wat zijn de beste gelegenheden om Hot Apple Gin te serveren?",
@@ -636,7 +636,7 @@
             "a": "Retail en speciaalzaken maken deel uit van ons partnernetwerk. Is er ruimte in je schap voor iets dat zijn plek verdient, dan praten we graag. Begin via Partnerships."
           },
           {
-            "q": "Bieden jullie bulk- of groothandelsprijzen?",
+            "q": "Bieden jullie volume- of groothandelsprijzen?",
             "a": "We publiceren geen prijslijst, we bouwen partnerships. Goede dingen beginnen met een gesprek, en we zorgen goed voor de mensen met wie we werken. Neem contact op via Partnerships en we pakken het van daaruit op."
           },
           {
@@ -648,7 +648,7 @@
             "a": "We ondersteunen onze partners met merkmateriaal en serveerinstructies op elk contactpunt. Specifieke POS-wensen kunnen we bespreken bij het opzetten van de samenwerking. We zijn betrokken bij hoe het eruitziet in jouw ruimte, want het weerspiegelt op de onze."
           },
           {
-            "q": "Zijn custom branded samenwerkingen mogelijk?",
+            "q": "Zijn branded samenwerkingen op maat mogelijk?",
             "a": "Mogelijk. We zijn selectief, een slechte match helpt niemand. Heb je een concept dat hout snijdt, dan luisteren we."
           },
           {
@@ -720,7 +720,7 @@
           },
           {
             "q": "Bieden jullie limited editions aan?",
-            "a": "De collectie is van nature seizoensgebonden, en we verkennen nieuwe uitvoeringen wanneer de timing goed is. Volg mee op Instagram of schrijf je in voor vroege toegang. Limited releases hebben geen wachtlijst, ze hebben een uiterste-houdbaarheidsmoment."
+            "a": "De collectie is van nature seizoensgebonden, en we verkennen nieuwe uitvoeringen wanneer de timing goed is. Volg mee op Instagram of schrijf je in voor vroege toegang. Limited releases hebben geen wachtlijst. Ze hebben een einddatum."
           },
           {
             "q": "Hoe blijf ik op de hoogte van nieuwe releases?",
