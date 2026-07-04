@@ -6,3 +6,12 @@ out
 .DS_Store
 *.tsbuildinfo
 package-lock.json
+
+.env*
+
+# Claude Code sessiemap (nooit committen)
+.claude/
+
+# Ongebruikte test-video's in public/ (draaien niet op de site)
+/public/video-terrace-test.mp4
+/public/videos-hero-test.mp4

@@ -1,35 +1,28 @@
 import Image from 'next/image';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ContactForm } from '@/components/ui/Form';
 
-export const metadata = { title: 'Partnerships' };
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
+ const { lang } = await params;
+ const t = await getTranslations({ locale: lang, namespace: 'meta.titles' });
+ return { title: t('partnerships') };
+}
 
-const workWith: [string, string][] = [
- ['Bars, restaurants & hotels', 'A warm serve that earns its place on a winter menu, and keeps the table seated a little longer.'],
- ['Retail & specialist liquor stores', 'A distinctive bottle that holds its own on the shelf in the months that matter.'],
- ['Distributors & importers', 'A young winter category with room to grow, behind a brand built to travel.'],
- ['Event partners & seasonal concepts', 'Made for Christmas markets, festivals and winter activations. Where it all began.']
-];
+type Card = { title: string; body: string };
 
-const why: [string, string][] = [
- ['Distinctive concept', 'A warm, characterful serve with immediate appeal'],
- ['Strong positioning', 'Fits both on menus and on shelves'],
- ['Effortless execution', 'Simple preparation, consistent quality'],
- ['Memorable experience', 'Built around warmth and shared moments']
-];
-
-const steps: [string, string][] = [
- ['01 · Get in touch', 'Tell us who you are, your venue, store or distribution, and what you have in mind.'],
- ['02 · A real conversation', 'We talk through fit, volumes, the serve and your questions.'],
- ['03 · Set up to launch', 'Product, serving guidance and brand assets, so it lands properly.']
-];
-
-export default function Partnerships() {
+export default async function Partnerships({ params }: { params: Promise<{ lang: string }> }) {
+ const { lang } = await params;
+ setRequestLocale(lang);
+ const t = await getTranslations('partnerships');
+ const workWith = t.raw('workWith') as Card[];
+ const steps = t.raw('steps') as Card[];
+ const why = t.raw('why') as Card[];
  return <main>
   <section className="section" style={{ paddingTop: 170, paddingBottom: 40 }}>
    <div className="container grid-two" style={{ alignItems: 'stretch' }}>
     <div>
-     <h1 className="display section-title animate-headline">PARTNERSHIPS</h1>
-     <p className="copy animate-headline">A winter cocktail with a point of view, created for partners who value distinction. Built to perform across the rooms that matter, from hospitality venues to retail shelves and international distribution. A warm, refined serve that stands out through experience, not comparison.</p>
+     <h1 className="display section-title animate-headline">{t('title')}</h1>
+     <p className="copy animate-headline">{t('intro')}</p>
     </div>
     <div className="animate-headline partnerships-header-img">
      <Image src="/images/partnerships-production.jpg" alt="Hot Apple Gin production" fill style={{ objectFit: 'cover', objectPosition: 'center' }} sizes="(max-width: 900px) 100vw, 50vw" />
@@ -38,30 +31,30 @@ export default function Partnerships() {
   </section>
   <section className="section" style={{ paddingTop: 0, paddingBottom: 40 }}>
    <div className="container">
-    <p className="eyebrow animate-headline">Who we work with</p>
-    <p className="copy animate-headline" style={{ marginBottom: 8 }}>Four routes in. Pick the one that fits, then reach out below.</p>
-    <div className="pill-grid">{workWith.map(([w, d]) => <details className="pill" name="ww" key={w}><summary>{w}</summary><div className="pill-body"><p>{d}</p></div></details>)}</div>
+    <p className="eyebrow animate-headline">{t('workWithEyebrow')}</p>
+    <p className="copy animate-headline" style={{ marginBottom: 8 }}>{t('workWithSub')}</p>
+    <div className="pill-grid">{workWith.map((w) => <details className="pill" name="ww" key={w.title}><summary>{w.title}</summary><div className="pill-body"><p>{w.body}</p></div></details>)}</div>
    </div>
   </section>
   <section className="section" style={{ paddingTop: 0, paddingBottom: 40 }}>
    <div className="container">
-    <p className="eyebrow animate-headline">How it works</p>
-    <div className="card-grid">{steps.map(([t, d]) => <a className="mini-card mini-card--link" href="#enquire" key={t}><h3>{t}</h3><p>{d}</p></a>)}</div>
+    <p className="eyebrow animate-headline">{t('howItWorksEyebrow')}</p>
+    <div className="card-grid">{steps.map((s) => <a className="mini-card mini-card--link" href="#enquire" key={s.title}><h3>{s.title}</h3><p>{s.body}</p></a>)}</div>
    </div>
   </section>
   <section className="section" style={{ paddingTop: 0, paddingBottom: 40 }}>
    <div className="container">
-    <p className="eyebrow animate-headline">Why Hot Apple Gin works</p>
-    <div className="card-grid">{why.map(([t, d]) => <div className="mini-card" key={t}><h3>{t}</h3><p>{d}</p></div>)}</div>
+    <p className="eyebrow animate-headline">{t('whyEyebrow')}</p>
+    <div className="card-grid">{why.map((w) => <div className="mini-card" key={w.title}><h3>{w.title}</h3><p>{w.body}</p></div>)}</div>
    </div>
   </section>
   <section className="section" id="enquire" style={{ paddingTop: 0, paddingBottom: 40, scrollMarginTop: 110 }}>
    <div className="container grid-two">
     <div>
-     <h2 className="display section-title animate-headline">Become a partner</h2>
-     <p className="copy">Hospitality, retail, distribution or seasonal events, tell us where Hot Apple Gin fits and we&rsquo;ll be in touch. One form, one conversation. We support our partners with product, serving guidance and brand assets.</p>
+     <h2 className="display section-title animate-headline">{t('becomeTitle')}</h2>
+     <p className="copy">{t('becomeCopy')}</p>
     </div>
-    <ContactForm fields={['Name', 'Company', 'Email', 'Message']} button="Send enquiry" subject="Verzoek van partnerships" fromName="Hot Apple Gin Family Co." />
+    <ContactForm fields={['name', 'company', 'email', 'message']} button={t('formButton')} subject="Verzoek van partnerships" fromName="Hot Apple Gin Family Co." />
    </div>
   </section>
  </main>;

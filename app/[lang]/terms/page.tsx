@@ -1,28 +1,26 @@
-export const metadata = { title: 'Terms & Conditions' };
+import { Fragment } from 'react';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
-export default function Terms() {
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
+ const { lang } = await params;
+ const t = await getTranslations({ locale: lang, namespace: 'meta.titles' });
+ return { title: t('terms') };
+}
+
+type Section = { h: string; p: string };
+
+export default async function Terms({ params }: { params: Promise<{ lang: string }> }) {
+ const { lang } = await params;
+ setRequestLocale(lang);
+ const t = await getTranslations('legal');
+ const sections = t.raw('terms.sections') as Section[];
  return <main>
   <section className="section legal" style={{ paddingTop: 170 }}>
    <div className="container">
-    <h1 className="display section-title">Terms &amp; Conditions</h1>
-    <p className="muted legal-date">Last updated: June 2026</p>
-
-    <p className="copy">These terms apply to your use of this website, operated by Hot Apple Gin Family Co., Haarlem, the Netherlands.</p>
-
-    <h2 className="legal-h">Who we are</h2>
-    <p className="copy">{'Hot Apple Gin Family Co. · Haarlem, the Netherlands · Chamber of Commerce (KvK): [KvK-nummer] · VAT: [BTW-nummer] · info@hotapplegin.com'}</p>
-
-    <h2 className="legal-h">Age &amp; responsible enjoyment</h2>
-    <p className="copy">Hot Apple Gin (the Original) is an alcoholic beverage. This website is intended for people of legal drinking age. Please enjoy responsibly.</p>
-
-    <h2 className="legal-h">Website &amp; content</h2>
-    <p className="copy">We aim to keep the information on this site accurate and up to date, but provide it &ldquo;as is&rdquo; without guarantees. The Hot Apple Gin name, logo, photography and content are our property and may not be used without our written permission.</p>
-
-    <h2 className="legal-h">Online sales</h2>
-    <p className="copy">Online ordering is not yet available. We are opening our webshop later this year; at that point the full commercial terms &mdash; ordering, prices, payment (handled securely via Stripe), shipping and your right of withdrawal &mdash; will be published here.</p>
-
-    <h2 className="legal-h">Liability, governing law &amp; changes</h2>
-    <p className="copy">To the extent permitted by law, our liability for use of this website is limited; nothing here excludes liability that cannot be excluded under Dutch law. These terms are governed by Dutch law. We may update them; the version shown applies while it is published.</p>
+    <h1 className="display section-title">{t('terms.title')}</h1>
+    <p className="muted legal-date">{t('lastUpdated')}</p>
+    <p className="copy">{t('terms.intro')}</p>
+    {sections.map((s, i) => <Fragment key={i}><h2 className="legal-h">{s.h}</h2><p className="copy">{s.p}</p></Fragment>)}
    </div>
   </section>
  </main>;

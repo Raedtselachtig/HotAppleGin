@@ -1,22 +1,27 @@
-import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { Logo } from './Logo';
 
-const nav = [['The Collection', 'collection'], ['Our Story', 'our-story'], ['The Serve', 'serve'], ['Recipe', 'recipes'], ['FAQ', 'faq'], ['Partnerships', 'partnerships'], ['Contact', 'contact']];
+// [vertaalsleutel, pad]. Link (next-intl) prefixt zelf de taal.
+const nav: [string, string][] = [
+ ['collection', 'collection'], ['ourStory', 'our-story'], ['serve', 'serve'], ['recipes', 'recipes'], ['faq', 'faq'], ['partnerships', 'partnerships'], ['contact', 'contact']
+];
 
-export function Footer({ lang }: { lang: string }) {
+export function Footer() {
+ const t = useTranslations('footer');
  return <footer className="footer">
   <div className="container footer-inner">
-   <Link href={`/${lang}`} className="footer-logo"><Logo small /></Link>
-   <p className="footer-tag">The Warm Winter Cocktail</p>
-   <nav className="footer-nav">{nav.map(([label, href]) => <Link key={label} href={`/${lang}/${href}`}>{label}</Link>)}</nav>
+   <Link href="/" className="footer-logo"><Logo small /></Link>
+   <p className="footer-tag">{t('tagline')}</p>
+   <nav className="footer-nav">{nav.map(([key, href]) => <Link key={key} href={`/${href}`}>{t(key)}</Link>)}</nav>
    <div className="footer-meta">
-    <a href="https://www.instagram.com/hotapplegin" target="_blank" rel="noopener noreferrer">Instagram</a>
-    <span>© 2026 Hot Apple Gin Family Co.</span>
-    <Link href={`/${lang}/privacy`}>Privacy</Link>
-    <Link href={`/${lang}/terms`}>Terms</Link>
-    <Link href={`/${lang}/cookies`}>Cookies</Link>
+    <a href="https://www.instagram.com/hotapplegin" target="_blank" rel="noopener noreferrer">{t('instagram')}</a>
+    <span>{t('rights')}</span>
+    <Link href="/privacy">{t('privacy')}</Link>
+    <Link href="/terms">{t('terms')}</Link>
+    <Link href="/cookies">{t('cookies')}</Link>
    </div>
-   <p className="footer-responsible">Good things, in good measure. Please enjoy responsibly.</p>
+   <p className="footer-responsible">{t('responsible')}</p>
   </div>
  </footer>;
 }

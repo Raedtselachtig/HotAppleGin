@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Cormorant_Garamond, DM_Sans } from 'next/font/google';
 import localFont from 'next/font/local';
+import { getLocale } from 'next-intl/server';
 import './globals.css';
 
 const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: ['300','400','500','600'], variable: '--font-cormorant', display: 'swap' });
@@ -14,13 +15,13 @@ const cheltenham = localFont({
  display: 'swap'
 });
 
+// Alleen metadataBase globaal; de gelokaliseerde title/description/openGraph komen
+// uit app/[lang]/layout.tsx (generateMetadata). Zo geen dubbele title-template.
 export const metadata: Metadata = {
- metadataBase: new URL('https://hotapplegin.com'),
- title: { default: 'Hot Apple Gin · The Warm Winter Cocktail', template: '%s · Hot Apple Gin' },
- description: 'Hot Apple Gin, the warm winter cocktail. Gin and spiced apple, gently heated and served warm. Crafted in Haarlem, the Netherlands.',
- openGraph: { title: 'Hot Apple Gin · The Warm Winter Cocktail', description: 'Hot Apple Gin, the warm winter cocktail. Gin and spiced apple, gently heated and served warm. Crafted in Haarlem, the Netherlands.', url: 'https://hotapplegin.com', siteName: 'Hot Apple Gin', type: 'website' }
+ metadataBase: new URL('https://hotapplegin.com')
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
- return <html lang="en" suppressHydrationWarning className={`${cormorant.variable} ${dmSans.variable} ${cheltenham.variable}`}><body>{children}</body></html>;
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+ const locale = await getLocale();
+ return <html lang={locale} suppressHydrationWarning className={`${cormorant.variable} ${dmSans.variable} ${cheltenham.variable}`}><body>{children}</body></html>;
 }

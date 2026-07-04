@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import { availableImages, availableVideos } from '@/lib/content';
 import { HeroVideo } from './HeroVideo';
 

@@ -1,20 +1,21 @@
-import { permanentRedirect } from 'next/navigation';
-import Link from 'next/link';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
 import { Hero } from '@/components/sections/Hero';
 import { Band } from '@/components/sections/Band';
 import { RickrollLine } from '@/components/ui/RickrollLine';
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
  const { lang } = await params;
- if (lang === 'en') permanentRedirect('/');
+ setRequestLocale(lang);
+ const t = await getTranslations('home');
  return <main>
   <Hero
-   eyebrow="The Warm Winter Cocktail"
-   title={'NEW MEMORIES\nSAME WARMTH'}
-   ctaHref={`/${lang}/collection`}
-   ctaLabel="Meet the Collection"
-   cta2Href={`/${lang}/partnerships`}
-   cta2Label="Become a Partner"
+   eyebrow={t('heroEyebrow')}
+   title={t('heroTitle')}
+   ctaHref="/collection"
+   ctaLabel={t('heroCta')}
+   cta2Href="/partnerships"
+   cta2Label={t('heroCta2')}
    imageName="hero-lounge.jpg"
    videoName="hero-lounge.mp4"
    align="left"
@@ -22,32 +23,32 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   <section className="section manifesto">
    <div className="container manifesto-inner">
     <div className="manifesto-rule animate-headline" />
-    <p className="display manifesto-quote animate-headline">{'Hot Apple Gin was never meant to become a brand. It was meant to be enjoyed by family and friends, in winter, with nowhere to be. And it actually still is.'}</p>
+    <p className="display manifesto-quote animate-headline">{t('manifesto')}</p>
    </div>
   </section>
-  <Band title="THE COLLECTION" copy="Bottles for slow nights and people who rarely leave after one glass." link={`/${lang}/collection`} label="Meet the Collection" image="collection-bar.jpg" />
+  <Band title={t('collectionBandTitle')} copy={t('collectionBandCopy')} link="/collection" label={t('collectionBandLabel')} image="collection-bar.jpg" />
   <section className="section quiet-band">
    <div className="container">
     <div className="quiet-rule animate-headline" />
-    <h2 className="display section-title animate-headline">OUR STORY</h2>
-    <p className="copy animate-headline">{'Built on moments, not occasions.\nA drink that brings people together.'}</p>
-    <Link className="cta animate-headline" href={`/${lang}/our-story`}>Where it began</Link>
+    <h2 className="display section-title animate-headline">{t('storyTitle')}</h2>
+    <p className="copy animate-headline">{t('storyCopy')}</p>
+    <Link className="cta animate-headline" href="/our-story">{t('storyLink')}</Link>
    </div>
   </section>
-  <Band title="SERVED WARM" copy="Some things simply work better warm. Slowly heated. Carefully served." link={`/${lang}/serve`} label="Discover the Serve" image="served-warm-people.jpg" />
+  <Band title={t('servedBandTitle')} copy={t('servedBandCopy')} link="/serve" label={t('servedBandLabel')} image="served-warm-people.jpg" />
   <section className="section quiet-band">
    <div className="container">
     <div className="quiet-rule animate-headline" />
-    <h2 className="display section-title animate-headline">WHERE WE BLEND IN</h2>
-    <p className="copy animate-headline">{'From quiet nights to crowded tables.\nDifferent settings, same warmth.'}</p>
-    <Link className="cta animate-headline" href={`/${lang}/where-we-blend-in`}>See where we blend in</Link>
+    <h2 className="display section-title animate-headline">{t('blendTitle')}</h2>
+    <p className="copy animate-headline">{t('blendCopy')}</p>
+    <Link className="cta animate-headline" href="/where-we-blend-in">{t('blendLink')}</Link>
    </div>
   </section>
-  <Band title="PARTNERSHIPS" copy="Built for the moments worth staying for." link={`/${lang}/partnerships`} label="Available for select partners" image="partners-restaurant.jpg" />
+  <Band title={t('partnersBandTitle')} copy={t('partnersBandCopy')} link="/partnerships" label={t('partnersBandLabel')} image="partners-restaurant.jpg" />
   <section className="section quiet-band" style={{ paddingBottom: 'clamp(18px, 2.5vw, 36px)' }}>
    <div className="container">
-    <h2 className="display section-title animate-headline">A MODERN CLASSIC IN THE MAKING</h2>
-    <RickrollLine text="Somebody had to say it." />
+    <h2 className="display section-title animate-headline">{t('modernClassic')}</h2>
+    <RickrollLine text={t('rickrollText')} hint={t('rickrollHint')} />
    </div>
   </section>
  </main>;
