@@ -49,9 +49,9 @@
     "servedBandTitle": "WARM SERVIERT",
     "servedBandCopy": "Manche Dinge funktionieren einfach besser warm. Langsam erwärmt. Sorgfältig serviert.",
     "servedBandLabel": "Das Servieren entdecken",
-    "blendTitle": "WO WIR DAZUGEHÖREN",
+    "blendTitle": "WO WIR UNS ZU HAUSE FÜHLEN",
     "blendCopy": "Von stillen Abenden bis zu vollen Tischen.\nDifferent setting, same warmth.",
-    "blendLink": "Sehen, wo wir dazugehören",
+    "blendLink": "Sehen, wo wir uns zu Hause fühlen",
     "partnersBandTitle": "PARTNER",
     "partnersBandCopy": "Gemacht für die Momente, für die es sich zu bleiben lohnt.",
     "partnersBandLabel": "Verfügbar für ausgewählte Partner",
@@ -60,7 +60,7 @@
     "rickrollHint": "Sie wurden gerade gerickrollt. Tippen Sie irgendwo, um es zu stoppen."
   },
   "wwbi": {
-    "title": "WO WIR DAZUGEHÖREN",
+    "title": "WO WIR UNS ZU HAUSE FÜHLEN",
     "intro": "Von stillen Abenden bis zu vollen Tischen.\nDifferent setting, same warmth.\nIrgendwie fügen wir uns immer nahtlos ein.",
     "tiles": [
       { "image": "wwbi-terrace-two.jpg", "title": "Ihre Lieblingsterrasse", "line": "Nichts sagt 'nur eins' so gut wie die zweite Runde." },
@@ -141,8 +141,8 @@
   "collection": {
     "heroTitle": "DIE KOLLEKTION",
     "heroSubtitle": "Saisonal erhältlich",
-    "productCta": "Als Erste erfahren",
-    "waitlistTitle": "Erfahren Sie als Erster, wenn Hot Apple Gin zurückkehrt.",
+    "productCta": "Als Erstes erfahren",
+    "waitlistTitle": "Als Erstes erfahren, wenn Hot Apple Gin zurückkehrt.",
     "products": [
       {
         "title": "HOT APPLE GIN - THE ORIGINAL",
@@ -199,7 +199,7 @@
       },
       {
         "label": "SCHRITT 4 - SERVIEREN",
-        "lead": "Jetzt der gute Teil.",
+        "lead": "Jetzt kommt der gute Teil.",
         "body": "Servieren Sie warm in einem Stielglas und lassen Sie das Aroma den Rest tun. Pluspunkte,\nwenn jemand sagt, dass es herrlich duftet, noch vor dem ersten Schluck.",
         "image": "IMG_1784.jpg"
       },
@@ -256,13 +256,13 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Hot Apple Gin baut auf:"
+            "text": "Hot Apple Gin basiert auf:"
           },
           {
             "type": "ingredients",
             "items": [
               "Apfelsaft aus einer sorgfältig ausbalancierten Mischung von Apfelsorten",
-              "Unser eigener Gin, eigens für dieses Getränk destilliert",
+              "Unserem eigenen Gin, eigens für dieses Getränk destilliert",
               "Ein vielschichtiges Gewürzprofil",
               "Ein paar Dinge, die wir nicht einmal unseren Kindern verraten haben",
               "Und die Disziplin, es jedes Mal gleich schmecken zu lassen"
@@ -516,7 +516,7 @@
           },
           {
             "q": "Kann Hot Apple Gin beim Kochen oder in Desserts verwendet werden?",
-            "a": "Ja, und es ist eine bessere Idee, als es klingen mag. Warmer Apfel und Gewürz übersetzen sich gut in Glasuren für Ente oder Schwein, Sirupe aus pochierter Birne oder gewürzte Kuchenteige. Der Alkohol verkocht. Der Geschmack bleibt."
+            "a": "Ja, und es ist eine bessere Idee, als es klingen mag. Warmer Apfel und Gewürz übersetzen sich gut in Glasuren für Ente oder Schwein, Sirupe aus pochierter Birne oder gewürzte Kuchenteige. Die Hitze verwandelt es: ein Teil des Alkohols verdampft, die Botanicals des Gins werden milder, und Apfel und Gewürz kommen durch. Der Geschmack verändert sich, und genau das ist gewollt."
           }
         ]
       },
@@ -529,7 +529,7 @@
           },
           {
             "q": "Kann Hot Apple Gin in Skihütten oder Après-Ski-Bars serviert werden?",
-            "a": "Er gehört dorthin. Warm, vielschichtig, alkoholarm genug, um am Berg funktionsfähig zu bleiben. Er erwärmt sich schnell, das Format für größere Mengen passt perfekt für eine belebte Hütte, und es ist die Art Getränk, über die Menschen danach sprechen. Das ist keine Kleinigkeit."
+            "a": "Er gehört dorthin. Warm, vielschichtig, leichter als viele klassische Cocktails, aber weiterhin alkoholhaltig. Er erwärmt sich schnell, das Format für größere Mengen passt perfekt für eine belebte Hütte, und es ist die Art Getränk, über die Menschen danach sprechen. Das ist keine Kleinigkeit."
           },
           {
             "q": "Eignet sich Hot Apple Gin als Willkommensgetränk?",

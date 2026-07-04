@@ -89,7 +89,7 @@
     "workWith": [
       { "title": "Bars, restaurants & hôtels", "body": "Un service chaud qui mérite sa place sur une carte d'hiver, et garde la table occupée un peu plus longtemps." },
       { "title": "Commerces & cavistes spécialisés", "body": "Une bouteille distinctive qui tient sa place dans le rayon, durant les mois qui comptent." },
-      { "title": "Distributeurs & importateurs", "body": "Une jeune catégorie hivernale avec de la marge pour grandir, derrière une marque faite pour voyager." },
+      { "title": "Distributeurs & importateurs", "body": "Une jeune catégorie hivernale avec un vrai potentiel de croissance, derrière une marque faite pour voyager." },
       { "title": "Partenaires événementiels & concepts saisonniers", "body": "Fait pour les marchés de Noël, les festivals et les activations hivernales. Là où tout a commencé." }
     ],
     "howItWorksEyebrow": "Comment ça marche",
@@ -112,7 +112,7 @@
   "contact": {
     "title": "Réchauffons l'atmosphère",
     "intro": "Si ça vaut la peine d'être dit, ça vaut la peine d'être envoyé. Nous vous écoutons.",
-    "formButton": "Chaleureusement",
+    "formButton": "Envoyer le message",
     "eventsTitle": "Retrouvez-nous là où ça compte le plus",
     "eventsCopy": "Venez nous retrouver sur une sélection de salons professionnels, marchés d'hiver et événements saisonniers.",
     "eventsCta": "Vous participez à l'un d'eux ? Prenons rendez-vous.",
@@ -128,7 +128,7 @@
       "name": "Nom",
       "email": "E-mail",
       "share": "Quelque chose à partager ?",
-      "consent": "J'ai plus de 18 ans et je suis parfaitement capable de prendre des décisions chaleureuses.",
+      "consent": "J'ai 18 ans ou plus et je suis parfaitement capable de prendre des décisions chaleureuses.",
       "button": "Gardez-moi au chaud"
     }
   },
@@ -152,7 +152,7 @@
       },
       {
         "title": "HOT APPLE GIN 0.0",
-        "copy": "Toute la chaleur. Aucun alcool.\nToujours chaud. Toujours nuancé. Toujours digne qu'on ralentisse.",
+        "copy": "Toute la chaleur. Aucun alcool.\nToujours chaud. Toujours nuancé. Toujours une bonne raison de ralentir.",
         "image": "IMG_4686.jpg",
         "specs": "Sans alcool · 1L"
       },
@@ -182,7 +182,7 @@
       {
         "label": "ÉTAPE 1 - OUVRIR",
         "lead": "C'est ici que tout commence.",
-        "body": "Ouvrez la bouteille et versez Hot Apple Gin dans une casserole, réchauffez doucement jusqu'à ce que la première vapeur s'élève. Ne pas faire bouillir, nous faisons un cocktail, pas une soupe.",
+        "body": "Ouvrez la bouteille et versez Hot Apple Gin dans une casserole, réchauffez doucement jusqu'à ce que la première vapeur s'élève. Ne faites pas bouillir : nous préparons un cocktail, pas une soupe.",
         "image": "IMG_1791.jpg"
       },
       {
@@ -263,7 +263,7 @@
             "items": [
               "Du jus de pomme issu d'un assemblage soigneusement équilibré de variétés de pommes",
               "Notre propre gin, distillé spécialement pour cette boisson",
-              "Un profil d'épices en couches",
+              "Un profil épicé en plusieurs nuances",
               "Quelques éléments que nous n'avons même pas confiés à nos enfants",
               "Et la discipline de lui donner le même goût à chaque fois"
             ]
@@ -373,11 +373,11 @@
           },
           {
             "q": "Qu'est-ce qui distingue Hot Apple Gin du cidre ordinaire ?",
-            "a": "Le cidre froid est une boisson d'été, pétillante, rafraîchissante, sans complication. Hot Apple Gin est chaud, tranquille, à base de gin et fait pour une tout autre météo. La pomme est la seule chose qu'ils partagent. Au-delà, ils ne sont pas vraiment dans la même conversation."
+            "a": "Le cidre froid est une boisson d'été, pétillante, rafraîchissante, sans complication. Hot Apple Gin est chaud, non pétillant, à base de gin et fait pour une tout autre météo. La pomme est la seule chose qu'ils partagent. Au-delà, ils ne sont pas vraiment dans la même conversation."
           },
           {
             "q": "Qu'est-ce qui distingue Hot Apple Gin d'un gin tonic ordinaire ?",
-            "a": "La saison, la température et l'intention. Un gin tonic est froid, pétillant et fait pour une terrasse en juillet. Hot Apple Gin est chaud, tranquille et fait pour l'autre moitié de l'année. Le même spiritueux au cœur, une expérience totalement différente. Les deux ont leur place. Celui-ci a simplement un meilleur timing en hiver."
+            "a": "La saison, la température et l'intention. Un gin tonic est froid, pétillant et fait pour une terrasse en juillet. Hot Apple Gin est chaud, non pétillant et fait pour l'autre moitié de l'année. Le même spiritueux au cœur, une expérience totalement différente. Les deux ont leur place. Celui-ci a simplement un meilleur timing en hiver."
           },
           {
             "q": "Hot Apple Gin est-il saisonnier ou disponible toute l'année ?",
@@ -410,7 +410,7 @@
           },
           {
             "q": "Hot Apple Gin est-il sucré ?",
-            "a": "Assez sucré pour être invitant. Pas assez pour poser problème. La pomme lui donne chaleur et rondeur ; les botaniques et les épices du gin l'empêchent de basculer dans le territoire du dessert. La plupart de ceux qui s'attendent à quelque chose de sirupeux sont agréablement surpris."
+            "a": "Assez sucré pour être invitant. Pas assez pour poser problème. La pomme lui donne chaleur et rondeur ; les botaniques et les épices du gin l'empêchent de basculer dans le registre du dessert. La plupart de ceux qui s'attendent à quelque chose de sirupeux sont agréablement surpris."
           },
           {
             "q": "Hot Apple Gin contient-il du vrai jus de pomme ?",
@@ -430,7 +430,7 @@
           },
           {
             "q": "Combien de calories contient Hot Apple Gin ?",
-            "a": "Les informations caloriques figurent sur l'étiquette du produit. À 4,1% vol, la charge calorique par verre est bien inférieure à celle de la plupart des spiritueux ou cocktails à plein degré. Bon à garder en tête pour le moment où quelqu'un à table posera inévitablement la question."
+            "a": "Les informations caloriques figurent sur l'étiquette du produit. À 4,1% vol, l'apport calorique par verre est bien inférieure à celle de la plupart des spiritueux ou cocktails à plein degré. Bon à garder en tête pour le moment où quelqu'un à table posera inévitablement la question."
           }
         ]
       },
@@ -488,7 +488,7 @@
           },
           {
             "q": "Hot Apple Gin peut-il être réchauffé au micro-ondes ?",
-            "a": "Vous le pouvez. Mais une casserole prend deux minutes et le résultat est nettement meilleur. Les micro-ondes chauffent de façon inégale et il est facile de dépasser. Certains raccourcis ne valent pas les trente secondes qu'ils font gagner."
+            "a": "Vous le pouvez. Mais une casserole prend deux minutes et le résultat est nettement meilleur. Les micro-ondes chauffent de façon inégale et il est facile de trop chauffer. Certains raccourcis ne valent pas les trente secondes qu'ils font gagner."
           },
           {
             "q": "Hot Apple Gin peut-il être réchauffé à la casserole ?",
@@ -516,7 +516,7 @@
           },
           {
             "q": "Hot Apple Gin peut-il être utilisé en cuisine ou en dessert ?",
-            "a": "Oui, et c'est une meilleure idée qu'il n'y paraît. La pomme chaude et l'épice se traduisent bien en glaçages pour le canard ou le porc, en sirops de poire pochée ou en pâtes à gâteau épicées. L'alcool s'évapore. Le goût reste."
+            "a": "Oui, et c'est une meilleure idée qu'il n'y paraît. La pomme chaude et l'épice se traduisent bien en glaçages pour le canard ou le porc, en sirops de poire pochée ou en pâtes à gâteau épicées. La chaleur le transforme : une partie de l'alcool s'évapore, les botaniques du gin s'adoucissent, et la pomme et l'épice ressortent. Le goût change, et c'est justement l'intérêt."
           }
         ]
       },
@@ -529,7 +529,7 @@
           },
           {
             "q": "Hot Apple Gin peut-il être servi dans des chalets de ski ou des bars d'après-ski ?",
-            "a": "Il y a sa place. Chaud, nuancé, assez peu alcoolisé pour rester opérationnel sur la montagne. Il chauffe vite, le format en grande quantité fonctionne parfaitement pour un chalet animé, et c'est le genre de boisson dont les gens parlent après. Ce n'est pas rien."
+            "a": "Il y a sa place. Chaud, nuancé, plus léger que beaucoup de cocktails classiques, mais toujours une boisson alcoolisée. Il chauffe vite, le format en grande quantité fonctionne parfaitement pour un chalet animé, et c'est le genre de boisson dont les gens parlent après. Ce n'est pas rien."
           },
           {
             "q": "Hot Apple Gin convient-il comme boisson de bienvenue ?",

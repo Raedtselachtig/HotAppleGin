@@ -141,7 +141,7 @@
   "collection": {
     "heroTitle": "DE COLLECTIE",
     "heroSubtitle": "Seizoensgebonden verkrijgbaar",
-    "productCta": "Weet het als eerste",
+    "productCta": "Hoor het als eerste",
     "waitlistTitle": "Weet als eerste wanneer Hot Apple Gin terugkeert.",
     "products": [
       {
@@ -182,7 +182,7 @@
       {
         "label": "STAP 1 - OPENEN",
         "lead": "Hier begint het allemaal.",
-        "body": "Open de fles en schenk Hot Apple Gin in een pan, zachtjes verwarmen tot de eerste damp opstijgt. Niet koken, we maken een cocktail, geen soep.",
+        "body": "Open de fles en schenk Hot Apple Gin in een pan. Verwarm zachtjes tot de eerste damp opstijgt. Niet koken, we maken een cocktail, geen soep.",
         "image": "IMG_1791.jpg"
       },
       {
@@ -199,7 +199,7 @@
       },
       {
         "label": "STAP 4 - SERVEREN",
-        "lead": "Nu het goede deel.",
+        "lead": "Nu komt het goede deel.",
         "body": "Serveer warm in een glas op voet en laat het aroma de rest doen. Bonuspunten\nals iemand zegt dat het heerlijk ruikt, nog voor de eerste slok.",
         "image": "IMG_1784.jpg"
       },
@@ -516,7 +516,7 @@
           },
           {
             "q": "Kan Hot Apple Gin in de keuken of in desserts gebruikt worden?",
-            "a": "Ja, en het is een beter idee dan het misschien klinkt. Warme appel en kruiden vertalen goed naar glazuren voor eend of varkensvlees, siropen van gepocheerde peer, of gekruide cakebeslagen. De alcohol kookt weg. De smaak blijft."
+            "a": "Ja, en het is een beter idee dan het misschien klinkt. Warme appel en kruiden vertalen goed naar glazuren voor eend of varkensvlees, siropen van gepocheerde peer, of gekruide cakebeslagen. De hitte doet zijn werk: een deel van de alcohol verdampt, de botanicals van de gin verzachten, en de appel en kruiden komen door. De smaak verandert, en dat is precies de bedoeling."
           }
         ]
       },
@@ -529,7 +529,7 @@
           },
           {
             "q": "Kan Hot Apple Gin geserveerd worden in skihutten of après-skibars?",
-            "a": "Het hoort daar thuis. Warm, gelaagd, laag genoeg in alcohol om functioneel te blijven op de berg. Het warmt snel op, het formaat voor grotere hoeveelheden werkt perfect voor een drukke hut, en het is het soort drankje waar mensen achteraf over praten. Dat is niet niks."
+            "a": "Het hoort daar thuis. Warm, gelaagd, lichter dan veel klassieke cocktails, maar nog steeds een alcoholische drank. Het warmt snel op, het formaat voor grotere hoeveelheden werkt perfect voor een drukke hut, en het is het soort drankje waar mensen achteraf over praten. Dat is niet niks."
           },
           {
             "q": "Is Hot Apple Gin geschikt als welkomstdrankje?",
@@ -768,7 +768,7 @@
   },
   "shop": {
     "title": "DE COLLECTIE",
-    "copy": "Seizoensgebonden verkrijgbaar.\nWeet het als eerste."
+    "copy": "Seizoensgebonden verkrijgbaar.\nHoor het als eerste."
   },
   "notFound": {
     "title": "Pagina niet gevonden",
