@@ -6,7 +6,7 @@
     "serve": "Servieren",
     "recipes": "Rezept",
     "faq": "FAQ",
-    "partnerships": "Partnerships",
+    "partnerships": "Partner",
     "contact": "Kontakt",
     "menu": "Menü",
     "close": "Schließen"
@@ -18,14 +18,14 @@
     "serve": "Servieren",
     "recipes": "Rezept",
     "faq": "FAQ",
-    "partnerships": "Partnerships",
+    "partnerships": "Partner",
     "contact": "Kontakt",
     "instagram": "Instagram",
     "privacy": "Datenschutz",
     "terms": "AGB",
     "cookies": "Cookies",
     "rights": "© 2026 Hot Apple Gin Family Co.",
-    "responsible": "Gute Dinge, in Maßen. Bitte verantwortungsvoll genießen."
+    "responsible": "Gutes, in Maßen. Bitte verantwortungsvoll genießen."
   },
   "language": {
     "label": "Sprache",
@@ -36,7 +36,7 @@
   },
   "home": {
     "heroEyebrow": "Der warme Wintercocktail",
-    "heroTitle": "NEUE ERINNERUNGEN\nDIESELBE WÄRME",
+    "heroTitle": "NEW MEMORIES\nSAME WARMTH",
     "heroCta": "Die Kollektion entdecken",
     "heroCta2": "Partner werden",
     "manifesto": "Hot Apple Gin war nie als Marke gedacht. Er war dafür gedacht, mit Familie und Freunden genossen zu werden, im Winter, wenn man nirgendwo hin muss. Und das ist er eigentlich immer noch.",
@@ -44,7 +44,7 @@
     "collectionBandCopy": "Flaschen für lange Abende und Menschen, die selten nach einem Glas gehen.",
     "collectionBandLabel": "Die Kollektion entdecken",
     "storyTitle": "UNSERE GESCHICHTE",
-    "storyCopy": "Gebaut auf Momente, nicht auf Anlässe.\nEin Getränk, das Menschen zusammenbringt.",
+    "storyCopy": "Entstanden aus Momenten, nicht aus Anlässen.\nEin Getränk, das Menschen zusammenbringt.",
     "storyLink": "Wo es begann",
     "servedBandTitle": "WARM SERVIERT",
     "servedBandCopy": "Manche Dinge funktionieren einfach besser warm. Langsam erwärmt. Sorgfältig serviert.",
@@ -52,7 +52,7 @@
     "blendTitle": "WO WIR DAZUGEHÖREN",
     "blendCopy": "Von stillen Abenden bis zu vollen Tischen.\nDifferent setting, same warmth.",
     "blendLink": "Sehen, wo wir dazugehören",
-    "partnersBandTitle": "PARTNERSHIPS",
+    "partnersBandTitle": "PARTNER",
     "partnersBandCopy": "Gemacht für die Momente, für die es sich zu bleiben lohnt.",
     "partnersBandLabel": "Verfügbar für ausgewählte Partner",
     "modernClassic": "EIN MODERNER KLASSIKER IM ENTSTEHEN",
@@ -82,7 +82,7 @@
     ]
   },
   "partnerships": {
-    "title": "PARTNERSHIPS",
+    "title": "PARTNER",
     "intro": "Ein Wintercocktail mit klarer Haltung, geschaffen für Partner, die Unterschied schätzen. Gebaut, um in den Räumen zu bestehen, die zählen, von Gastronomiebetrieben über Handelsregale bis zur internationalen Distribution. Eine warme, raffinierte Servierweise, die durch Erfahrung auffällt, nicht durch Vergleich.",
     "workWithEyebrow": "Mit wem wir arbeiten",
     "workWithSub": "Vier Einstiege. Wählen Sie den passenden und melden Sie sich unten.",
@@ -111,7 +111,7 @@
   },
   "contact": {
     "title": "Jetzt wird's heiß.",
-    "intro": "Ist es das Sagen wert, ist es das Senden wert. Wir hören zu.",
+    "intro": "Wenn es wichtig genug ist, es zu sagen, ist es wichtig genug, es zu senden. Wir hören zu.",
     "formButton": "Warme Grüße",
     "eventsTitle": "Finden Sie uns, wo es am meisten zählt",
     "eventsCopy": "Besuchen Sie uns auf ausgewählten Fachmessen, Wintermärkten und Saisonevents.",
@@ -141,14 +141,14 @@
   "collection": {
     "heroTitle": "DIE KOLLEKTION",
     "heroSubtitle": "Saisonal erhältlich",
-    "productCta": "Erfahren Sie es als Erster",
+    "productCta": "Als Erste erfahren",
     "waitlistTitle": "Erfahren Sie als Erster, wenn Hot Apple Gin zurückkehrt.",
     "products": [
       {
         "title": "HOT APPLE GIN - THE ORIGINAL",
         "copy": "Unsere charakteristische Flasche. Gemacht, um langsam erwärmt und großzügig eingeschenkt zu werden.\nDie Art Getränk, die aus einer Runde unmerklich zwei macht.",
         "image": "IMG_4681.jpg",
-        "specs": "4.1% ABV · 1L"
+        "specs": "4,1% vol · 1L"
       },
       {
         "title": "HOT APPLE GIN 0.0",
@@ -160,7 +160,7 @@
         "title": "ORIGINAL GESCHENKSET",
         "copy": "Das volle Hot Apple Gin-Erlebnis, bereit zum Verschenken.\nFür Menschen, für die man das gute Glas herausholt.",
         "image": "IMG_4688.jpg",
-        "specs": "Geschenkset · 4.1% ABV · 1L"
+        "specs": "Geschenkset · 4,1% vol · 1L"
       },
       {
         "title": "0.0 GESCHENKSET",
@@ -182,7 +182,7 @@
       {
         "label": "SCHRITT 1 - ÖFFNEN",
         "lead": "Hier beginnt alles.",
-        "body": "Öffnen Sie die Flasche und gießen Sie Hot Apple Gin in einen Topf, sanft erwärmen, bis der erste Dampf aufsteigt. Nicht kochen, wir machen einen Cocktail, keine Suppe.",
+        "body": "Öffnen Sie die Flasche, gießen Sie Hot Apple Gin in einen Topf und erwärmen Sie ihn sanft, bis der erste Dampf aufsteigt. Nicht kochen, wir machen einen Cocktail, keine Suppe.",
         "image": "IMG_1791.jpg"
       },
       {
@@ -343,7 +343,7 @@
     "originHeading": "Die Entstehung von Hot Apple Gin",
     "chat": ["Warmer Gin… 🤔", "Hmmm…", "Ich glaube, ich versuche es trotzdem über die Weihnachtstage zu machen."],
     "intro": "UNSERE GESCHICHTE\n\nHot Apple Gin war nie als Marke gedacht. Er war dafür gedacht, mit der Familie genossen zu werden, im Winter, wenn man nirgendwo hin muss. Was als stilles Experiment begann, wurde zu einem Rezept, das wir nicht für uns behalten konnten. Warm, vielschichtig und mit Sorgfalt gemacht: das ist ein Getränk, das in jedem Glas eine Geschichte trägt.\n\nWir sind stolz, sie endlich zu teilen.",
-    "origin": "Es begann mit einer Nachricht von einem Bruder, der einen Winter lang unterwegs war, ein Tipp, ein Anstoß, ein Gedanke, der einfach sagte: schau dir das an.\nDie Antwort kam fast sofort zurück:\n\n\"Warmer Gin… 🤔\"\n\"Hmmm…\"\n\"Ich glaube, ich versuche das über die Weihnachtstage zu machen.\"\n\nWas folgte, waren Wochen des Experimentierens, Anpassens und Von-vorn-Beginnens. Ein Gewürzsirup von Grund auf entwickelt. Verhältnisse nach Gefühl statt nach Maß justiert. Und ein Gin, um alles zu verbinden. Fast nichts aufgeschrieben. Es dauerte zwei volle Winter, bis das Rezept wurde, was es heute ist, aber irgendwo unterwegs hörte es auf, ein Experiment zu sein.\n\nEs wurde ein Ritual.\n\nJeden Winter kam die Familie zusammen. Brüder, Schwestern, Eltern, Kinder, Mäntel an, manchmal ein Feuer, oft draußen. Nach einem langen Spaziergang, einem Tag Einkaufen oder einfach nach einem kalten Tag heimkommen, zu guter Gesellschaft. Diese Nachmittage und Abende sind das, woraus Hot Apple Gin gemacht ist. Mit der Zeit wurde es unser Familienrezept. Die Art, die man nicht loslässt.\n\nDann kam der Moment, der alles veränderte. Wir waren zusammen, das Glas in der Hand, als jemand halb im Scherz und nicht ganz ernst sagte, dass andere Menschen das auch schmecken können sollten. Die Stille, die folgte, sagte alles.\n\nIm selben Jahr standen wir zum ersten Mal auf einem Weihnachtsmarkt. Wir waren durch alles hindurch, füllten hastig nach und waren erneut ausverkauft. Mehr als einmal. Wir vergessen das erste Glas, das wir an einen Fremden verkauften, nie, und das werden wir auch nie.\n\nIm Jahr darauf kamen Menschen zurück und fragten nach uns beim Namen. Das sagte uns alles, was wir wissen mussten.\n\nWir füllten unsere erste Charge ab. Die Reaktion bestätigte, was wir bereits fühlten. Heute machen wir Hot Apple Gin mit unserem eigenen Gin, eigens für dieses Rezept entwickelt. Und jetzt, diesen Winter, wird Hot Apple Gin zum ersten Mal in Bars und Restaurants in mehreren Ländern serviert, von Händen, die nicht die unseren sind, an Menschen, die wir nie getroffen haben.\n\nErwachsenwerden heißt loslassen, sagt man… Wir glauben, dafür sind wir bereit.\n\nWas an einem Familienfeuer begann, findet nun seinen Weg zu Tischen auf der ganzen Welt.\n\nDas, glauben wir, ist, wie ein Vermächtnis beginnt."
+    "origin": "Es begann mit einer Nachricht von einem Bruder, der einen Winter lang unterwegs war, ein Tipp, ein Anstoß, ein Gedanke, der einfach sagte: schau dir das an.\nDie Antwort kam fast sofort zurück:\n\n\"Warmer Gin… 🤔\"\n\"Hmmm…\"\n\"Ich glaube, ich versuche das über die Weihnachtstage zu machen.\"\n\nWas folgte, waren Wochen des Experimentierens, Anpassens und Von-vorn-Beginnens. Ein Gewürzsirup von Grund auf entwickelt. Verhältnisse nach Gefühl statt nach Maß justiert. Und ein Gin, um alles zu verbinden. Fast nichts aufgeschrieben. Es dauerte zwei volle Winter, bis das Rezept wurde, was es heute ist, aber irgendwo unterwegs hörte es auf, ein Experiment zu sein.\n\nEs wurde ein Ritual.\n\nJeden Winter kam die Familie zusammen. Brüder, Schwestern, Eltern, Kinder, Mäntel an, manchmal ein Feuer, oft draußen. Nach einem langen Spaziergang, einem Tag Einkaufen oder einfach nach einem kalten Tag heimkommen, zu guter Gesellschaft. Diese Nachmittage und Abende sind das, woraus Hot Apple Gin gemacht ist. Mit der Zeit wurde es unser Familienrezept. Die Art, die man nicht loslässt.\n\nDann kam der Moment, der alles veränderte. Wir waren zusammen, das Glas in der Hand, als jemand halb im Scherz und nicht ganz ernst sagte, dass andere Menschen das auch schmecken können sollten. Die Stille, die folgte, sagte alles.\n\nIm selben Jahr standen wir zum ersten Mal auf einem Weihnachtsmarkt. Uns ging alles aus. Wir füllten hastig nach und waren erneut ausverkauft. Mehr als einmal. Wir vergessen das erste Glas, das wir an einen Fremden verkauften, nie, und das werden wir auch nie.\n\nIm Jahr darauf kamen Menschen zurück und fragten nach uns beim Namen. Das sagte uns alles, was wir wissen mussten.\n\nWir füllten unsere erste Charge ab. Die Reaktion bestätigte, was wir bereits fühlten. Heute machen wir Hot Apple Gin mit unserem eigenen Gin, eigens für dieses Rezept entwickelt. Und jetzt, diesen Winter, wird Hot Apple Gin zum ersten Mal in Bars und Restaurants in mehreren Ländern serviert, von Händen, die nicht die unseren sind, an Menschen, die wir nie getroffen haben.\n\nErwachsenwerden heißt loslassen, sagt man… Wir glauben, dafür sind wir bereit.\n\nWas an einem Familienfeuer begann, findet nun seinen Weg zu Tischen auf der ganzen Welt.\n\nDas, glauben wir, ist, wie ein Vermächtnis beginnt."
   },
   "faq": {
     "title": "FAQ",
@@ -430,7 +430,7 @@
           },
           {
             "q": "Wie viele Kalorien hat Hot Apple Gin?",
-            "a": "Kalorienangaben finden Sie auf dem Produktetikett. Bei 4.1% ABV liegt die Kalorienlast pro Glas deutlich unter der der meisten hochprozentigen Spirituosen oder Cocktails. Etwas, das man im Hinterkopf behält, wenn jemand am Tisch unweigerlich danach fragt."
+            "a": "Kalorienangaben finden Sie auf dem Produktetikett. Bei 4,1% vol liegt die Kalorienlast pro Glas deutlich unter der der meisten hochprozentigen Spirituosen oder Cocktails. Etwas, das man im Hinterkopf behält, wenn jemand am Tisch unweigerlich danach fragt."
           }
         ]
       },
@@ -439,11 +439,11 @@
         "items": [
           {
             "q": "Wie viel Alkohol enthält Hot Apple Gin?",
-            "a": "Das Original hat 4.1% ABV, vergleichbar mit einem kräftigen Bier. Die 0.0-Version enthält keinen Alkohol. Zwei Flaschen, dasselbe Ritual, ein anderer Morgen danach."
+            "a": "Das Original hat 4,1% vol, vergleichbar mit einem kräftigen Bier. Die 0.0-Version enthält keinen Alkohol. Zwei Flaschen, dasselbe Ritual, ein anderer Morgen danach."
           },
           {
-            "q": "Gilt 4.1% ABV als alkoholarm?",
-            "a": "Ja, alkoholarm nach den meisten regulatorischen und verbraucherüblichen Maßstäben. Es war eine bewusste Entscheidung. Die Wärme, das Aroma und das Ritual hängen nicht von hohem Alkoholgehalt ab. Sie können einen ganzen Abend haben, ohne die Art von Entscheidungen, die Sie am Dienstag bereuen."
+            "q": "Gilt 4,1% vol als alkoholarm?",
+            "a": "Offiziell bedeutet 'alkoholarm' etwa 1,2% vol. oder weniger, also streng genommen nein. Aber mit 4,1% vol. ist er leichter als viele klassische Cocktails und Spirituosen und bleibt trotzdem ein vollwertiges Getränk. Eine bewusste Entscheidung: Wärme, Aroma und Ritual hängen nicht von einem hohen Alkoholgehalt ab. Sie können einen ganzen Abend haben, ohne die Art von Entscheidungen, die Sie am Dienstag bereuen."
           },
           {
             "q": "Gibt es eine alkoholfreie Version von Hot Apple Gin?",
@@ -537,7 +537,7 @@
           },
           {
             "q": "Kann Hot Apple Gin in Gastronomie oder Catering eingesetzt werden?",
-            "a": "Ja. Einfach zuzubereiten, gleichbleibend in der Qualität und die Art Servierweise, die eine Karte einprägsam macht. Hot Apple Gin funktioniert in allerlei Gastronomieumgebungen, von Hotellounges über Cateringbetriebe bis zu Weinkarten mit Ambition. Mehr auf der Partnerships-Seite."
+            "a": "Ja. Einfach zuzubereiten, gleichbleibend in der Qualität und die Art Servierweise, die eine Karte einprägsam macht. Hot Apple Gin funktioniert in allerlei Gastronomieumgebungen, von Hotellounges über Cateringbetriebe bis zu Weinkarten mit Ambition. Mehr auf der Partner-Seite."
           },
           {
             "q": "Was sind die besten Anlässe, um Hot Apple Gin zu servieren?",
@@ -554,7 +554,7 @@
           },
           {
             "q": "Muss Hot Apple Gin gekühlt werden?",
-            "a": "Nicht vor dem Öffnen. Nach dem Öffnen verlängert der Kühlschrank die Haltbarkeit, und bei 4.1% ABV ist die Haltbarkeit nach dem Öffnen kürzer als die einer hochprozentigen Spirituose. Sehen Sie ihn als schicken Saft mit einem Gin-Problem."
+            "a": "Nicht vor dem Öffnen. Nach dem Öffnen verlängert der Kühlschrank die Haltbarkeit, und bei 4,1% vol ist die Haltbarkeit nach dem Öffnen kürzer als die einer hochprozentigen Spirituose. Sehen Sie ihn als schicken Saft mit einem Gin-Problem."
           },
           {
             "q": "Wie ist die Haltbarkeit einer ungeöffneten Flasche?",
@@ -616,7 +616,7 @@
           },
           {
             "q": "Eignet sich Hot Apple Gin als Firmengeschenk?",
-            "a": "Ja, und es ist eines, das in Erinnerung bleibt, was der Sinn eines Firmengeschenks ist. Warm, unverwechselbar und nicht noch eine Flasche Wein, die jemand an einem Dienstag öffnet. Erhältlich in Flaschen und Geschenksets, mit Optionen für größere Bestellungen. Melden Sie sich über die Partnerships-Seite."
+            "a": "Ja, und es ist eines, das in Erinnerung bleibt, was der Sinn eines Firmengeschenks ist. Warm, unverwechselbar und nicht noch eine Flasche Wein, die jemand an einem Dienstag öffnet. Erhältlich in Flaschen und Geschenksets, mit Optionen für größere Bestellungen. Melden Sie sich über die Partner-Seite."
           }
         ]
       },
@@ -625,35 +625,35 @@
         "items": [
           {
             "q": "Beliefern Sie Bars, Restaurants und Hotels?",
-            "a": "Ja. Hot Apple Gin ist für Orte gemacht, die den Moment schätzen, Hotellounges, Restaurantkarten mit Haltung, Winterterrassen, die etwas Bestellenswertes wollen. Wir arbeiten mit Partnern, denen die Servierweise am Herzen liegt, nicht nur die Marge. Mehr auf der Partnerships-Seite."
+            "a": "Ja. Hot Apple Gin ist für Orte gemacht, die den Moment schätzen, Hotellounges, Restaurantkarten mit Haltung, Winterterrassen, die etwas Bestellenswertes wollen. Wir arbeiten mit Partnern, denen die Servierweise am Herzen liegt, nicht nur die Marge. Mehr auf der Partner-Seite."
           },
           {
             "q": "Arbeiten Sie mit Distributeuren?",
-            "a": "Ja, und wir expandieren aktiv. Wenn Sie ein Vertriebsunternehmen vertreten und eine Passung sehen, wollen wir von Ihnen hören. Nehmen Sie über Partnerships Kontakt auf."
+            "a": "Ja, und wir expandieren aktiv. Wenn Sie ein Vertriebsunternehmen vertreten und eine Passung sehen, wollen wir von Ihnen hören. Nehmen Sie über die Partner-Seite Kontakt auf."
           },
           {
             "q": "Kann ich Hot Apple Gin in meinem Geschäft verkaufen?",
-            "a": "Handel und Spezialgeschäfte für Spirituosen gehören zu unserem Partnernetz. Wenn Ihre Regale Platz für etwas haben, das sich seinen Platz verdient, lassen Sie uns reden. Beginnen Sie über Partnerships."
+            "a": "Handel und Spezialgeschäfte für Spirituosen gehören zu unserem Partnernetz. Wenn Ihre Regale Platz für etwas haben, das sich seinen Platz verdient, lassen Sie uns reden. Beginnen Sie über die Partner-Seite."
           },
           {
             "q": "Bieten Sie Mengen- oder Großhandelspreise?",
-            "a": "Wir veröffentlichen keine Preisliste, wir bauen Partnerships. Gute Dinge beginnen mit einem Gespräch, und wir kümmern uns um die Menschen, mit denen wir arbeiten. Melden Sie sich über Partnerships und wir nehmen es von dort."
+            "a": "Wir veröffentlichen keine Preisliste, wir bauen Partnerschaften. Gute Dinge beginnen mit einem Gespräch, und wir kümmern uns um die Menschen, mit denen wir arbeiten. Melden Sie sich über die Partner-Seite und wir nehmen es von dort."
           },
           {
             "q": "Kann ich Hot Apple Gin auf Festivals oder Events servieren?",
-            "a": "Ja, Saisonevents und Festivalkonzepte liegen nah an unseren Wurzeln. Hot Apple Gin begann auf einem Weihnachtsmarkt. Planen Sie eine Winteraktivierung und sehen eine Passung, nehmen Sie über Partnerships Kontakt auf."
+            "a": "Ja, Saisonevents und Festivalkonzepte liegen nah an unseren Wurzeln. Hot Apple Gin begann auf einem Weihnachtsmarkt. Planen Sie eine Winteraktivierung und sehen eine Passung, nehmen Sie über die Partner-Seite Kontakt auf."
           },
           {
             "q": "Stellen Sie POS- oder Werbematerial bereit?",
-            "a": "Wir unterstützen unsere Partner mit Markenmaterial und Servierhinweisen an jedem Kontaktpunkt. Spezifische POS-Wünsche lassen sich beim Aufsetzen der Partnerschaft besprechen. Uns liegt daran, wie es in Ihrem Raum aussieht, denn es fällt auf unseren zurück."
+            "a": "Wir unterstützen unsere Partner mit Markenmaterial und Servierhinweisen an jedem Kontaktpunkt. Spezifische POS-Wünsche lassen sich beim Aufsetzen der Partnerschaft besprechen. Uns liegt daran, wie es in Ihrem Raum aussieht, denn es fällt auf unsere Marke zurück."
           },
           {
             "q": "Sind maßgeschneiderte Marken-Kollaborationen möglich?",
             "a": "Möglich. Wir sind wählerisch, eine schlechte Passung nützt niemandem. Haben Sie ein Konzept, das Sinn ergibt, hören wir zu."
           },
           {
-            "q": "Wie kann ich mehr Informationen über Großhandel oder Partnerships anfragen?",
-            "a": "Über die Partnerships-Seite oder über das Kontaktformular. Wir ziehen ein echtes Gespräch einer Broschürenanfrage vor."
+            "q": "Wie kann ich mehr Informationen über Großhandel oder Partnerschaften anfragen?",
+            "a": "Über die Partner-Seite oder über das Kontaktformular. Wir ziehen ein echtes Gespräch einer Broschürenanfrage vor."
           }
         ]
       },
@@ -784,7 +784,7 @@
       "serve": "Servieren",
       "recipes": "Rezept",
       "faq": "FAQ",
-      "partnerships": "Partnerships",
+      "partnerships": "Partner",
       "contact": "Kontakt",
       "blend": "Wo Wir Dazugehören",
       "shop": "Shop",

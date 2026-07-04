@@ -6,7 +6,7 @@
     "serve": "Le Service",
     "recipes": "Recette",
     "faq": "FAQ",
-    "partnerships": "Partnerships",
+    "partnerships": "Partenaires",
     "contact": "Contact",
     "menu": "Menu",
     "close": "Fermer"
@@ -18,7 +18,7 @@
     "serve": "Le Service",
     "recipes": "Recette",
     "faq": "FAQ",
-    "partnerships": "Partnerships",
+    "partnerships": "Partenaires",
     "contact": "Contact",
     "instagram": "Instagram",
     "privacy": "Confidentialité",
@@ -36,7 +36,7 @@
   },
   "home": {
     "heroEyebrow": "Le cocktail chaud de l'hiver",
-    "heroTitle": "NOUVEAUX SOUVENIRS\nMÊME CHALEUR",
+    "heroTitle": "NEW MEMORIES\nSAME WARMTH",
     "heroCta": "Découvrir la collection",
     "heroCta2": "Devenir partenaire",
     "manifesto": "Hot Apple Gin n'a jamais été pensé comme une marque. Il était fait pour être partagé en famille et entre amis, en hiver, quand on n'a nulle part où aller. Et c'est encore le cas, en réalité.",
@@ -49,10 +49,10 @@
     "servedBandTitle": "SERVI CHAUD",
     "servedBandCopy": "Certaines choses fonctionnent simplement mieux chaudes. Réchauffées lentement. Servies avec soin.",
     "servedBandLabel": "Découvrir le service",
-    "blendTitle": "LÀ OÙ NOUS NOUS FONDONS",
+    "blendTitle": "LÀ OÙ NOUS NOUS SENTONS CHEZ NOUS",
     "blendCopy": "Des soirées tranquilles aux tablées animées.\nDifferent setting, same warmth.",
-    "blendLink": "Voir où nous nous fondons",
-    "partnersBandTitle": "PARTNERSHIPS",
+    "blendLink": "Voir où nous nous sentons chez nous",
+    "partnersBandTitle": "PARTENAIRES",
     "partnersBandCopy": "Fait pour les moments qui valent la peine de rester.",
     "partnersBandLabel": "Disponible pour des partenaires sélectionnés",
     "modernClassic": "UN CLASSIQUE MODERNE EN DEVENIR",
@@ -60,7 +60,7 @@
     "rickrollHint": "Vous venez de vous faire rickroller. Touchez n'importe où pour arrêter."
   },
   "wwbi": {
-    "title": "LÀ OÙ NOUS NOUS FONDONS",
+    "title": "LÀ OÙ NOUS NOUS SENTONS CHEZ NOUS",
     "intro": "Des soirées tranquilles aux tablées animées.\nDifferent setting, same warmth.\nD'une manière ou d'une autre, nous trouvons toujours notre place.",
     "tiles": [
       { "image": "wwbi-terrace-two.jpg", "title": "Votre terrasse préférée", "line": "Rien ne dit 'un seul' aussi bien que la deuxième tournée." },
@@ -82,8 +82,8 @@
     ]
   },
   "partnerships": {
-    "title": "PARTNERSHIPS",
-    "intro": "Un cocktail d'hiver au caractère affirmé, créé pour des partenaires qui apprécient la distinction. Conçu pour performer dans les lieux qui comptent, des établissements de restauration aux rayons des magasins jusqu'à la distribution internationale. Un service chaud et raffiné qui se distingue par l'expérience, pas par la comparaison.",
+    "title": "PARTENAIRES",
+    "intro": "Un cocktail d'hiver au caractère affirmé, créé pour des partenaires qui apprécient la distinction. Conçu pour s'imposer dans les lieux qui comptent, des établissements de restauration aux rayons des magasins jusqu'à la distribution internationale. Un service chaud et raffiné qui se distingue par l'expérience, pas par la comparaison.",
     "workWithEyebrow": "Avec qui nous travaillons",
     "workWithSub": "Quatre portes d'entrée. Choisissez celle qui vous convient et contactez-nous ci-dessous.",
     "workWith": [
@@ -110,7 +110,7 @@
     "formButton": "Envoyer la demande"
   },
   "contact": {
-    "title": "Chauffons l'ambiance",
+    "title": "Réchauffons l'atmosphère",
     "intro": "Si ça vaut la peine d'être dit, ça vaut la peine d'être envoyé. Nous vous écoutons.",
     "formButton": "Chaleureusement",
     "eventsTitle": "Retrouvez-nous là où ça compte le plus",
@@ -128,7 +128,7 @@
       "name": "Nom",
       "email": "E-mail",
       "share": "Quelque chose à partager ?",
-      "consent": "J'ai 18 ans et plus, et parfaitement capable de prendre des décisions chaleureuses.",
+      "consent": "J'ai plus de 18 ans et je suis parfaitement capable de prendre des décisions chaleureuses.",
       "button": "Gardez-moi au chaud"
     }
   },
@@ -148,7 +148,7 @@
         "title": "HOT APPLE GIN - THE ORIGINAL",
         "copy": "Notre bouteille emblématique. Conçue pour être réchauffée lentement et servie généreusement.\nLe genre de boisson qui transforme discrètement une tournée en deux.",
         "image": "IMG_4681.jpg",
-        "specs": "4.1% ABV · 1L"
+        "specs": "4,1% vol · 1L"
       },
       {
         "title": "HOT APPLE GIN 0.0",
@@ -160,7 +160,7 @@
         "title": "COFFRET ORIGINAL",
         "copy": "L'expérience Hot Apple Gin complète, prête à offrir.\nPour ceux qui méritent qu'on sorte la belle verrerie.",
         "image": "IMG_4688.jpg",
-        "specs": "Coffret · 4.1% ABV · 1L"
+        "specs": "Coffret · 4,1% vol · 1L"
       },
       {
         "title": "COFFRET 0.0",
@@ -353,7 +353,7 @@
         "items": [
           {
             "q": "Qu'est-ce que Hot Apple Gin ?",
-            "a": "Un cocktail chaud en bouteille. À base de gin, la pomme en avant, servi chaud, fait pour les mois où un gin tonic ressemble à une occasion manquée. Il a commencé comme une recette de famille, est devenu une marque un peu malgré lui, et n'a pas regardé en arrière depuis."
+            "a": "Un cocktail chaud en bouteille. À base de gin, à dominante pomme, servi chaud, fait pour les mois où un gin tonic ressemble à une occasion manquée. Il a commencé comme une recette de famille, est devenu une marque un peu malgré lui, et n'a pas regardé en arrière depuis."
           },
           {
             "q": "Hot Apple Gin est-il un gin ?",
@@ -361,7 +361,7 @@
           },
           {
             "q": "Qu'est-ce qu'un cocktail RTD chaud ?",
-            "a": "RTD signifie ready-to-drink, un cocktail qui arrive entièrement assemblé. Hot Apple Gin est un RTD chaud : vous le réchauffez, vous le servez et vous le tendez à quelqu'un. Pas de jigger, pas de blender, pas de diplôme de barman. La catégorie des RTD chauds croît vite dans le monde entier, et Hot Apple Gin se situe dans le haut de gamme, le seul bout qui nous ait jamais intéressés."
+            "a": "RTD signifie ready-to-drink, un cocktail qui arrive entièrement assemblé. Hot Apple Gin est un RTD chaud : vous le réchauffez, vous le servez et vous le tendez à quelqu'un. Pas de jigger, pas de blender, pas de diplôme de barman. La catégorie des RTD chauds croît vite dans le monde entier, et Hot Apple Gin se situe dans le haut de gamme, le seul segment qui nous ait jamais intéressés."
           },
           {
             "q": "Qu'est-ce qui distingue Hot Apple Gin du vin chaud ?",
@@ -385,7 +385,7 @@
           },
           {
             "q": "Je n'aime pas le gin. Hot Apple Gin est-il quand même fait pour moi ?",
-            "a": "Oui. Le gin travaille en arrière-plan, il apporte de la profondeur, des botaniques et une finale que le jus de pomme seul n'obtiendrait jamais. Mais il ne s'impose pas. Des gens qui affirment ne pas aimer le gin apprécient Hot Apple Gin toute la soirée sans l'évoquer une seule fois. Vous connaissant, vous serez l'un d'eux."
+            "a": "Oui. Le gin travaille en arrière-plan, il apporte de la profondeur, des notes botaniques et une finale que le jus de pomme seul n'obtiendrait jamais. Mais il ne s'impose pas. Des gens qui affirment ne pas aimer le gin apprécient Hot Apple Gin toute la soirée sans l'évoquer une seule fois. Vous connaissant, vous serez l'un d'eux."
           },
           {
             "q": "J'adore le gin. Hot Apple Gin est-il fait pour moi ?",
@@ -430,7 +430,7 @@
           },
           {
             "q": "Combien de calories contient Hot Apple Gin ?",
-            "a": "Les informations caloriques figurent sur l'étiquette du produit. À 4.1% ABV, la charge calorique par verre est bien inférieure à celle de la plupart des spiritueux ou cocktails à plein degré. Bon à garder en tête pour le moment où quelqu'un à table posera inévitablement la question."
+            "a": "Les informations caloriques figurent sur l'étiquette du produit. À 4,1% vol, la charge calorique par verre est bien inférieure à celle de la plupart des spiritueux ou cocktails à plein degré. Bon à garder en tête pour le moment où quelqu'un à table posera inévitablement la question."
           }
         ]
       },
@@ -439,11 +439,11 @@
         "items": [
           {
             "q": "Combien d'alcool contient Hot Apple Gin ?",
-            "a": "L'original titre 4.1% ABV, comparable à une bière forte. La version 0.0 ne contient pas d'alcool. Deux bouteilles, le même rituel, un lendemain différent."
+            "a": "L'original titre 4,1% vol, comparable à une bière forte. La version 0.0 ne contient pas d'alcool. Deux bouteilles, le même rituel, un lendemain différent."
           },
           {
-            "q": "4.1% ABV, est-ce considéré comme faiblement alcoolisé ?",
-            "a": "Oui, faiblement alcoolisé selon la plupart des critères réglementaires et de consommation. C'était un choix délibéré. La chaleur, l'arôme et le rituel ne dépendent pas d'un degré élevé. Vous pouvez passer une soirée entière sans le genre de décisions que vous regrettez le mardi."
+            "q": "4,1% vol, est-ce considéré comme faiblement alcoolisé ?",
+            "a": "Officiellement, 'faiblement alcoolisé' désigne environ 1,2% vol. ou moins, donc techniquement non. Mais à 4,1% vol., il est plus léger que beaucoup de cocktails classiques et de spiritueux, tout en restant une vraie boisson. Un choix délibéré : la chaleur, l'arôme et le rituel ne dépendent pas d'un degré élevé. Vous pouvez passer une soirée entière sans le genre de décisions que vous regrettez le mardi."
           },
           {
             "q": "Existe-t-il une version sans alcool de Hot Apple Gin ?",
@@ -476,7 +476,7 @@
           },
           {
             "q": "Quelle est la température de service idéale ?",
-            "a": "Chaud, pas bouillant. Réchauffez doucement jusqu'à ce que la première vapeur s'élève, autour de 65-70°C. Assez chaud pour que l'arôme remplisse la pièce. Assez tiède pour que personne ne se brûle la lèvre. Cette fenêtre est plus petite qu'il n'y paraît, mais plus facile à atteindre qu'à lire."
+            "a": "Chaud, pas bouillant. Réchauffez doucement jusqu'à ce que la première vapeur s'élève, autour de 65-70°C. Assez chaud pour que l'arôme remplisse la pièce. Assez maîtrisé pour que personne ne se brûle les lèvres. Cette fenêtre est plus petite qu'il n'y paraît, mais plus facile à atteindre qu'à lire."
           },
           {
             "q": "Hot Apple Gin peut-il aussi être servi froid ?",
@@ -537,7 +537,7 @@
           },
           {
             "q": "Hot Apple Gin peut-il être utilisé en restauration ou en traiteur ?",
-            "a": "Oui. Simple à préparer, constant en qualité, et le genre de service qui rend une carte mémorable. Hot Apple Gin fonctionne dans toutes sortes d'environnements d'accueil, des lounges d'hôtel aux opérations de traiteur jusqu'aux cartes des vins ambitieuses. Plus sur la page Partnerships."
+            "a": "Oui. Simple à préparer, constant en qualité, et le genre de service qui rend une carte mémorable. Hot Apple Gin fonctionne dans toutes sortes d'environnements d'accueil, des lounges d'hôtel aux opérations de traiteur jusqu'aux cartes des vins ambitieuses. Plus sur la page Partenaires."
           },
           {
             "q": "Quelles sont les meilleures occasions pour servir Hot Apple Gin ?",
@@ -554,7 +554,7 @@
           },
           {
             "q": "Hot Apple Gin doit-il être réfrigéré ?",
-            "a": "Pas avant l'ouverture. Après l'ouverture, le réfrigérateur prolonge la durée de conservation, et à 4.1% ABV, la durée après ouverture est plus courte que celle d'un spiritueux à plein degré. Voyez-le comme un jus chic avec un problème de gin."
+            "a": "Pas avant l'ouverture. Après l'ouverture, le réfrigérateur prolonge la durée de conservation, et à 4,1% vol, la durée après ouverture est plus courte que celle d'un spiritueux à plein degré. Voyez-le comme un jus chic avec un problème de gin."
           },
           {
             "q": "Quelle est la durée de conservation d'une bouteille non ouverte ?",
@@ -616,7 +616,7 @@
           },
           {
             "q": "Hot Apple Gin convient-il comme cadeau d'entreprise ?",
-            "a": "Oui, et c'en est un dont on se souvient, ce qui est tout l'intérêt d'un cadeau d'entreprise. Chaud, distinctif, et pas encore une bouteille de vin que quelqu'un ouvrira un mardi. Disponible en bouteilles et en coffrets, avec des options pour les grandes commandes. Contactez-nous via la page Partnerships."
+            "a": "Oui, et c'en est un dont on se souvient, ce qui est tout l'intérêt d'un cadeau d'entreprise. Chaud, distinctif, et pas encore une bouteille de vin que quelqu'un ouvrira un mardi. Disponible en bouteilles et en coffrets, avec des options pour les grandes commandes. Contactez-nous via la page Partenaires."
           }
         ]
       },
@@ -625,23 +625,23 @@
         "items": [
           {
             "q": "Fournissez-vous les bars, restaurants et hôtels ?",
-            "a": "Oui. Hot Apple Gin est fait pour les lieux qui valorisent le moment, lounges d'hôtel, cartes de restaurant avec un point de vue, terrasses d'hiver qui veulent quelque chose qui vaut la commande. Nous travaillons avec des partenaires qui se soucient du service, pas seulement de la marge. Plus sur la page Partnerships."
+            "a": "Oui. Hot Apple Gin est fait pour les lieux qui valorisent le moment, lounges d'hôtel, cartes de restaurant avec un point de vue, terrasses d'hiver qui veulent quelque chose qui vaut la commande. Nous travaillons avec des partenaires qui se soucient du service, pas seulement de la marge. Plus sur la page Partenaires."
           },
           {
             "q": "Travaillez-vous avec des distributeurs ?",
-            "a": "Oui, et nous nous développons activement. Si vous représentez une société de distribution et voyez une adéquation, nous voulons vous entendre. Prenez contact via Partnerships."
+            "a": "Oui, et nous nous développons activement. Si vous représentez une société de distribution et voyez une adéquation, nous voulons vous entendre. Prenez contact via Partenaires."
           },
           {
             "q": "Puis-je vendre Hot Apple Gin dans mon magasin ?",
-            "a": "Le commerce de détail et les cavistes spécialisés font partie de notre réseau de partenaires. Si vos rayons ont de la place pour quelque chose qui mérite sa place, parlons-en. Commencez via Partnerships."
+            "a": "Le commerce de détail et les cavistes spécialisés font partie de notre réseau de partenaires. Si vos rayons ont de la place pour quelque chose qui mérite sa place, parlons-en. Commencez via Partenaires."
           },
           {
             "q": "Proposez-vous des prix de gros ou en volume ?",
-            "a": "Nous ne publions pas de liste de prix, nous construisons des partenariats. Les bonnes choses commencent par une conversation, et nous prenons soin des gens avec qui nous travaillons. Contactez-nous via Partnerships et nous partons de là."
+            "a": "Nous ne publions pas de liste de prix, nous construisons des partenariats. Les bonnes choses commencent par une conversation, et nous prenons soin des gens avec qui nous travaillons. Contactez-nous via Partenaires et nous partons de là."
           },
           {
             "q": "Puis-je servir Hot Apple Gin lors de festivals ou d'événements ?",
-            "a": "Oui, les événements saisonniers et les concepts de festival sont proches de nos racines. Hot Apple Gin a commencé sur un marché de Noël. Si vous préparez une activation hivernale et voyez une adéquation, prenez contact via Partnerships."
+            "a": "Oui, les événements saisonniers et les concepts de festival sont proches de nos racines. Hot Apple Gin a commencé sur un marché de Noël. Si vous préparez une activation hivernale et voyez une adéquation, prenez contact via Partenaires."
           },
           {
             "q": "Fournissez-vous du matériel PLV ou promotionnel ?",
@@ -653,7 +653,7 @@
           },
           {
             "q": "Comment demander plus d'informations sur le gros ou les partenariats ?",
-            "a": "Via la page Partnerships, ou via le formulaire de contact. Nous préférons une vraie conversation à une demande de brochure."
+            "a": "Via la page Partenaires, ou via le formulaire de contact. Nous préférons une vraie conversation à une demande de brochure."
           }
         ]
       },
@@ -784,7 +784,7 @@
       "serve": "Le Service",
       "recipes": "Recette",
       "faq": "FAQ",
-      "partnerships": "Partnerships",
+      "partnerships": "Partenaires",
       "contact": "Contact",
       "blend": "Là Où Nous Nous Fondons",
       "shop": "Shop",

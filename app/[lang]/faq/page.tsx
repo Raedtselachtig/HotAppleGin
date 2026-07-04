@@ -43,7 +43,7 @@ const targetsByLocale: Record<string, Target[]> = {
   { phrase: 'Fachmessen und Saisonevents', href: '/contact#events' },
   { phrase: 'Die Kollektion', href: '/collection' },
   { phrase: 'Kontakt-Seite', href: '/contact' },
-  { phrase: 'Partnerships', href: '/partnerships' },
+  { phrase: 'Partner-Seite', href: '/partnerships' },
   { phrase: 'Servieren', href: '/serve' },
   { phrase: '@hotapplegin', href: 'https://www.instagram.com/hotapplegin/', external: true },
   { phrase: 'Instagram', href: 'https://www.instagram.com/hotapplegin/', external: true }
@@ -53,7 +53,7 @@ const targetsByLocale: Record<string, Target[]> = {
   { phrase: 'La Collection', href: '/collection' },
   { phrase: 'Le Service', href: '/serve' },
   { phrase: 'page Contact', href: '/contact' },
-  { phrase: 'Partnerships', href: '/partnerships' },
+  { phrase: 'Partenaires', href: '/partnerships' },
   { phrase: '@hotapplegin', href: 'https://www.instagram.com/hotapplegin/', external: true },
   { phrase: 'Instagram', href: 'https://www.instagram.com/hotapplegin/', external: true }
  ]

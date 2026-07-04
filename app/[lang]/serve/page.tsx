@@ -18,6 +18,12 @@ export default async function Serve({ params }: { params: Promise<{ lang: string
     <h1 className="display section-title animate-headline" style={{ textAlign: 'center' }}>{t('title')}</h1>
     <p className="copy animate-headline" style={{ textAlign: 'center', margin: '0 auto' }}>{t('intro')}</p>
     <ServeSlider steps={steps} />
+    {/* Alle stappen in de HTML voor SEO/toegankelijkheid; de slider toont ze visueel. */}
+    <ol className="sr-only">
+     {steps.map((s, i) => (
+      <li key={i}><h3>{s.label}</h3><p>{s.lead}</p><p>{s.body}</p></li>
+     ))}
+    </ol>
    </div>
   </section>
  </main>;
