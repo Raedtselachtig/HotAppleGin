@@ -5,8 +5,14 @@ const apiKey = process.env.RESEND_API_KEY || process.env.Resend;
 const resend = new Resend(apiKey);
 
 export async function POST(request: Request) {
- const { subject, fields, fromName = 'Hot Apple Gin' } = await request.json().catch(() => ({}));
+ const { subject, fields, fromName = 'Hot Apple Gin', hp, elapsedMs } = await request.json().catch(() => ({}));
  if (!subject || !fields) return NextResponse.json({ error: 'invalid payload' }, { status: 400 });
+
+ // Spamfilter. Bots vullen het onzichtbare honeypot-veld ('hp') in en/of dienen het
+ // formulier binnen een paar seconden in. In beide gevallen stil 'ok' teruggeven: geen
+ // mail versturen, maar de bot laten denken dat het gelukt is (anders leert-ie omzeilen).
+ if (hp) return NextResponse.json({ ok: true });
+ if (typeof elapsedMs === 'number' && elapsedMs < 2500) return NextResponse.json({ ok: true });
 
  const replyTo = fields['Email'] || fields['E-mail'] || undefined;
  const text = Object.entries(fields as Record<string, string>)
