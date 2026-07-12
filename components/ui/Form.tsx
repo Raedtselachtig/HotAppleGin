@@ -1,5 +1,5 @@
 'use client';
-import { FormEvent, useState } from 'react';
+import { FormEvent, useRef, useState } from 'react';
 
 export function WaitlistForm() {
  const [sent, setSent] = useState(false);
@@ -30,6 +30,8 @@ export function ContactForm({
  fromName?: string;
 }) {
  const [status, setStatus] = useState<Status>('idle');
+ // Tijdstip waarop het formulier verscheen: bots vuren binnen een paar seconden af.
+ const startedAt = useRef(Date.now());
 
  async function submit(e: FormEvent<HTMLFormElement>) {
   e.preventDefault();
@@ -37,12 +39,16 @@ export function ContactForm({
   const data = new FormData(e.currentTarget);
   const values: Record<string, string> = {};
   fields.forEach(f => { values[f] = (data.get(f.toLowerCase()) as string) || ''; });
+  // Honeypot: onzichtbaar lokveld dat alleen bots invullen. Los meesturen (niet in
+  // 'fields') zodat het nooit in de mail belandt.
+  const hp = (data.get('website') as string) || '';
+  const elapsedMs = Date.now() - startedAt.current;
 
   try {
    const res = await fetch('/api/contact', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ subject, fields: values, fromName }),
+    body: JSON.stringify({ subject, fields: values, fromName, hp, elapsedMs }),
    });
    setStatus(res.ok ? 'sent' : 'error');
   } catch {
@@ -55,6 +61,16 @@ export function ContactForm({
 
  return (
   <form className="form" onSubmit={submit}>
+   {/* Honeypot: buiten beeld en weg voor screenreaders/toetsenbord. Echte bezoekers
+       zien of raken dit veld nooit; bots vullen het wél in en worden geweigerd. */}
+   <input
+    type="text"
+    name="website"
+    tabIndex={-1}
+    autoComplete="off"
+    aria-hidden="true"
+    style={{ position: 'absolute', left: '-9999px', width: 1, height: 1, opacity: 0 }}
+   />
    {fields.map((field) => field === 'Message' || field === 'Bericht' ? (
     <label className="field" key={field}>{field}<textarea className="textarea" name={field.toLowerCase()} required /></label>
    ) : (
